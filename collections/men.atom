@@ -1,0 +1,949 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://rt-material.myshopify.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://rt-material.myshopify.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://rt-material.myshopify.com/collections/men.atom"/>
+  <title>Responsive Shopify Theme - Material Design</title>
+  <updated>2015-06-13T14:04:00-04:00</updated>
+  <author>
+    <name>Responsive Shopify Theme - Material Design</name>
+  </author>
+  <entry>
+    <id>https://rt-material.myshopify.com/products/982595651</id>
+    <published>2015-06-13T14:04:00-04:00</published>
+    <updated>2015-06-13T14:04:00-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://rt-material.myshopify.com/products/vestibulum-sit-amet"/>
+    <title>Vestibulum sit amet</title>
+    <s:type>Type 1</s:type>
+    <s:vendor>Vendor 1</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0885/9170/products/9.1.jpg?v=1434218712"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Vendor 1<br>
+        <strong>Type: </strong>Type 1<br>
+        <strong>Price: </strong>
+            100.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8">
+<p><span>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</span></p>
+<h5><strong>Sample Unordered List</strong></h5>
+<ul>
+<li>Comodous in tempor ullamcorper miaculis</li>
+<li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+<li>Divamus sit amet purus justo.</li>
+<li>Proin molestie egestas orci ac suscipit risus posuere loremous</li>
+</ul>
+<h5><strong>Sample Ordered Lista</strong></h5>
+<ol>
+<li>Comodous in tempor ullamcorper miaculis.</li>
+<li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+<li>Divamus sit amet purus justo.</li>
+<li>Proin molestie egestas orci ac suscipit risus posuere loremous.</li>
+</ol>
+<h5><strong>Sample Paragraph Text</strong></h5>
+<blockquote>Praesent vestibulum congue tellus at fringilla. Curabitur vitae semper sem, eu convallis est. Cras felis nunc commodo eu convallis vitae interdum non nisl. Maecenas ac est sit amet augue pharetra convallis nec danos dui. Cras suscipit quam et turpis eleifend vitae malesuada magna congue. Damus id ullamcorper neque. Sed vitae mi a mi pretium aliquet ac sed elit. Pellentesque nulla eros accumsan quis justo at tincidunt lobortis denimes loremous. Suspendisse vestibulum lectus in lectus volutpat, ut dapibus purus pulvinar. Vestibulum sit amet auctor ipsum.</blockquote></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>30</s:tag>
+    <s:tag>45</s:tag>
+    <s:tag>50</s:tag>
+    <s:tag>Afends</s:tag>
+    <s:tag>Below $200</s:tag>
+    <s:tag>black</s:tag>
+    <s:tag>Brixton</s:tag>
+    <s:tag>Obey</s:tag>
+    <s:tag>Reebok</s:tag>
+    <s:variant>
+      <id>https://rt-material.myshopify.com/products/982595651</id>
+      <title>Default Title</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://rt-material.myshopify.com/products/982583747</id>
+    <published>2015-06-13T14:02:00-04:00</published>
+    <updated>2015-06-13T14:02:00-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://rt-material.myshopify.com/products/sed-et-quam-lacus"/>
+    <title>Sed et quam lacus</title>
+    <s:type>Type 1</s:type>
+    <s:vendor>Vendor 1</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0885/9170/products/7.1.jpg?v=1434218651"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Vendor 1<br>
+        <strong>Type: </strong>Type 1<br>
+        <strong>Price: </strong>
+            100.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8">
+<p><span>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</span></p>
+<h5><strong>Sample Unordered List</strong></h5>
+<ul>
+<li>Comodous in tempor ullamcorper miaculis</li>
+<li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+<li>Divamus sit amet purus justo.</li>
+<li>Proin molestie egestas orci ac suscipit risus posuere loremous</li>
+</ul>
+<h5><strong>Sample Ordered Lista</strong></h5>
+<ol>
+<li>Comodous in tempor ullamcorper miaculis.</li>
+<li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+<li>Divamus sit amet purus justo.</li>
+<li>Proin molestie egestas orci ac suscipit risus posuere loremous.</li>
+</ol>
+<h5><strong>Sample Paragraph Text</strong></h5>
+<blockquote>Praesent vestibulum congue tellus at fringilla. Curabitur vitae semper sem, eu convallis est. Cras felis nunc commodo eu convallis vitae interdum non nisl. Maecenas ac est sit amet augue pharetra convallis nec danos dui. Cras suscipit quam et turpis eleifend vitae malesuada magna congue. Damus id ullamcorper neque. Sed vitae mi a mi pretium aliquet ac sed elit. Pellentesque nulla eros accumsan quis justo at tincidunt lobortis denimes loremous. Suspendisse vestibulum lectus in lectus volutpat, ut dapibus purus pulvinar. Vestibulum sit amet auctor ipsum.</blockquote></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>30</s:tag>
+    <s:tag>35</s:tag>
+    <s:tag>40</s:tag>
+    <s:tag>45</s:tag>
+    <s:tag>Below $200</s:tag>
+    <s:tag>black</s:tag>
+    <s:tag>Obey</s:tag>
+    <s:tag>Poler</s:tag>
+    <s:tag>Reebok</s:tag>
+    <s:tag>Undftd</s:tag>
+    <s:variant>
+      <id>https://rt-material.myshopify.com/products/982583747</id>
+      <title>Default Title</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://rt-material.myshopify.com/products/982567427</id>
+    <published>2015-06-13T14:01:00-04:00</published>
+    <updated>2015-06-13T14:01:00-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://rt-material.myshopify.com/products/vesquam-ante-aliquet"/>
+    <title>Vesquam ante aliquet</title>
+    <s:type>Type 1</s:type>
+    <s:vendor>Vendor 1</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0885/9170/products/8.1.jpg?v=1434218559"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Vendor 1<br>
+        <strong>Type: </strong>Type 1<br>
+        <strong>Price: </strong>
+            100.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8">
+<p><span>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</span></p>
+<h5><strong>Sample Unordered List</strong></h5>
+<ul>
+<li>Comodous in tempor ullamcorper miaculis</li>
+<li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+<li>Divamus sit amet purus justo.</li>
+<li>Proin molestie egestas orci ac suscipit risus posuere loremous</li>
+</ul>
+<h5><strong>Sample Ordered Lista</strong></h5>
+<ol>
+<li>Comodous in tempor ullamcorper miaculis.</li>
+<li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+<li>Divamus sit amet purus justo.</li>
+<li>Proin molestie egestas orci ac suscipit risus posuere loremous.</li>
+</ol>
+<h5><strong>Sample Paragraph Text</strong></h5>
+<blockquote>Praesent vestibulum congue tellus at fringilla. Curabitur vitae semper sem, eu convallis est. Cras felis nunc commodo eu convallis vitae interdum non nisl. Maecenas ac est sit amet augue pharetra convallis nec danos dui. Cras suscipit quam et turpis eleifend vitae malesuada magna congue. Damus id ullamcorper neque. Sed vitae mi a mi pretium aliquet ac sed elit. Pellentesque nulla eros accumsan quis justo at tincidunt lobortis denimes loremous. Suspendisse vestibulum lectus in lectus volutpat, ut dapibus purus pulvinar. Vestibulum sit amet auctor ipsum.</blockquote></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>30</s:tag>
+    <s:tag>35</s:tag>
+    <s:tag>45</s:tag>
+    <s:tag>50</s:tag>
+    <s:tag>Below $200</s:tag>
+    <s:tag>Obey</s:tag>
+    <s:tag>pink</s:tag>
+    <s:tag>Poler</s:tag>
+    <s:tag>Undftd</s:tag>
+    <s:tag>Vans</s:tag>
+    <s:variant>
+      <id>https://rt-material.myshopify.com/products/982567427</id>
+      <title>Default Title</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://rt-material.myshopify.com/products/870279683</id>
+    <published>2015-06-08T04:19:00-04:00</published>
+    <updated>2015-06-08T04:19:00-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://rt-material.myshopify.com/products/expedita-distinctio"/>
+    <title>Expedita distinctio</title>
+    <s:type>Type 1</s:type>
+    <s:vendor>Vendor 1</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0885/9170/products/16.1.jpg?v=1434217785"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Vendor 1<br>
+        <strong>Type: </strong>Type 1<br>
+        <strong>Price: </strong>
+            300.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><span>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</span></p>
+<h5><strong>Sample Unordered List</strong></h5>
+<ul>
+<li>Comodous in tempor ullamcorper miaculis</li>
+<li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+<li>Divamus sit amet purus justo.</li>
+<li>Proin molestie egestas orci ac suscipit risus posuere loremous</li>
+</ul>
+<h5><strong>Sample Ordered Lista</strong></h5>
+<ol>
+<li>Comodous in tempor ullamcorper miaculis.</li>
+<li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+<li>Divamus sit amet purus justo.</li>
+<li>Proin molestie egestas orci ac suscipit risus posuere loremous.</li>
+</ol>
+<h5><strong>Sample Paragraph Text</strong></h5>
+<blockquote>Praesent vestibulum congue tellus at fringilla. Curabitur vitae semper sem, eu convallis est. Cras felis nunc commodo eu convallis vitae interdum non nisl. Maecenas ac est sit amet augue pharetra convallis nec danos dui. Cras suscipit quam et turpis eleifend vitae malesuada magna congue. Damus id ullamcorper neque. Sed vitae mi a mi pretium aliquet ac sed elit. Pellentesque nulla eros accumsan quis justo at tincidunt lobortis denimes loremous. Suspendisse vestibulum lectus in lectus volutpat, ut dapibus purus pulvinar. Vestibulum sit amet auctor ipsum.</blockquote></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>$200 - $300</s:tag>
+    <s:tag>35</s:tag>
+    <s:tag>40</s:tag>
+    <s:tag>45</s:tag>
+    <s:tag>50</s:tag>
+    <s:tag>Afends</s:tag>
+    <s:tag>black</s:tag>
+    <s:tag>Insight</s:tag>
+    <s:tag>Reebok</s:tag>
+    <s:tag>Vans</s:tag>
+    <s:variant>
+      <id>https://rt-material.myshopify.com/products/870279683</id>
+      <title>L</title>
+      <s:price currency="USD">300.00</s:price>
+      <s:sku>464101</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://rt-material.myshopify.com/products/870279683</id>
+      <title>M</title>
+      <s:price currency="USD">300.00</s:price>
+      <s:sku>464102</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://rt-material.myshopify.com/products/870279555</id>
+    <published>2015-06-08T04:19:00-04:00</published>
+    <updated>2015-06-08T04:19:00-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://rt-material.myshopify.com/products/laborum-et-dolorum"/>
+    <title>Laborum et dolorum</title>
+    <s:type>Type 1</s:type>
+    <s:vendor>Vendor 1</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0885/9170/products/11.1.jpg?v=1434217925"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Vendor 1<br>
+        <strong>Type: </strong>Type 1<br>
+        <strong>Price: </strong>
+            400.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8">
+<p><span>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</span></p>
+<h5><strong>Sample Unordered List</strong></h5>
+<ul>
+<li>Comodous in tempor ullamcorper miaculis</li>
+<li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+<li>Divamus sit amet purus justo.</li>
+<li>Proin molestie egestas orci ac suscipit risus posuere loremous</li>
+</ul>
+<h5><strong>Sample Ordered Lista</strong></h5>
+<ol>
+<li>Comodous in tempor ullamcorper miaculis.</li>
+<li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+<li>Divamus sit amet purus justo.</li>
+<li>Proin molestie egestas orci ac suscipit risus posuere loremous.</li>
+</ol>
+<h5><strong>Sample Paragraph Text</strong></h5>
+<blockquote>Praesent vestibulum congue tellus at fringilla. Curabitur vitae semper sem, eu convallis est. Cras felis nunc commodo eu convallis vitae interdum non nisl. Maecenas ac est sit amet augue pharetra convallis nec danos dui. Cras suscipit quam et turpis eleifend vitae malesuada magna congue. Damus id ullamcorper neque. Sed vitae mi a mi pretium aliquet ac sed elit. Pellentesque nulla eros accumsan quis justo at tincidunt lobortis denimes loremous. Suspendisse vestibulum lectus in lectus volutpat, ut dapibus purus pulvinar. Vestibulum sit amet auctor ipsum.</blockquote></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>30</s:tag>
+    <s:tag>40</s:tag>
+    <s:tag>45</s:tag>
+    <s:tag>Above $300</s:tag>
+    <s:tag>Afends</s:tag>
+    <s:tag>beige</s:tag>
+    <s:tag>Brixton</s:tag>
+    <s:tag>Insight</s:tag>
+    <s:tag>Obey</s:tag>
+    <s:tag>Undftd</s:tag>
+    <s:variant>
+      <id>https://rt-material.myshopify.com/products/870279555</id>
+      <title>Default Title</title>
+      <s:price currency="USD">400.00</s:price>
+      <s:sku>464103</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://rt-material.myshopify.com/products/870279299</id>
+    <published>2015-06-08T04:19:00-04:00</published>
+    <updated>2015-06-08T04:19:00-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://rt-material.myshopify.com/products/deleniti-atque-corrupti"/>
+    <title>Deleniti atque corrupti</title>
+    <s:type>Type 1</s:type>
+    <s:vendor>Vendor 1</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0885/9170/products/4.1.jpg?v=1434185697"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Vendor 1<br>
+        <strong>Type: </strong>Type 1<br>
+        <strong>Price: </strong>
+            500.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8">
+<p><span>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</span></p>
+<h5><strong>Sample Unordered List</strong></h5>
+<ul>
+<li>Comodous in tempor ullamcorper miaculis</li>
+<li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+<li>Divamus sit amet purus justo.</li>
+<li>Proin molestie egestas orci ac suscipit risus posuere loremous</li>
+</ul>
+<h5><strong>Sample Ordered Lista</strong></h5>
+<ol>
+<li>Comodous in tempor ullamcorper miaculis.</li>
+<li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+<li>Divamus sit amet purus justo.</li>
+<li>Proin molestie egestas orci ac suscipit risus posuere loremous.</li>
+</ol>
+<h5><strong>Sample Paragraph Text</strong></h5>
+<blockquote>Praesent vestibulum congue tellus at fringilla. Curabitur vitae semper sem, eu convallis est. Cras felis nunc commodo eu convallis vitae interdum non nisl. Maecenas ac est sit amet augue pharetra convallis nec danos dui. Cras suscipit quam et turpis eleifend vitae malesuada magna congue. Damus id ullamcorper neque. Sed vitae mi a mi pretium aliquet ac sed elit. Pellentesque nulla eros accumsan quis justo at tincidunt lobortis denimes loremous. Suspendisse vestibulum lectus in lectus volutpat, ut dapibus purus pulvinar. Vestibulum sit amet auctor ipsum.</blockquote></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>$200 - $300</s:tag>
+    <s:tag>35</s:tag>
+    <s:tag>40</s:tag>
+    <s:tag>45</s:tag>
+    <s:tag>50</s:tag>
+    <s:tag>Above $300</s:tag>
+    <s:tag>Afends</s:tag>
+    <s:tag>Below $200</s:tag>
+    <s:tag>Brixton</s:tag>
+    <s:tag>Poler</s:tag>
+    <s:tag>red</s:tag>
+    <s:tag>Reebok</s:tag>
+    <s:tag>Vans</s:tag>
+    <s:variant>
+      <id>https://rt-material.myshopify.com/products/870279299</id>
+      <title>Default Title</title>
+      <s:price currency="USD">500.00</s:price>
+      <s:sku>464104</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://rt-material.myshopify.com/products/870278915</id>
+    <published>2015-06-08T04:19:00-04:00</published>
+    <updated>2015-06-08T04:19:00-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://rt-material.myshopify.com/products/ducimus-qui-blanditiis"/>
+    <title>Ducimus qui blanditiis</title>
+    <s:type>Type 1</s:type>
+    <s:vendor>Vendor 1</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0885/9170/products/20.1.jpg?v=1436068154"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Vendor 1<br>
+        <strong>Type: </strong>Type 1<br>
+        <strong>Price: </strong>
+            350.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8">
+<p><span>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</span></p>
+<h5><strong>Sample Unordered List</strong></h5>
+<ul>
+<li>Comodous in tempor ullamcorper miaculis</li>
+<li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+<li>Divamus sit amet purus justo.</li>
+<li>Proin molestie egestas orci ac suscipit risus posuere loremous</li>
+</ul>
+<h5><strong>Sample Ordered Lista</strong></h5>
+<ol>
+<li>Comodous in tempor ullamcorper miaculis.</li>
+<li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+<li>Divamus sit amet purus justo.</li>
+<li>Proin molestie egestas orci ac suscipit risus posuere loremous.</li>
+</ol>
+<h5><strong>Sample Paragraph Text</strong></h5>
+<blockquote>Praesent vestibulum congue tellus at fringilla. Curabitur vitae semper sem, eu convallis est. Cras felis nunc commodo eu convallis vitae interdum non nisl. Maecenas ac est sit amet augue pharetra convallis nec danos dui. Cras suscipit quam et turpis eleifend vitae malesuada magna congue. Damus id ullamcorper neque. Sed vitae mi a mi pretium aliquet ac sed elit. Pellentesque nulla eros accumsan quis justo at tincidunt lobortis denimes loremous. Suspendisse vestibulum lectus in lectus volutpat, ut dapibus purus pulvinar. Vestibulum sit amet auctor ipsum.</blockquote></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>30</s:tag>
+    <s:tag>35</s:tag>
+    <s:tag>40</s:tag>
+    <s:tag>45</s:tag>
+    <s:tag>50</s:tag>
+    <s:tag>Above $300</s:tag>
+    <s:tag>Afends</s:tag>
+    <s:tag>Brixton</s:tag>
+    <s:tag>Insight</s:tag>
+    <s:tag>Obey</s:tag>
+    <s:tag>Poler</s:tag>
+    <s:tag>Reebok</s:tag>
+    <s:tag>Vans</s:tag>
+    <s:tag>yellow</s:tag>
+    <s:variant>
+      <id>https://rt-material.myshopify.com/products/870278915</id>
+      <title>Default Title</title>
+      <s:price currency="USD">350.00</s:price>
+      <s:sku>464106</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://rt-material.myshopify.com/products/10635150805</id>
+    <published>2015-06-08T04:18:00-04:00</published>
+    <updated>2015-06-08T04:18:00-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://rt-material.myshopify.com/products/product-for-version-1-5"/>
+    <title>Testing Product For version 1.5</title>
+    <s:type>Type 1</s:type>
+    <s:vendor>Vendor 1</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0885/9170/products/1.1_ce4cce69-8e02-4c9e-ad7e-66126adc52aa.jpg?v=1496124575"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Vendor 1<br>
+        <strong>Type: </strong>Type 1<br>
+        <strong>Price: </strong>
+            150.00 - 200.00
+            <a href="https://rt-material.myshopify.com/products/product-for-version-1-5">(2 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8">
+<p><span>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</span></p>
+<h5><strong>Sample Unordered List</strong></h5>
+<ul>
+<li>Comodous in tempor ullamcorper miaculis</li>
+<li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+<li>Divamus sit amet purus justo.</li>
+<li>Proin molestie egestas orci ac suscipit risus posuere loremous</li>
+</ul>
+<h5><strong>Sample Ordered Lista</strong></h5>
+<ol>
+<li>Comodous in tempor ullamcorper miaculis.</li>
+<li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+<li>Divamus sit amet purus justo.</li>
+<li>Proin molestie egestas orci ac suscipit risus posuere loremous.</li>
+</ol>
+<h5><strong>Sample Paragraph Text</strong></h5>
+<blockquote>Praesent vestibulum congue tellus at fringilla. Curabitur vitae semper sem, eu convallis est. Cras felis nunc commodo eu convallis vitae interdum non nisl. Maecenas ac est sit amet augue pharetra convallis nec danos dui. Cras suscipit quam et turpis eleifend vitae malesuada magna congue. Damus id ullamcorper neque. Sed vitae mi a mi pretium aliquet ac sed elit. Pellentesque nulla eros accumsan quis justo at tincidunt lobortis denimes loremous. Suspendisse vestibulum lectus in lectus volutpat, ut dapibus purus pulvinar. Vestibulum sit amet auctor ipsum.</blockquote></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>$200 - $300</s:tag>
+    <s:tag>30</s:tag>
+    <s:tag>40</s:tag>
+    <s:tag>45</s:tag>
+    <s:tag>Afends</s:tag>
+    <s:tag>Below $200</s:tag>
+    <s:tag>black</s:tag>
+    <s:tag>Insight</s:tag>
+    <s:tag>red</s:tag>
+    <s:tag>Vans</s:tag>
+    <s:variant>
+      <id>https://rt-material.myshopify.com/products/10635150805</id>
+      <title>Red / M</title>
+      <s:price currency="USD">150.00</s:price>
+      <s:sku>464200</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://rt-material.myshopify.com/products/10635150805</id>
+      <title>Black / L</title>
+      <s:price currency="USD">200.00</s:price>
+      <s:sku>464201</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://rt-material.myshopify.com/products/870278403</id>
+    <published>2015-06-08T04:18:00-04:00</published>
+    <updated>2015-06-08T04:18:00-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://rt-material.myshopify.com/products/et-harum-quidem"/>
+    <title>Et harum quidem</title>
+    <s:type>Type 1</s:type>
+    <s:vendor>Vendor 1</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0885/9170/products/19.1.jpg?v=1434217735"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Vendor 1<br>
+        <strong>Type: </strong>Type 1<br>
+        <strong>Price: </strong>
+            150.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8">
+<p><span>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</span></p>
+<h5><strong>Sample Unordered List</strong></h5>
+<ul>
+<li>Comodous in tempor ullamcorper miaculis</li>
+<li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+<li>Divamus sit amet purus justo.</li>
+<li>Proin molestie egestas orci ac suscipit risus posuere loremous</li>
+</ul>
+<h5><strong>Sample Ordered Lista</strong></h5>
+<ol>
+<li>Comodous in tempor ullamcorper miaculis.</li>
+<li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+<li>Divamus sit amet purus justo.</li>
+<li>Proin molestie egestas orci ac suscipit risus posuere loremous.</li>
+</ol>
+<h5><strong>Sample Paragraph Text</strong></h5>
+<blockquote>Praesent vestibulum congue tellus at fringilla. Curabitur vitae semper sem, eu convallis est. Cras felis nunc commodo eu convallis vitae interdum non nisl. Maecenas ac est sit amet augue pharetra convallis nec danos dui. Cras suscipit quam et turpis eleifend vitae malesuada magna congue. Damus id ullamcorper neque. Sed vitae mi a mi pretium aliquet ac sed elit. Pellentesque nulla eros accumsan quis justo at tincidunt lobortis denimes loremous. Suspendisse vestibulum lectus in lectus volutpat, ut dapibus purus pulvinar. Vestibulum sit amet auctor ipsum.</blockquote></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>$200 - $300</s:tag>
+    <s:tag>30</s:tag>
+    <s:tag>35</s:tag>
+    <s:tag>40</s:tag>
+    <s:tag>45</s:tag>
+    <s:tag>50</s:tag>
+    <s:tag>Below $200</s:tag>
+    <s:tag>black</s:tag>
+    <s:tag>Insight</s:tag>
+    <s:tag>Poler</s:tag>
+    <s:tag>Reebok</s:tag>
+    <s:tag>Vans</s:tag>
+    <s:variant>
+      <id>https://rt-material.myshopify.com/products/870278403</id>
+      <title>Black</title>
+      <s:price currency="USD">150.00</s:price>
+      <s:sku>464107</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://rt-material.myshopify.com/products/870278083</id>
+    <published>2015-06-08T04:18:00-04:00</published>
+    <updated>2015-06-08T04:18:00-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://rt-material.myshopify.com/products/cumque-nihil"/>
+    <title>Cumque nihil</title>
+    <s:type>Type 1</s:type>
+    <s:vendor>Vendor 1</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0885/9170/products/2.1.jpg?v=1434185685"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Vendor 1<br>
+        <strong>Type: </strong>Type 1<br>
+        <strong>Price: </strong>
+            350.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8">
+<p><span>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</span></p>
+<h5><strong>Sample Unordered List</strong></h5>
+<ul>
+<li>Comodous in tempor ullamcorper miaculis</li>
+<li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+<li>Divamus sit amet purus justo.</li>
+<li>Proin molestie egestas orci ac suscipit risus posuere loremous</li>
+</ul>
+<h5><strong>Sample Ordered Lista</strong></h5>
+<ol>
+<li>Comodous in tempor ullamcorper miaculis.</li>
+<li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+<li>Divamus sit amet purus justo.</li>
+<li>Proin molestie egestas orci ac suscipit risus posuere loremous.</li>
+</ol>
+<h5><strong>Sample Paragraph Text</strong></h5>
+<blockquote>Praesent vestibulum congue tellus at fringilla. Curabitur vitae semper sem, eu convallis est. Cras felis nunc commodo eu convallis vitae interdum non nisl. Maecenas ac est sit amet augue pharetra convallis nec danos dui. Cras suscipit quam et turpis eleifend vitae malesuada magna congue. Damus id ullamcorper neque. Sed vitae mi a mi pretium aliquet ac sed elit. Pellentesque nulla eros accumsan quis justo at tincidunt lobortis denimes loremous. Suspendisse vestibulum lectus in lectus volutpat, ut dapibus purus pulvinar. Vestibulum sit amet auctor ipsum.</blockquote></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>$200 - $300</s:tag>
+    <s:tag>35</s:tag>
+    <s:tag>40</s:tag>
+    <s:tag>45</s:tag>
+    <s:tag>Above $300</s:tag>
+    <s:tag>Brixton</s:tag>
+    <s:tag>Insight</s:tag>
+    <s:tag>Reebok</s:tag>
+    <s:tag>silver</s:tag>
+    <s:tag>Undftd</s:tag>
+    <s:tag>Vans</s:tag>
+    <s:variant>
+      <id>https://rt-material.myshopify.com/products/870278083</id>
+      <title>Default Title</title>
+      <s:price currency="USD">350.00</s:price>
+      <s:sku>464108</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://rt-material.myshopify.com/products/870277955</id>
+    <published>2015-06-08T04:18:00-04:00</published>
+    <updated>2015-06-08T04:18:00-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://rt-material.myshopify.com/products/cupiditate-provident"/>
+    <title>Cupiditate provident</title>
+    <s:type>Type 1</s:type>
+    <s:vendor>Vendor 1</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0885/9170/products/3.1.jpg?v=1434185703"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Vendor 1<br>
+        <strong>Type: </strong>Type 1<br>
+        <strong>Price: </strong>
+            400.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8">
+<p><span>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</span></p>
+<h5><strong>Sample Unordered List</strong></h5>
+<ul>
+<li>Comodous in tempor ullamcorper miaculis</li>
+<li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+<li>Divamus sit amet purus justo.</li>
+<li>Proin molestie egestas orci ac suscipit risus posuere loremous</li>
+</ul>
+<h5><strong>Sample Ordered Lista</strong></h5>
+<ol>
+<li>Comodous in tempor ullamcorper miaculis.</li>
+<li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+<li>Divamus sit amet purus justo.</li>
+<li>Proin molestie egestas orci ac suscipit risus posuere loremous.</li>
+</ol>
+<h5><strong>Sample Paragraph Text</strong></h5>
+<blockquote>Praesent vestibulum congue tellus at fringilla. Curabitur vitae semper sem, eu convallis est. Cras felis nunc commodo eu convallis vitae interdum non nisl. Maecenas ac est sit amet augue pharetra convallis nec danos dui. Cras suscipit quam et turpis eleifend vitae malesuada magna congue. Damus id ullamcorper neque. Sed vitae mi a mi pretium aliquet ac sed elit. Pellentesque nulla eros accumsan quis justo at tincidunt lobortis denimes loremous. Suspendisse vestibulum lectus in lectus volutpat, ut dapibus purus pulvinar. Vestibulum sit amet auctor ipsum.</blockquote></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>$200 - $300</s:tag>
+    <s:tag>30</s:tag>
+    <s:tag>35</s:tag>
+    <s:tag>40</s:tag>
+    <s:tag>Above $300</s:tag>
+    <s:tag>Afends</s:tag>
+    <s:tag>Below $200</s:tag>
+    <s:tag>Brixton</s:tag>
+    <s:tag>Insight</s:tag>
+    <s:tag>Obey</s:tag>
+    <s:tag>Reebok</s:tag>
+    <s:tag>yellow</s:tag>
+    <s:variant>
+      <id>https://rt-material.myshopify.com/products/870277955</id>
+      <title>Yellow / M / 500</title>
+      <s:price currency="USD">400.00</s:price>
+      <s:sku>464109</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://rt-material.myshopify.com/products/870277955</id>
+      <title>Red / M / 500</title>
+      <s:price currency="USD">400.00</s:price>
+      <s:sku>465109</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://rt-material.myshopify.com/products/870277955</id>
+      <title>Gray / M / 500</title>
+      <s:price currency="USD">400.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://rt-material.myshopify.com/products/870277507</id>
+    <published>2015-06-08T04:18:00-04:00</published>
+    <updated>2015-06-08T04:18:00-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://rt-material.myshopify.com/products/accusamus-et-iusto"/>
+    <title>Accusamus et iusto</title>
+    <s:type>Type 1</s:type>
+    <s:vendor>Vendor 1</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0885/9170/products/1.1.jpg?v=1519555416"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Vendor 1<br>
+        <strong>Type: </strong>Type 1<br>
+        <strong>Price: </strong>
+            150.00 - 200.00
+            <a href="https://rt-material.myshopify.com/products/accusamus-et-iusto">(2 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8">
+<p><span>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</span></p>
+<h5><strong>Sample Unordered List</strong></h5>
+<ul>
+<li>Comodous in tempor ullamcorper miaculis</li>
+<li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+<li>Divamus sit amet purus justo.</li>
+<li>Proin molestie egestas orci ac suscipit risus posuere loremous</li>
+</ul>
+<h5><strong>Sample Ordered Lista</strong></h5>
+<ol>
+<li>Comodous in tempor ullamcorper miaculis.</li>
+<li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+<li>Divamus sit amet purus justo.</li>
+<li>Proin molestie egestas orci ac suscipit risus posuere loremous.</li>
+</ol>
+<h5><strong>Sample Paragraph Text</strong></h5>
+<blockquote>Praesent vestibulum congue tellus at fringilla. Curabitur vitae semper sem, eu convallis est. Cras felis nunc commodo eu convallis vitae interdum non nisl. Maecenas ac est sit amet augue pharetra convallis nec danos dui. Cras suscipit quam et turpis eleifend vitae malesuada magna congue. Damus id ullamcorper neque. Sed vitae mi a mi pretium aliquet ac sed elit. Pellentesque nulla eros accumsan quis justo at tincidunt lobortis denimes loremous. Suspendisse vestibulum lectus in lectus volutpat, ut dapibus purus pulvinar. Vestibulum sit amet auctor ipsum.</blockquote></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>$200 - $300</s:tag>
+    <s:tag>30</s:tag>
+    <s:tag>40</s:tag>
+    <s:tag>45</s:tag>
+    <s:tag>Afends</s:tag>
+    <s:tag>Below $200</s:tag>
+    <s:tag>Insight</s:tag>
+    <s:tag>red</s:tag>
+    <s:tag>teal</s:tag>
+    <s:tag>Vans</s:tag>
+    <s:variant>
+      <id>https://rt-material.myshopify.com/products/870277507</id>
+      <title>Red / M</title>
+      <s:price currency="USD">150.00</s:price>
+      <s:sku>464200</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://rt-material.myshopify.com/products/870277507</id>
+      <title>Teal / L</title>
+      <s:price currency="USD">200.00</s:price>
+      <s:sku>464201</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://rt-material.myshopify.com/products/870277379</id>
+    <published>2015-06-08T04:18:00-04:00</published>
+    <updated>2015-06-08T04:18:00-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://rt-material.myshopify.com/products/nobis-est-eligendi"/>
+    <title>Nobis est eligendi</title>
+    <s:type>Type 1</s:type>
+    <s:vendor>Vendor 1</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0885/9170/products/13.1.jpg?v=1434217867"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Vendor 1<br>
+        <strong>Type: </strong>Type 1<br>
+        <strong>Price: </strong>
+            350.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8">
+<p><span>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</span></p>
+<h5><strong>Sample Unordered List</strong></h5>
+<ul>
+<li>Comodous in tempor ullamcorper miaculis</li>
+<li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+<li>Divamus sit amet purus justo.</li>
+<li>Proin molestie egestas orci ac suscipit risus posuere loremous</li>
+</ul>
+<h5><strong>Sample Ordered Lista</strong></h5>
+<ol>
+<li>Comodous in tempor ullamcorper miaculis.</li>
+<li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+<li>Divamus sit amet purus justo.</li>
+<li>Proin molestie egestas orci ac suscipit risus posuere loremous.</li>
+</ol>
+<h5><strong>Sample Paragraph Text</strong></h5>
+<blockquote>Praesent vestibulum congue tellus at fringilla. Curabitur vitae semper sem, eu convallis est. Cras felis nunc commodo eu convallis vitae interdum non nisl. Maecenas ac est sit amet augue pharetra convallis nec danos dui. Cras suscipit quam et turpis eleifend vitae malesuada magna congue. Damus id ullamcorper neque. Sed vitae mi a mi pretium aliquet ac sed elit. Pellentesque nulla eros accumsan quis justo at tincidunt lobortis denimes loremous. Suspendisse vestibulum lectus in lectus volutpat, ut dapibus purus pulvinar. Vestibulum sit amet auctor ipsum.</blockquote></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>30</s:tag>
+    <s:tag>40</s:tag>
+    <s:tag>45</s:tag>
+    <s:tag>50</s:tag>
+    <s:tag>Above $300</s:tag>
+    <s:tag>Brixton</s:tag>
+    <s:tag>Insight</s:tag>
+    <s:tag>Obey</s:tag>
+    <s:tag>Vans</s:tag>
+    <s:tag>yellow</s:tag>
+    <s:variant>
+      <id>https://rt-material.myshopify.com/products/870277379</id>
+      <title>Default Title</title>
+      <s:price currency="USD">350.00</s:price>
+      <s:sku>464201</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://rt-material.myshopify.com/products/870276995</id>
+    <published>2015-06-08T04:18:00-04:00</published>
+    <updated>2015-06-08T04:18:00-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://rt-material.myshopify.com/products/similique-sunt-in-culpa"/>
+    <title>Similique in culpa</title>
+    <s:type>Type 1</s:type>
+    <s:vendor>Vendor 1</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0885/9170/products/12.1.jpg?v=1434217875"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Vendor 1<br>
+        <strong>Type: </strong>Type 1<br>
+        <strong>Price: </strong>
+            300.00 - 400.00
+            <a href="https://rt-material.myshopify.com/products/similique-sunt-in-culpa">(2 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8">
+<p><span>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</span></p>
+<h5><strong>Sample Unordered List</strong></h5>
+<ul>
+<li>Comodous in tempor ullamcorper miaculis</li>
+<li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+<li>Divamus sit amet purus justo.</li>
+<li>Proin molestie egestas orci ac suscipit risus posuere loremous</li>
+</ul>
+<h5><strong>Sample Ordered Lista</strong></h5>
+<ol>
+<li>Comodous in tempor ullamcorper miaculis.</li>
+<li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+<li>Divamus sit amet purus justo.</li>
+<li>Proin molestie egestas orci ac suscipit risus posuere loremous.</li>
+</ol>
+<h5><strong>Sample Paragraph Text</strong></h5>
+<blockquote>Praesent vestibulum congue tellus at fringilla. Curabitur vitae semper sem, eu convallis est. Cras felis nunc commodo eu convallis vitae interdum non nisl. Maecenas ac est sit amet augue pharetra convallis nec danos dui. Cras suscipit quam et turpis eleifend vitae malesuada magna congue. Damus id ullamcorper neque. Sed vitae mi a mi pretium aliquet ac sed elit. Pellentesque nulla eros accumsan quis justo at tincidunt lobortis denimes loremous. Suspendisse vestibulum lectus in lectus volutpat, ut dapibus purus pulvinar. Vestibulum sit amet auctor ipsum.</blockquote></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>$200 - $300</s:tag>
+    <s:tag>30</s:tag>
+    <s:tag>40</s:tag>
+    <s:tag>50</s:tag>
+    <s:tag>Above $300</s:tag>
+    <s:tag>Afends</s:tag>
+    <s:tag>beige</s:tag>
+    <s:tag>Brixton</s:tag>
+    <s:tag>Insight</s:tag>
+    <s:tag>Undftd</s:tag>
+    <s:tag>Vans</s:tag>
+    <s:variant>
+      <id>https://rt-material.myshopify.com/products/870276995</id>
+      <title>L</title>
+      <s:price currency="USD">400.00</s:price>
+      <s:sku>464202</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://rt-material.myshopify.com/products/870276995</id>
+      <title>S</title>
+      <s:price currency="USD">300.00</s:price>
+      <s:sku>464203</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+</feed>

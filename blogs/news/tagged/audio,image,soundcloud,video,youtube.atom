@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://rt-material.myshopify.com/blogs/news.atom</id>
+  <link rel="alternate" type="text/html" href="https://rt-material.myshopify.com/blogs/news"/>
+  <link rel="self" type="application/atom+xml" href="https://rt-material.myshopify.com/blogs/news/tagged/audio,image,soundcloud,video,youtube.atom"/>
+  <title>Responsive Shopify Theme - Material Design - News</title>
+  <updated>2015-06-10T00:55:00-04:00</updated>
+  <author>
+    <name>Responsive Shopify Theme - Material Design</name>
+  </author>
+</feed>
