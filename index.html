@@ -48,10 +48,7 @@
     type="text/css" media="all" />
   <!--[if IE 8 ]> <link href="//rt-material.myshopify.com/cdn/shop/t/8/assets/ie8.scss.css?v=102833963389796070381447137479" rel="stylesheet" type="text/css" media="all" /> <![endif]-->
   <link href="cdn/shop/t/8/assets/rt.media.scss.css@v=70977031104828695531545132461.css" rel="stylesheet"
-    type="text/css" media="all" />
-
-
-  <!--[if lt IE 9]>
+    type="text/css" media="all" /> <!--[if lt IE 9]>
   <script src="//rt-material.myshopify.com/cdn/shop/t/8/assets/html5shiv.js?v=136776951196746055841447137479"></script>
   <script src="//rt-material.myshopify.com/cdn/shop/t/8/assets/respond.min.js?v=180737699441332856901447137486"></script>
   <link href="//rt-material.myshopify.com/cdn/shop/t/8/assets/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
@@ -136,7 +133,7 @@
   <link href="https://monorail-edge.shopifysvc.com" rel="dns-prefetch">
   <script>(function () { if ("sendBeacon" in navigator && "performance" in window) { try { var session_token_from_headers = performance.getEntriesByType('navigation')[0].serverTiming.find(x => x.name == '_s').description; } catch { var session_token_from_headers = undefined; } var session_cookie_matches = document.cookie.match(/_shopify_s=([^;]*)/); var session_token_from_cookie = session_cookie_matches && session_cookie_matches.length === 2 ? session_cookie_matches[1] : ""; var session_token = session_token_from_headers || session_token_from_cookie || ""; function handle_abandonment_event(e) { var entries = performance.getEntries().filter(function (entry) { return /monorail-edge.shopifysvc.com/.test(entry.name); }); if (!window.abandonment_tracked && entries.length === 0) { window.abandonment_tracked = true; var currentMs = Date.now(); var navigation_start = performance.timing.navigationStart; var payload = { shop_id: 8859170, url: window.location.href, navigation_start, duration: currentMs - navigation_start, session_token, page_type: "index" }; window.navigator.sendBeacon("https://monorail-edge.shopifysvc.com/v1/produce", JSON.stringify({ schema_id: "online_store_buyer_site_abandonment/1.1", payload: payload, metadata: { event_created_at_ms: currentMs, event_sent_at_ms: currentMs } })); } } window.addEventListener('pagehide', handle_abandonment_event); } }());</script>
   <script id="web-pixels-manager-setup">
-  (function e(e, d, r, n, o) { if (void 0 === o && (o = {}), !Boolean(null === (a = null === (i = window.Shopify) || void 0 === i ? void 0 : i.analytics) || void 0 === a ? void 0 : a.replayQueue)) { var i, a; window.Shopify = window.Shopify || {}; var t = window.Shopify; t.analytics = t.analytics || {}; var s = t.analytics; s.replayQueue = [], s.publish = function (e, d, r) { return s.replayQueue.push([e, d, r]), !0 }; try { self.performance.mark("wpm:start") } catch (e) { } var l = function () { var e = { modern: /Edge?\/(1{2}[4-9]|1[2-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Firefox\/(1{2}[4-9]|1[2-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Chrom(ium|e)\/(9{2}|\d{3,})\.\d+(\.\d+|)|(Maci|X1{2}).+ Version\/(15\.\d+|(1[6-9]|[2-9]\d|\d{3,})\.\d+)([,.]\d+|)( \(\w+\)|)( Mobile\/\w+|) Safari\/|Chrome.+OPR\/(9{2}|\d{3,})\.\d+\.\d+|(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone|CPU IPhone OS|CPU iPad OS)[ +]+(15[._]\d+|(1[6-9]|[2-9]\d|\d{3,})[._]\d+)([._]\d+|)|Android:?[ /-](13[3-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})(\.\d+|)(\.\d+|)|Android.+Firefox\/(13[5-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+Chrom(ium|e)\/(13[3-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|SamsungBrowser\/([2-9]\d|\d{3,})\.\d+/, legacy: /Edge?\/(1[6-9]|[2-9]\d|\d{3,})\.\d+(\.\d+|)|Firefox\/(5[4-9]|[6-9]\d|\d{3,})\.\d+(\.\d+|)|Chrom(ium|e)\/(5[1-9]|[6-9]\d|\d{3,})\.\d+(\.\d+|)([\d.]+$|.*Safari\/(?![\d.]+ Edge\/[\d.]+$))|(Maci|X1{2}).+ Version\/(10\.\d+|(1[1-9]|[2-9]\d|\d{3,})\.\d+)([,.]\d+|)( \(\w+\)|)( Mobile\/\w+|) Safari\/|Chrome.+OPR\/(3[89]|[4-9]\d|\d{3,})\.\d+\.\d+|(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone|CPU IPhone OS|CPU iPad OS)[ +]+(10[._]\d+|(1[1-9]|[2-9]\d|\d{3,})[._]\d+)([._]\d+|)|Android:?[ /-](13[3-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})(\.\d+|)(\.\d+|)|Mobile Safari.+OPR\/([89]\d|\d{3,})\.\d+\.\d+|Android.+Firefox\/(13[5-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+Chrom(ium|e)\/(13[3-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+(UC? ?Browser|UCWEB|U3)[ /]?(15\.([5-9]|\d{2,})|(1[6-9]|[2-9]\d|\d{3,})\.\d+)\.\d+|SamsungBrowser\/(5\.\d+|([6-9]|\d{2,})\.\d+)|Android.+MQ{2}Browser\/(14(\.(9|\d{2,})|)|(1[5-9]|[2-9]\d|\d{3,})(\.\d+|))(\.\d+|)|K[Aa][Ii]OS\/(3\.\d+|([4-9]|\d{2,})\.\d+)(\.\d+|)/ }, d = e.modern, r = e.legacy, n = navigator.userAgent; return n.match(d) ? "modern" : n.match(r) ? "legacy" : "unknown" }(), u = "modern" === l ? "modern" : "legacy", c = (null != n ? n : { modern: "", legacy: "" })[u], f = function (e) { return [e.baseUrl, "/wpm", "/b", e.hashVersion, "modern" === e.buildTarget ? "m" : "l", ".js"].join("") }({ baseUrl: d, hashVersion: r, buildTarget: u }), m = function (e) { var d = e.version, r = e.bundleTarget, n = e.surface, o = e.pageUrl, i = e.monorailEndpoint; return { emit: function (e) { var a = e.status, t = e.errorMsg, s = (new Date).getTime(), l = JSON.stringify({ metadata: { event_sent_at_ms: s }, events: [{ schema_id: "web_pixels_manager_load/3.1", payload: { version: d, bundle_target: r, page_url: o, status: a, surface: n, error_msg: t }, metadata: { event_created_at_ms: s } }] }); if (!i) return console && console.warn && console.warn("[Web Pixels Manager] No Monorail endpoint provided, skipping logging."), !1; try { return self.navigator.sendBeacon.bind(self.navigator)(i, l) } catch (e) { } var u = new XMLHttpRequest; try { return u.open("POST", i, !0), u.setRequestHeader("Content-Type", "text/plain"), u.send(l), !0 } catch (e) { return console && console.warn && console.warn("[Web Pixels Manager] Got an unhandled error while logging to Monorail."), !1 } } } }({ version: r, bundleTarget: l, surface: e.surface, pageUrl: self.location.href, monorailEndpoint: e.monorailEndpoint }); try { o.browserTarget = l, function (e) { var d = e.src, r = e.async, n = void 0 === r || r, o = e.onload, i = e.onerror, a = e.sri, t = e.scriptDataAttributes, s = void 0 === t ? {} : t, l = document.createElement("script"), u = document.querySelector("head"), c = document.querySelector("body"); if (l.async = n, l.src = d, a && (l.integrity = a, l.crossOrigin = "anonymous"), s) for (var f in s) if (Object.prototype.hasOwnProperty.call(s, f)) try { l.dataset[f] = s[f] } catch (e) { } if (o && l.addEventListener("load", o), i && l.addEventListener("error", i), u) u.appendChild(l); else { if (!c) throw new Error("Did not find a head or body element to append the script"); c.appendChild(l) } }({ src: f, async: !0, onload: function () { if (!function () { var e, d; return Boolean(null === (d = null === (e = window.Shopify) || void 0 === e ? void 0 : e.analytics) || void 0 === d ? void 0 : d.initialized) }()) { var d = window.webPixelsManager.init(e) || void 0; if (d) { var r = window.Shopify.analytics; r.replayQueue.forEach((function (e) { var r = e[0], n = e[1], o = e[2]; d.publishCustomEvent(r, n, o) })), r.replayQueue = [], r.publish = d.publishCustomEvent, r.visitor = d.visitor, r.initialized = !0 } } }, onerror: function () { return m.emit({ status: "failed", errorMsg: "".concat(f, " has failed to load") }) }, sri: function (e) { var d = /^sha384-[A-Za-z0-9+/=]+$/; return "string" == typeof e && d.test(e) }(c) ? c : "", scriptDataAttributes: o }), m.emit({ status: "loading" }) } catch (e) { m.emit({ status: "failed", errorMsg: (null == e ? void 0 : e.message) || "Unknown error" }) } } })({ shopId: 8859170, storefrontBaseUrl: "https://rt-material.myshopify.com", extensionsBaseUrl: "https://extensions.shopifycdn.com/cdn/shopifycloud/web-pixels-manager", monorailEndpoint: "https://monorail-edge.shopifysvc.com/unstable/produce_batch", surface: "storefront-renderer", enabledBetaFlags: ["2dca8a86"], webPixelsConfigList: [{ "id": "shopify-app-pixel", "configuration": "{}", "eventPayloadVersion": "v1", "runtimeContext": "STRICT", "scriptVersion": "0450", "apiClientId": "shopify-pixel", "type": "APP", "privacyPurposes": ["ANALYTICS", "MARKETING"] }, { "id": "shopify-custom-pixel", "eventPayloadVersion": "v1", "runtimeContext": "LAX", "scriptVersion": "0450", "apiClientId": "shopify-pixel", "type": "CUSTOM", "privacyPurposes": ["ANALYTICS", "MARKETING"] }], isMerchantRequest: false, initData: { "shop": { "name": "Responsive Shopify Theme - SnowDrip design", "paymentSettings": { "currencyCode": "USD" }, "myshopifyDomain": "rt-material.myshopify.com", "countryCode": "VN", "storefrontUrl": "https:\/\/rt-material.myshopify.com" }, "customer": null, "cart": null, "checkout": null, "productVariants": [], "purchasingCompany": null }, }, "https://rt-material.myshopify.com/cdn", "3918e4e0wbf3ac3cepc5707306mb02b36c6", { "modern": "", "legacy": "" }, { "shopId": "8859170", "storefrontBaseUrl": "https:\/\/rt-material.myshopify.com", "extensionBaseUrl": "https:\/\/extensions.shopifycdn.com\/cdn\/shopifycloud\/web-pixels-manager", "surface": "storefront-renderer", "enabledBetaFlags": "[\"2dca8a86\"]", "isMerchantRequest": "false", "hashVersion": "3918e4e0wbf3ac3cepc5707306mb02b36c6", "publish": "custom", "events": "[[\"page_viewed\",{}]]" }); 
+    (function e(e, d, r, n, o) { if (void 0 === o && (o = {}), !Boolean(null === (a = null === (i = window.Shopify) || void 0 === i ? void 0 : i.analytics) || void 0 === a ? void 0 : a.replayQueue)) { var i, a; window.Shopify = window.Shopify || {}; var t = window.Shopify; t.analytics = t.analytics || {}; var s = t.analytics; s.replayQueue = [], s.publish = function (e, d, r) { return s.replayQueue.push([e, d, r]), !0 }; try { self.performance.mark("wpm:start") } catch (e) { } var l = function () { var e = { modern: /Edge?\/(1{2}[4-9]|1[2-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Firefox\/(1{2}[4-9]|1[2-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Chrom(ium|e)\/(9{2}|\d{3,})\.\d+(\.\d+|)|(Maci|X1{2}).+ Version\/(15\.\d+|(1[6-9]|[2-9]\d|\d{3,})\.\d+)([,.]\d+|)( \(\w+\)|)( Mobile\/\w+|) Safari\/|Chrome.+OPR\/(9{2}|\d{3,})\.\d+\.\d+|(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone|CPU IPhone OS|CPU iPad OS)[ +]+(15[._]\d+|(1[6-9]|[2-9]\d|\d{3,})[._]\d+)([._]\d+|)|Android:?[ /-](13[3-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})(\.\d+|)(\.\d+|)|Android.+Firefox\/(13[5-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+Chrom(ium|e)\/(13[3-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|SamsungBrowser\/([2-9]\d|\d{3,})\.\d+/, legacy: /Edge?\/(1[6-9]|[2-9]\d|\d{3,})\.\d+(\.\d+|)|Firefox\/(5[4-9]|[6-9]\d|\d{3,})\.\d+(\.\d+|)|Chrom(ium|e)\/(5[1-9]|[6-9]\d|\d{3,})\.\d+(\.\d+|)([\d.]+$|.*Safari\/(?![\d.]+ Edge\/[\d.]+$))|(Maci|X1{2}).+ Version\/(10\.\d+|(1[1-9]|[2-9]\d|\d{3,})\.\d+)([,.]\d+|)( \(\w+\)|)( Mobile\/\w+|) Safari\/|Chrome.+OPR\/(3[89]|[4-9]\d|\d{3,})\.\d+\.\d+|(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone|CPU IPhone OS|CPU iPad OS)[ +]+(10[._]\d+|(1[1-9]|[2-9]\d|\d{3,})[._]\d+)([._]\d+|)|Android:?[ /-](13[3-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})(\.\d+|)(\.\d+|)|Mobile Safari.+OPR\/([89]\d|\d{3,})\.\d+\.\d+|Android.+Firefox\/(13[5-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+Chrom(ium|e)\/(13[3-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+(UC? ?Browser|UCWEB|U3)[ /]?(15\.([5-9]|\d{2,})|(1[6-9]|[2-9]\d|\d{3,})\.\d+)\.\d+|SamsungBrowser\/(5\.\d+|([6-9]|\d{2,})\.\d+)|Android.+MQ{2}Browser\/(14(\.(9|\d{2,})|)|(1[5-9]|[2-9]\d|\d{3,})(\.\d+|))(\.\d+|)|K[Aa][Ii]OS\/(3\.\d+|([4-9]|\d{2,})\.\d+)(\.\d+|)/ }, d = e.modern, r = e.legacy, n = navigator.userAgent; return n.match(d) ? "modern" : n.match(r) ? "legacy" : "unknown" }(), u = "modern" === l ? "modern" : "legacy", c = (null != n ? n : { modern: "", legacy: "" })[u], f = function (e) { return [e.baseUrl, "/wpm", "/b", e.hashVersion, "modern" === e.buildTarget ? "m" : "l", ".js"].join("") }({ baseUrl: d, hashVersion: r, buildTarget: u }), m = function (e) { var d = e.version, r = e.bundleTarget, n = e.surface, o = e.pageUrl, i = e.monorailEndpoint; return { emit: function (e) { var a = e.status, t = e.errorMsg, s = (new Date).getTime(), l = JSON.stringify({ metadata: { event_sent_at_ms: s }, events: [{ schema_id: "web_pixels_manager_load/3.1", payload: { version: d, bundle_target: r, page_url: o, status: a, surface: n, error_msg: t }, metadata: { event_created_at_ms: s } }] }); if (!i) return console && console.warn && console.warn("[Web Pixels Manager] No Monorail endpoint provided, skipping logging."), !1; try { return self.navigator.sendBeacon.bind(self.navigator)(i, l) } catch (e) { } var u = new XMLHttpRequest; try { return u.open("POST", i, !0), u.setRequestHeader("Content-Type", "text/plain"), u.send(l), !0 } catch (e) { return console && console.warn && console.warn("[Web Pixels Manager] Got an unhandled error while logging to Monorail."), !1 } } } }({ version: r, bundleTarget: l, surface: e.surface, pageUrl: self.location.href, monorailEndpoint: e.monorailEndpoint }); try { o.browserTarget = l, function (e) { var d = e.src, r = e.async, n = void 0 === r || r, o = e.onload, i = e.onerror, a = e.sri, t = e.scriptDataAttributes, s = void 0 === t ? {} : t, l = document.createElement("script"), u = document.querySelector("head"), c = document.querySelector("body"); if (l.async = n, l.src = d, a && (l.integrity = a, l.crossOrigin = "anonymous"), s) for (var f in s) if (Object.prototype.hasOwnProperty.call(s, f)) try { l.dataset[f] = s[f] } catch (e) { } if (o && l.addEventListener("load", o), i && l.addEventListener("error", i), u) u.appendChild(l); else { if (!c) throw new Error("Did not find a head or body element to append the script"); c.appendChild(l) } }({ src: f, async: !0, onload: function () { if (!function () { var e, d; return Boolean(null === (d = null === (e = window.Shopify) || void 0 === e ? void 0 : e.analytics) || void 0 === d ? void 0 : d.initialized) }()) { var d = window.webPixelsManager.init(e) || void 0; if (d) { var r = window.Shopify.analytics; r.replayQueue.forEach((function (e) { var r = e[0], n = e[1], o = e[2]; d.publishCustomEvent(r, n, o) })), r.replayQueue = [], r.publish = d.publishCustomEvent, r.visitor = d.visitor, r.initialized = !0 } } }, onerror: function () { return m.emit({ status: "failed", errorMsg: "".concat(f, " has failed to load") }) }, sri: function (e) { var d = /^sha384-[A-Za-z0-9+/=]+$/; return "string" == typeof e && d.test(e) }(c) ? c : "", scriptDataAttributes: o }), m.emit({ status: "loading" }) } catch (e) { m.emit({ status: "failed", errorMsg: (null == e ? void 0 : e.message) || "Unknown error" }) } } })({ shopId: 8859170, storefrontBaseUrl: "https://rt-material.myshopify.com", extensionsBaseUrl: "https://extensions.shopifycdn.com/cdn/shopifycloud/web-pixels-manager", monorailEndpoint: "https://monorail-edge.shopifysvc.com/unstable/produce_batch", surface: "storefront-renderer", enabledBetaFlags: ["2dca8a86"], webPixelsConfigList: [{ "id": "shopify-app-pixel", "configuration": "{}", "eventPayloadVersion": "v1", "runtimeContext": "STRICT", "scriptVersion": "0450", "apiClientId": "shopify-pixel", "type": "APP", "privacyPurposes": ["ANALYTICS", "MARKETING"] }, { "id": "shopify-custom-pixel", "eventPayloadVersion": "v1", "runtimeContext": "LAX", "scriptVersion": "0450", "apiClientId": "shopify-pixel", "type": "CUSTOM", "privacyPurposes": ["ANALYTICS", "MARKETING"] }], isMerchantRequest: false, initData: { "shop": { "name": "Responsive Shopify Theme - SnowDrip design", "paymentSettings": { "currencyCode": "USD" }, "myshopifyDomain": "rt-material.myshopify.com", "countryCode": "VN", "storefrontUrl": "https:\/\/rt-material.myshopify.com" }, "customer": null, "cart": null, "checkout": null, "productVariants": [], "purchasingCompany": null }, }, "https://rt-material.myshopify.com/cdn", "3918e4e0wbf3ac3cepc5707306mb02b36c6", { "modern": "", "legacy": "" }, { "shopId": "8859170", "storefrontBaseUrl": "https:\/\/rt-material.myshopify.com", "extensionBaseUrl": "https:\/\/extensions.shopifycdn.com\/cdn\/shopifycloud\/web-pixels-manager", "surface": "storefront-renderer", "enabledBetaFlags": "[\"2dca8a86\"]", "isMerchantRequest": "false", "hashVersion": "3918e4e0wbf3ac3cepc5707306mb02b36c6", "publish": "custom", "events": "[[\"page_viewed\",{}]]" });
   </script>
   <script>
     window.ShopifyAnalytics = window.ShopifyAnalytics || {};
@@ -298,10 +295,7 @@
           setCookieIfConversion(token);
 
         }
-      });
-
-
-      var eventsListenerScript = document.createElement('script');
+      }); var eventsListenerScript = document.createElement('script');
       eventsListenerScript.async = true;
       eventsListenerScript.src = "//rt-material.myshopify.com/cdn/shopifycloud/storefront/assets/shop_events_listener-3da45d37.js";
       document.getElementsByTagName('head')[0].appendChild(eventsListenerScript);
@@ -323,9 +317,6 @@
             <button type="button" class="zmdi zmdi-close"></button>
           </div>
           <ul class="mobile_nav">
-
-
-
             <li>
               <a href="index.html">Home</a>
             </li>
@@ -337,8 +328,6 @@
                 <li class="parent_submenu">
                   <a href="collections/bags.html" class="dropdown_link">Bags</a>
                   <span class="expand"><i></i></span>
-
-
                   <ul class="dropdown_menu" style="display:none;">
 
                     <li>
@@ -364,22 +353,8 @@
                   </ul>
 
                 </li>
-
-
-
-
-
-
-
-
-
-                <li class="parent_submenu">
-
-
-                  <a href="collections/jeans.html" class="dropdown_link">Jeans</a>
+                <li class="parent_submenu"> <a href="collections/jeans.html" class="dropdown_link">Jeans</a>
                   <span class="expand"><i></i></span>
-
-
                   <ul class="dropdown_menu" style="display:none;">
 
                     <li>
@@ -405,22 +380,8 @@
                   </ul>
 
                 </li>
-
-
-
-
-
-
-
-
-
-                <li class="parent_submenu">
-
-
-                  <a href="collections/men.html" class="dropdown_link">Men</a>
+                <li class="parent_submenu"> <a href="collections/men.html" class="dropdown_link">Men</a>
                   <span class="expand"><i></i></span>
-
-
                   <ul class="dropdown_menu" style="display:none;">
 
                     <li>
@@ -446,22 +407,8 @@
                   </ul>
 
                 </li>
-
-
-
-
-
-
-
-
-
-                <li class="parent_submenu">
-
-
-                  <a href="collections/shoes.html" class="dropdown_link">Shoes</a>
+                <li class="parent_submenu"> <a href="collections/shoes.html" class="dropdown_link">Shoes</a>
                   <span class="expand"><i></i></span>
-
-
                   <ul class="dropdown_menu" style="display:none;">
 
                     <li>
@@ -487,22 +434,8 @@
                   </ul>
 
                 </li>
-
-
-
-
-
-
-
-
-
-                <li class="parent_submenu">
-
-
-                  <a href="collections/women.html" class="dropdown_link">Women</a>
+                <li class="parent_submenu"> <a href="collections/women.html" class="dropdown_link">Women</a>
                   <span class="expand"><i></i></span>
-
-
                   <ul class="dropdown_menu" style="display:none;">
 
                     <li>
@@ -528,22 +461,8 @@
                   </ul>
 
                 </li>
-
-
-
-
-
-
-
-
-
-                <li class="parent_submenu">
-
-
-                  <a href="collections/women.html" class="dropdown_link">Sale</a>
+                <li class="parent_submenu"> <a href="collections/women.html" class="dropdown_link">Sale</a>
                   <span class="expand"><i></i></span>
-
-
                   <ul class="dropdown_menu" style="display:none;">
 
                     <li>
@@ -566,79 +485,14 @@
 
                 </li>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
               </ul>
-
-
-
             </li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             <li class="parent_submenu">
               <a href="collections/all.html" class="dropdown_link">Shop</a>
               <span class="expand"><i></i></span>
-
-
               <ul class="dropdown_menu" style="display:none;">
-
-
-
-
-
-
-
-
-                <li class="parent_submenu">
-
-
-                  <a href="collections/bags.html" class="dropdown_link">Bags</a>
+                <li class="parent_submenu"> <a href="collections/bags.html" class="dropdown_link">Bags</a>
                   <span class="expand"><i></i></span>
-
-
                   <ul class="dropdown_menu" style="display:none;">
 
                     <li>
@@ -664,22 +518,8 @@
                   </ul>
 
                 </li>
-
-
-
-
-
-
-
-
-
-                <li class="parent_submenu">
-
-
-                  <a href="collections/jeans.html" class="dropdown_link">Jeans</a>
+                <li class="parent_submenu"> <a href="collections/jeans.html" class="dropdown_link">Jeans</a>
                   <span class="expand"><i></i></span>
-
-
                   <ul class="dropdown_menu" style="display:none;">
 
                     <li>
@@ -705,22 +545,8 @@
                   </ul>
 
                 </li>
-
-
-
-
-
-
-
-
-
-                <li class="parent_submenu">
-
-
-                  <a href="collections/shoes.html" class="dropdown_link">Shoes</a>
+                <li class="parent_submenu"> <a href="collections/shoes.html" class="dropdown_link">Shoes</a>
                   <span class="expand"><i></i></span>
-
-
                   <ul class="dropdown_menu" style="display:none;">
 
                     <li>
@@ -746,22 +572,9 @@
                   </ul>
 
                 </li>
-
-
-
-
-
-
-
-
-
-                <li class="parent_submenu">
-
-
-                  <a href="collections/sale/%255C%2522%2522+.html" class="dropdown_link">Sale</a>
+                <li class="parent_submenu"> <a href="collections/sale/%255C%2522%2522+.html"
+                    class="dropdown_link">Sale</a>
                   <span class="expand"><i></i></span>
-
-
                   <ul class="dropdown_menu" style="display:none;">
 
                     <li>
@@ -787,22 +600,8 @@
                   </ul>
 
                 </li>
-
-
-
-
-
-
-
-
-
-                <li class="parent_submenu">
-
-
-                  <a href="collections/men.html" class="dropdown_link">Men</a>
+                <li class="parent_submenu"> <a href="collections/men.html" class="dropdown_link">Men</a>
                   <span class="expand"><i></i></span>
-
-
                   <ul class="dropdown_menu" style="display:none;">
 
                     <li>
@@ -828,22 +627,8 @@
                   </ul>
 
                 </li>
-
-
-
-
-
-
-
-
-
-                <li class="parent_submenu">
-
-
-                  <a href="collections/women.html" class="dropdown_link">Women</a>
+                <li class="parent_submenu"> <a href="collections/women.html" class="dropdown_link">Women</a>
                   <span class="expand"><i></i></span>
-
-
                   <ul class="dropdown_menu" style="display:none;">
 
                     <li>
@@ -866,85 +651,14 @@
 
                 </li>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
               </ul>
-
-
-
             </li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             <li class="parent_submenu">
               <a href="pages/lookbook.html" class="dropdown_link">Lookbook</a>
               <span class="expand"><i></i></span>
-
-
               <ul class="dropdown_menu" style="display:none;">
-
-
-
-
-
-
-
-
-                <li class="parent_submenu">
-
-
-                  <a href="collections/bags.html" class="dropdown_link">Bags</a>
+                <li class="parent_submenu"> <a href="collections/bags.html" class="dropdown_link">Bags</a>
                   <span class="expand"><i></i></span>
-
-
                   <ul class="dropdown_menu" style="display:none;">
 
                     <li>
@@ -970,22 +684,8 @@
                   </ul>
 
                 </li>
-
-
-
-
-
-
-
-
-
-                <li class="parent_submenu">
-
-
-                  <a href="collections/jeans.html" class="dropdown_link">Jeans</a>
+                <li class="parent_submenu"> <a href="collections/jeans.html" class="dropdown_link">Jeans</a>
                   <span class="expand"><i></i></span>
-
-
                   <ul class="dropdown_menu" style="display:none;">
 
                     <li>
@@ -1011,22 +711,8 @@
                   </ul>
 
                 </li>
-
-
-
-
-
-
-
-
-
-                <li class="parent_submenu">
-
-
-                  <a href="collections/men.html" class="dropdown_link">Men</a>
+                <li class="parent_submenu"> <a href="collections/men.html" class="dropdown_link">Men</a>
                   <span class="expand"><i></i></span>
-
-
                   <ul class="dropdown_menu" style="display:none;">
 
                     <li>
@@ -1052,22 +738,8 @@
                   </ul>
 
                 </li>
-
-
-
-
-
-
-
-
-
-                <li class="parent_submenu">
-
-
-                  <a href="collections/shoes.html" class="dropdown_link">Shoes</a>
+                <li class="parent_submenu"> <a href="collections/shoes.html" class="dropdown_link">Shoes</a>
                   <span class="expand"><i></i></span>
-
-
                   <ul class="dropdown_menu" style="display:none;">
 
                     <li>
@@ -1093,22 +765,8 @@
                   </ul>
 
                 </li>
-
-
-
-
-
-
-
-
-
-                <li class="parent_submenu">
-
-
-                  <a href="collections/women.html" class="dropdown_link">Women</a>
+                <li class="parent_submenu"> <a href="collections/women.html" class="dropdown_link">Women</a>
                   <span class="expand"><i></i></span>
-
-
                   <ul class="dropdown_menu" style="display:none;">
 
                     <li>
@@ -1134,103 +792,14 @@
                   </ul>
 
                 </li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
               </ul>
-
-
-
             </li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             <li class="parent_submenu">
               <a href="blogs/news.html" class="dropdown_link">Blog</a>
               <span class="expand"><i></i></span>
-
-
               <ul class="dropdown_menu" style="display:none;">
-
-
-
-
-
-
-
-
-                <li class="parent_submenu">
-
-
-                  <a href="collections/bags.html" class="dropdown_link">Sunglasses</a>
+                <li class="parent_submenu"> <a href="collections/bags.html" class="dropdown_link">Sunglasses</a>
                   <span class="expand"><i></i></span>
-
-
                   <ul class="dropdown_menu" style="display:none;">
 
                     <li>
@@ -1256,22 +825,8 @@
                   </ul>
 
                 </li>
-
-
-
-
-
-
-
-
-
-                <li class="parent_submenu">
-
-
-                  <a href="collections/jeans.html" class="dropdown_link">Watches</a>
+                <li class="parent_submenu"> <a href="collections/jeans.html" class="dropdown_link">Watches</a>
                   <span class="expand"><i></i></span>
-
-
                   <ul class="dropdown_menu" style="display:none;">
 
                     <li>
@@ -1297,22 +852,8 @@
                   </ul>
 
                 </li>
-
-
-
-
-
-
-
-
-
-                <li class="parent_submenu">
-
-
-                  <a href="collections/men.html" class="dropdown_link">Shirts</a>
+                <li class="parent_submenu"> <a href="collections/men.html" class="dropdown_link">Shirts</a>
                   <span class="expand"><i></i></span>
-
-
                   <ul class="dropdown_menu" style="display:none;">
 
                     <li>
@@ -1338,22 +879,8 @@
                   </ul>
 
                 </li>
-
-
-
-
-
-
-
-
-
-                <li class="parent_submenu">
-
-
-                  <a href="collections/women.html" class="dropdown_link">Shorts</a>
+                <li class="parent_submenu"> <a href="collections/women.html" class="dropdown_link">Shorts</a>
                   <span class="expand"><i></i></span>
-
-
                   <ul class="dropdown_menu" style="display:none;">
 
                     <li>
@@ -1379,22 +906,8 @@
                   </ul>
 
                 </li>
-
-
-
-
-
-
-
-
-
-                <li class="parent_submenu">
-
-
-                  <a href="collections/shoes.html" class="dropdown_link">Shoes</a>
+                <li class="parent_submenu"> <a href="collections/shoes.html" class="dropdown_link">Shoes</a>
                   <span class="expand"><i></i></span>
-
-
                   <ul class="dropdown_menu" style="display:none;">
 
                     <li>
@@ -1420,22 +933,9 @@
                   </ul>
 
                 </li>
-
-
-
-
-
-
-
-
-
-                <li class="parent_submenu">
-
-
-                  <a href="collections/sale/%255C%2522%2522+.html" class="dropdown_link">Hats</a>
+                <li class="parent_submenu"> <a href="collections/sale/%255C%2522%2522+.html"
+                    class="dropdown_link">Hats</a>
                   <span class="expand"><i></i></span>
-
-
                   <ul class="dropdown_menu" style="display:none;">
 
                     <li>
@@ -1458,103 +958,14 @@
 
                 </li>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
               </ul>
-
-
-
             </li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             <li class="parent_submenu">
               <a href="index.html#" class="dropdown_link">Pages</a>
               <span class="expand"><i></i></span>
-
-
               <ul class="dropdown_menu" style="display:none;">
-
-
-
-
-
-
-
-
-                <li class="parent_submenu">
-
-
-                  <a href="index.html#" class="dropdown_link">Special Pages</a>
+                <li class="parent_submenu"> <a href="index.html#" class="dropdown_link">Special Pages</a>
                   <span class="expand"><i></i></span>
-
-
                   <ul class="dropdown_menu" style="display:none;">
 
                     <li>
@@ -1588,22 +999,8 @@
                   </ul>
 
                 </li>
-
-
-
-
-
-
-
-
-
-                <li class="parent_submenu">
-
-
-                  <a href="index.html#" class="dropdown_link">Basic Pages</a>
+                <li class="parent_submenu"> <a href="index.html#" class="dropdown_link">Basic Pages</a>
                   <span class="expand"><i></i></span>
-
-
                   <ul class="dropdown_menu" style="display:none;">
 
                     <li>
@@ -1625,172 +1022,29 @@
                   </ul>
 
                 </li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
               </ul>
-
-
-
             </li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
             <li class="parent_submenu">
               <a href="pages/contact-us.html" class="dropdown_link">Contact Us</a>
               <span class="expand"><i></i></span>
 
-
-
-
               <ul class="dropdown_menu" style="display:none;">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                 <li>
                   <a href="pages/contact-us.html">Contact SnowDrip</a>
-
-
-
-
-
                 </li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                 <li>
                   <a href="http://roartheme.com/themes">More themes...</a>
-
-
-
-
-
                 </li>
-
-
               </ul>
 
             </li>
-
-
           </ul>
         </div>
       </div>
     </div>
     <div id="page" class="box">
-
-
-
       <header id="header" class="clearfix sticky-header">
 
         <div class="header-top">
@@ -1827,8 +1081,6 @@
                 <li class="site-message">
                   Find your perfect style across our curated collections. Wear The Cool!
                 </li>
-
-
                 <li class="site-hotdeal">
                   <a href="https://rt-material.myshopify.com/collections/deal">HOT DEAL: <span
                       class="hotdeal"></span></a>
@@ -1857,14 +1109,9 @@
                   <a href="index.html" title="Responsive Shopify Theme - SnowDrip design">
                     <span class="snow"></span>
 
-                    <img class="img-responsive normal_logo"
-                      src="cdn/shop/t/8/assets/snow-drip-logo.png"
+                    <img class="img-responsive normal_logo" src="cdn/shop/t/8/assets/snow-drip-logo.png"
                       alt="Responsive Shopify Theme - SnowDrip design" style="width:130px" />
-
-
-
-                    <img class="img-responsive retina_logo"
-                      src="cdn/shop/t/8/assets/snow-drip-logo-x.png"
+                    <img class="img-responsive retina_logo" src="cdn/shop/t/8/assets/snow-drip-logo-x.png"
                       alt="Responsive Shopify Theme - SnowDrip design"
                       style="width:180px;max-height:40px; height: auto !important;" />
 
@@ -1883,8 +1130,6 @@
                     <img src="cdn/shop/t/8/assets/snow-drip-logo.png" alt="" />
                   </a>
                 </div>
-
-
                 <nav class="pc_navbar" role="navigation">
                   <ul class="pc_nav">
                     <li class="hidden-xs active">
@@ -1928,21 +1173,12 @@
                                                     Similique in culpa
                                                   </a>
                                                 </div>
-
-
                                                 <div class="isreview">
                                                   <span class="shopify-product-reviews-badge"
                                                     data-id="870276995"></span>
                                                 </div>
-
-
-                                                <div class="price-val product-price">
-
-
-                                                  <span class="price"><span class='money'>$300.00</span></span>
-
-
-
+                                                <div class="price-val product-price"> <span class="price"><span
+                                                      class='money'>$300.00</span></span>
 
                                                 </div>
                                               </div>
@@ -1950,12 +1186,6 @@
                                           </div>
                                         </div>
                                       </div>
-
-
-
-
-
-
                                       <div class="product style2">
                                         <div class="product-container">
                                           <div class="product-wrap">
@@ -1976,21 +1206,12 @@
                                                     Vesquam ante aliquet
                                                   </a>
                                                 </div>
-
-
                                                 <div class="isreview">
                                                   <span class="shopify-product-reviews-badge"
                                                     data-id="982567427"></span>
                                                 </div>
-
-
-                                                <div class="price-val product-price">
-
-
-                                                  <span class="price"><span class='money'>$100.00</span></span>
-
-
-
+                                                <div class="price-val product-price"> <span class="price"><span
+                                                      class='money'>$100.00</span></span>
 
                                                 </div>
                                               </div>
@@ -1998,12 +1219,6 @@
                                           </div>
                                         </div>
                                       </div>
-
-
-
-
-
-
                                       <div class="product style2">
                                         <div class="product-container">
                                           <div class="product-wrap">
@@ -2024,21 +1239,12 @@
                                                     Accusamus et iusto
                                                   </a>
                                                 </div>
-
-
                                                 <div class="isreview">
                                                   <span class="shopify-product-reviews-badge"
                                                     data-id="870277507"></span>
                                                 </div>
-
-
-                                                <div class="price-val product-price">
-
-
-                                                  <span class="price"><span class='money'>$150.00</span></span>
-
-
-
+                                                <div class="price-val product-price"> <span class="price"><span
+                                                      class='money'>$150.00</span></span>
 
                                                 </div>
                                               </div>
@@ -2046,12 +1252,6 @@
                                           </div>
                                         </div>
                                       </div>
-
-
-
-
-
-
                                       <div class="product style2">
                                         <div class="product-container">
                                           <div class="product-wrap">
@@ -2072,21 +1272,12 @@
                                                     Cumque nihil
                                                   </a>
                                                 </div>
-
-
                                                 <div class="isreview">
                                                   <span class="shopify-product-reviews-badge"
                                                     data-id="870278083"></span>
                                                 </div>
-
-
-                                                <div class="price-val product-price">
-
-
-                                                  <span class="price"><span class='money'>$350.00</span></span>
-
-
-
+                                                <div class="price-val product-price"> <span class="price"><span
+                                                      class='money'>$350.00</span></span>
 
                                                 </div>
                                               </div>
@@ -2094,12 +1285,6 @@
                                           </div>
                                         </div>
                                       </div>
-
-
-
-
-
-
                                       <div class="product style2">
                                         <div class="product-container">
                                           <div class="product-wrap">
@@ -2120,21 +1305,12 @@
                                                     Et harum quidem
                                                   </a>
                                                 </div>
-
-
                                                 <div class="isreview">
                                                   <span class="shopify-product-reviews-badge"
                                                     data-id="870278403"></span>
                                                 </div>
-
-
-                                                <div class="price-val product-price">
-
-
-                                                  <span class="price"><span class='money'>$150.00</span></span>
-
-
-
+                                                <div class="price-val product-price"> <span class="price"><span
+                                                      class='money'>$150.00</span></span>
 
                                                 </div>
                                               </div>
@@ -2142,28 +1318,15 @@
                                           </div>
                                         </div>
                                       </div>
-
-
                                     </div>
-
-
                                   </div>
                                 </div>
                               </li>
-                              <li class="item">
-
-
-                                <a href="collections/women.html">Women<i class="zmdi zmdi-caret-right"></i></a>
-
-
+                              <li class="item"> <a href="collections/women.html">Women<i
+                                    class="zmdi zmdi-caret-right"></i></a>
                                 <div class="mega-menu-content" style="min-height: 400px;">
                                   <div class="wrap">
                                     <div class="child">
-
-
-
-
-
                                       <div class="product style2">
                                         <div class="product-container">
                                           <div class="product-wrap">
@@ -2184,21 +1347,12 @@
                                                     Accusamus et iusto
                                                   </a>
                                                 </div>
-
-
                                                 <div class="isreview">
                                                   <span class="shopify-product-reviews-badge"
                                                     data-id="870277507"></span>
                                                 </div>
-
-
-                                                <div class="price-val product-price">
-
-
-                                                  <span class="price"><span class='money'>$150.00</span></span>
-
-
-
+                                                <div class="price-val product-price"> <span class="price"><span
+                                                      class='money'>$150.00</span></span>
 
                                                 </div>
                                               </div>
@@ -2206,12 +1360,6 @@
                                           </div>
                                         </div>
                                       </div>
-
-
-
-
-
-
                                       <div class="product style2">
                                         <div class="product-container">
                                           <div class="product-wrap">
@@ -2232,21 +1380,12 @@
                                                     Cumque nihil
                                                   </a>
                                                 </div>
-
-
                                                 <div class="isreview">
                                                   <span class="shopify-product-reviews-badge"
                                                     data-id="870278083"></span>
                                                 </div>
-
-
-                                                <div class="price-val product-price">
-
-
-                                                  <span class="price"><span class='money'>$350.00</span></span>
-
-
-
+                                                <div class="price-val product-price"> <span class="price"><span
+                                                      class='money'>$350.00</span></span>
 
                                                 </div>
                                               </div>
@@ -2254,12 +1393,6 @@
                                           </div>
                                         </div>
                                       </div>
-
-
-
-
-
-
                                       <div class="product style2">
                                         <div class="product-container">
                                           <div class="product-wrap">
@@ -2280,14 +1413,10 @@
                                                     Deleniti atque corrupti
                                                   </a>
                                                 </div>
-
-
                                                 <div class="isreview">
                                                   <span class="shopify-product-reviews-badge"
                                                     data-id="870279299"></span>
                                                 </div>
-
-
                                                 <div class="price-val product-price">
 
                                                   <span class="sold_out">Out of stock</span>
@@ -2298,12 +1427,6 @@
                                           </div>
                                         </div>
                                       </div>
-
-
-
-
-
-
                                       <div class="product style2">
                                         <div class="product-container">
                                           <div class="product-wrap">
@@ -2324,21 +1447,12 @@
                                                     Et harum quidem
                                                   </a>
                                                 </div>
-
-
                                                 <div class="isreview">
                                                   <span class="shopify-product-reviews-badge"
                                                     data-id="870278403"></span>
                                                 </div>
-
-
-                                                <div class="price-val product-price">
-
-
-                                                  <span class="price"><span class='money'>$150.00</span></span>
-
-
-
+                                                <div class="price-val product-price"> <span class="price"><span
+                                                      class='money'>$150.00</span></span>
 
                                                 </div>
                                               </div>
@@ -2346,12 +1460,6 @@
                                           </div>
                                         </div>
                                       </div>
-
-
-
-
-
-
                                       <div class="product style2">
                                         <div class="product-container">
                                           <div class="product-wrap">
@@ -2372,35 +1480,20 @@
                                                     Laborum et dolorum
                                                   </a>
                                                 </div>
-
-
                                                 <div class="isreview">
                                                   <span class="shopify-product-reviews-badge"
                                                     data-id="870279555"></span>
                                                 </div>
-
-
-                                                <div class="price-val product-price">
-
-
-                                                  <span class="price"><span class='money'>$400.00</span></span>
-
-
-                                                  <del class="price_compare"> <span class='money'>$450.00</span></del>
-
-
-
+                                                <div class="price-val product-price"> <span class="price"><span
+                                                      class='money'>$400.00</span></span> <del class="price_compare">
+                                                    <span class='money'>$450.00</span></del>
                                                 </div>
                                               </div>
                                             </div>
                                           </div>
                                         </div>
                                       </div>
-
-
                                     </div>
-
-
                                   </div>
                                 </div>
 
@@ -2423,8 +1516,6 @@
                             <ul class="inner">
                               <li class="item">
                                 <a href="collections/men.html">Men<i class="zmdi zmdi-caret-right"></i></a>
-
-
                                 <div class="mega-menu-content" style="min-height: 360px;">
                                   <div class="wrap">
                                     <ul class="child">
@@ -2453,14 +1544,8 @@
                                       </li>
 
                                     </ul>
-
-
-
                                     <div class="img-visual">
-                                      <div class="img-wrap">
-
-
-                                        <a href="collections/men.html">
+                                      <div class="img-wrap"> <a href="collections/men.html">
                                           <img
                                             src="cdn/shop/t/8/assets/mega_menu1_img_5.jpg@v=158240322849509765681447137482"
                                             alt="Men" />
@@ -2504,9 +1589,6 @@
                                       </li>
 
                                     </ul>
-
-
-
                                     <div class="img-visual">
                                       <div class="img-wrap">
 
@@ -2533,8 +1615,6 @@
                         <span>Contact Us</span><i class="zmdi zmdi-chevron-down"></i>
                       </a>
                     </li>
-
-
                     <li class="nav-menu-icon visible-xs">
                       <a class="btn-navbar" data-toggle="offcanvas">
                         <span>
@@ -2552,8 +1632,6 @@
               </div>
             </div>
           </div>
-
-
         </div>
       </header>
       <section id="module-content" class="clearfix">
@@ -2724,8 +1802,6 @@
                       <a href="index.html#" class="btn btn-1" style="background-color:#685f6d!important;">What's
                         Next</a>
                     </div>
-
-
                     <div class="clearfix" style="margin-top: 40px;text-align:center;">
                       <ul style="list-style: none; display:inline-block;padding:0px;">
 
@@ -2766,8 +1842,6 @@
                     <div class="button-wrapper">
                       <a href="index.html#" class="btn btn-1" style="background-color:#685f6d!important;">Discover</a>
                     </div>
-
-
                     <div class="clearfix" style="margin-top: 40px;text-align:center;">
                       <ul style="list-style: none; display:inline-block;padding:0px;">
 
@@ -2800,8 +1874,6 @@
                     <div class="button-wrapper">
                       <a href="index.html#" class="btn btn-1" style="background-color:#685f6d!important;">Let me in</a>
                     </div>
-
-
                     <div class="clearfix" style="margin-top: 40px;text-align:center;">
                       <ul style="list-style: none; display:inline-block;padding:0px;">
 
@@ -2878,17 +1950,10 @@
                                 to wishlist</span></a>
                           </div>
                         </div>
-
-
                         <div class="sharing-ctl">
                           <a href="javascript:void(0);">
                             <i class="zmdi zmdi-share"></i>
                           </a>
-
-
-
-
-
                           <div class="social-icons"
                             data-permalink="https://rt-material.myshopify.com/products/deleniti-atque-corrupti">
                             <ul class="list-inline">
@@ -2900,9 +1965,6 @@
                                   <span class="social-icon"><i class="fa fa-facebook"></i></span>
                                 </a>
                               </li>
-
-
-
                               <li>
                                 <a target="_blank"
                                   href="https://twitter.com/share?url=https://rt-material.myshopify.com/products/deleniti-atque-corrupti&amp;text=Deleniti&#32;atque&#32;corrupti"
@@ -2942,27 +2004,17 @@
                                 Deleniti atque corrupti
                               </a>
                             </div>
-
-
                             <div class="isreview">
                               <span class="shopify-product-reviews-badge" data-id="870279299"></span>
                             </div>
-
-
                             <div class="price-val product-price">
 
                               <span class="sold_out">Out of stock</span>
 
                             </div>
                             <div class="swatch color clearfix" data-option-index="0">
-                              <div>
-
-
-                              </div>
+                              <div> </div>
                             </div>
-
-
-
                             <div class="product-desc">
                               At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
                               voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
@@ -2970,15 +2022,10 @@
                               est laborum et dolorum fuga. Sample Unordered List Comodous in tempor ullamcorper...
                             </div>
                           </div>
-                          <div class="product-action">
-
-
-                            <span class="line"></span>
+                          <div class="product-action"> <span class="line"></span>
 
                             <a href="collections/bags/products/deleniti-atque-corrupti.html"
                               class="choose-options btn-cart"><i class="zmdi zmdi-format-list-bulleted"></i> Details</a>
-
-
                             <a href="javascript:;" class="quick-shop"><i class="zmdi zmdi-eye"></i> Quick look</a>
 
                           </div>
@@ -2992,19 +2039,19 @@
     <div class="row">
       <div class="product-gallery col-sm-6">
         <div class="thumbnails">
-          
+
           <a class="thumbnail" href="cdn/shop/products/4.1.jpg@v=1434185697" data-src="//rt-material.myshopify.com/cdn/shop/products/4.1_grande.jpg?v=1434185697">
             <img src="cdn/shop/products/4.1_small.jpg@v=1434185697" title="" />
           </a>
-          
+
           <a class="thumbnail" href="cdn/shop/products/4.2.jpg@v=1434185698" data-src="//rt-material.myshopify.com/cdn/shop/products/4.2_grande.jpg?v=1434185698">
             <img src="cdn/shop/products/4.2_small.jpg@v=1434185698" title="" />
           </a>
-          
+
           <a class="thumbnail" href="cdn/shop/products/4.3.jpg@v=1434185699" data-src="//rt-material.myshopify.com/cdn/shop/products/4.3_grande.jpg?v=1434185699">
             <img src="cdn/shop/products/4.3_small.jpg@v=1434185699" title="" />
           </a>
-          
+
         </div>
         <div class="main">
           <div class="main-img-link" href="//rt-material.myshopify.com/cdn/shop/products/4.1.jpg?v=1434185697" title="Deleniti atque corrupti">
@@ -3020,37 +2067,28 @@
 
           <div class="product-title">
             <a href="collections/bags/products/deleniti-atque-corrupti.html">Deleniti atque corrupti</a>
-            
+
             <div id="sku">SKU: <span>464104</span></div>
-            
+
           </div>
 
           <div id="price" class="product-price">
-            
+
             <del class="price_compare"> <span class='money'>$550.00</span></del>
             <span class="price_percentage">9%</span>
-            
+
             <div class="price"><span class='money'>$500.00</span></div>
           </div>
 
           <div class="sharing-btn">
-            <span>Shares:</span>
-            
-
-
-
-
-<div class="social-icons" data-permalink="https://rt-material.myshopify.com/products/deleniti-atque-corrupti">
+            <span>Shares:</span><div class="social-icons" data-permalink="https://rt-material.myshopify.com/products/deleniti-atque-corrupti">
   <ul class="list-inline">
-    
+
     <li>
       <a target="_blank" href="https://www.facebook.com/sharer.php?u=https://rt-material.myshopify.com/products/deleniti-atque-corrupti" class="social-wrapper">
         <span class="social-icon"><i class="fa fa-facebook"></i></span>
       </a>
     </li>
-    
-
-    
     <li>
       <a target="_blank" href="https://twitter.com/share?url=https://rt-material.myshopify.com/products/deleniti-atque-corrupti&amp;text=Deleniti&#32;atque&#32;corrupti" class="social-wrapper">
         <span class="social-icon"><i class="fa fa-twitter"></i></span>
@@ -3063,11 +2101,11 @@
         </div>
 
         <div class="section border-bottom">
-        
+
           <div class="rte">
             We have run out of stock for this item.
           </div>
-        
+
         </div>
 
         <div class="description">
@@ -3082,9 +2120,6 @@
                 </div>
 
                 <div class="product_item animated">
-
-
-
                   <div class="product style2">
                     <div class="product-container">
                       <div class="product-buttons">
@@ -3097,17 +2132,10 @@
                                 to wishlist</span></a>
                           </div>
                         </div>
-
-
                         <div class="sharing-ctl">
                           <a href="javascript:void(0);">
                             <i class="zmdi zmdi-share"></i>
                           </a>
-
-
-
-
-
                           <div class="social-icons"
                             data-permalink="https://rt-material.myshopify.com/products/laborum-et-dolorum">
                             <ul class="list-inline">
@@ -3119,9 +2147,6 @@
                                   <span class="social-icon"><i class="fa fa-facebook"></i></span>
                                 </a>
                               </li>
-
-
-
                               <li>
                                 <a target="_blank"
                                   href="https://twitter.com/share?url=https://rt-material.myshopify.com/products/laborum-et-dolorum&amp;text=Laborum&#32;et&#32;dolorum"
@@ -3160,33 +2185,16 @@
                                 Laborum et dolorum
                               </a>
                             </div>
-
-
                             <div class="isreview">
                               <span class="shopify-product-reviews-badge" data-id="870279555"></span>
                             </div>
-
-
-                            <div class="price-val product-price">
-
-
-                              <span class="price"><span class='money'>$400.00</span></span>
-
-
-                              <del class="price_compare"> <span class='money'>$450.00</span></del>
-
-
-
+                            <div class="price-val product-price"> <span class="price"><span
+                                  class='money'>$400.00</span></span> <del class="price_compare"> <span
+                                  class='money'>$450.00</span></del>
                             </div>
                             <div class="swatch color clearfix" data-option-index="0">
-                              <div>
-
-
-                              </div>
+                              <div> </div>
                             </div>
-
-
-
                             <div class="product-desc">
                               At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
                               voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
@@ -3194,12 +2202,7 @@
                               est laborum et dolorum fuga. Sample Unordered List Comodous in tempor ullamcorper...
                             </div>
                           </div>
-                          <div class="product-action">
-
-
-                            <span class="line"></span>
-
-
+                          <div class="product-action"> <span class="line"></span>
                             <form action="https://rt-material.myshopify.com/cart/add" method="post"
                               enctype="multipart/form-data">
                               <input type="hidden" name="quantity" value="1" />
@@ -3211,9 +2214,6 @@
 
                               </select>
                             </form>
-
-
-
                             <a href="javascript:;" class="quick-shop"><i class="zmdi zmdi-eye"></i> Quick look</a>
 
                           </div>
@@ -3227,19 +2227,19 @@
     <div class="row">
       <div class="product-gallery col-sm-6">
         <div class="thumbnails">
-          
+
           <a class="thumbnail" href="cdn/shop/products/11.1.jpg@v=1434217925" data-src="//rt-material.myshopify.com/cdn/shop/products/11.1_grande.jpg?v=1434217925">
             <img src="cdn/shop/products/11.1_small.jpg@v=1434217925" title="" />
           </a>
-          
+
           <a class="thumbnail" href="cdn/shop/products/11.2.jpg@v=1434217925" data-src="//rt-material.myshopify.com/cdn/shop/products/11.2_grande.jpg?v=1434217925">
             <img src="cdn/shop/products/11.2_small.jpg@v=1434217925" title="" />
           </a>
-          
+
           <a class="thumbnail" href="cdn/shop/products/11.3.jpg@v=1434217925" data-src="//rt-material.myshopify.com/cdn/shop/products/11.3_grande.jpg?v=1434217925">
             <img src="cdn/shop/products/11.3_small.jpg@v=1434217925" title="" />
           </a>
-          
+
         </div>
         <div class="main">
           <div class="main-img-link" href="//rt-material.myshopify.com/cdn/shop/products/11.1.jpg?v=1434217925" title="Laborum et dolorum">
@@ -3255,43 +2255,34 @@
 
           <div class="product-title">
             <a href="collections/bags/products/laborum-et-dolorum.html">Laborum et dolorum</a>
-            
+
             <div id="sku">SKU: <span>464103</span></div>
-            
+
           </div>
 
           <div id="price" class="product-price">
-            
+
             <del class="price_compare"> <span class='money'>$450.00</span></del>
             <span class="price_percentage">11%</span>
-            
+
             <div class="price"><span class='money'>$400.00</span></div>
           </div>
 
           <div class="sharing-btn">
-            <span>Shares:</span>
-            
-
-
-
-
-<div class="social-icons" data-permalink="https://rt-material.myshopify.com/products/laborum-et-dolorum">
+            <span>Shares:</span><div class="social-icons" data-permalink="https://rt-material.myshopify.com/products/laborum-et-dolorum">
   <ul class="list-inline">
-    
+
     <li>
       <a target="_blank" href="https://www.facebook.com/sharer.php?u=https://rt-material.myshopify.com/products/laborum-et-dolorum" class="social-wrapper">
         <span class="social-icon"><i class="fa fa-facebook"></i></span>
       </a>
     </li>
-    
-
-    
     <li>
       <a target="_blank" href="https://twitter.com/share?url=https://rt-material.myshopify.com/products/laborum-et-dolorum&amp;text=Laborum&#32;et&#32;dolorum" class="social-wrapper">
         <span class="social-icon"><i class="fa fa-twitter"></i></span>
       </a>
     </li>
-    
+
   </ul>
 </div>
 
@@ -3299,34 +2290,25 @@
         </div>
 
         <div class="section border-bottom">
-        
+
         <form class="product-form" id="product-form" action="https://rt-material.myshopify.com/cart/add" method="post" enctype="multipart/form-data" data-product-id="870279555">
           <div id="product-variants">
-            <select id="product-select" name="id" style="display: none;">
-              
-              
-              <option  selected="selected"  value="2415079811">Default Title - <span class='money'>$400.00 USD</span></option>
-              
-              
-            </select>
+            <select id="product-select" name="id" style="display: none;">              <option  selected="selected"  value="2415079811">Default Title - <span class='money'>$400.00 USD</span></option>            </select>
           </div>
 
           <div class="quantity">
-            <div class="group-input">      
+            <div class="group-input">
               <input type="number" title="Quantity" step="1" min="1" size="4" id="quantity" name="quantity" value="1" />
               <span class="bar"></span>
             </div>
             <button type="submit" class="btn btn-1 ripple add-to-cart" name="add" id="add" data-addtocart="Buy now" data-unavailable="Product unavailable" data-soldout="Out of stock">Buy now</button>
           </div>
         </form>
-        
-        <div class="product-wishlist wishlist-870279555"></div>
-        
 
-        <div id="backorder" class="hidden">
+        <div class="product-wishlist wishlist-870279555"></div>        <div id="backorder" class="hidden">
           <span id="selected-variant"></span> is backordered. We will ship it separately in 10 to 15 days.
         </div>
-        
+
         </div>
 
         <div class="description">
@@ -3341,9 +2323,6 @@
                 </div>
 
                 <div class="product_item animated">
-
-
-
                   <div class="product style2">
                     <div class="product-container">
                       <div class="product-buttons">
@@ -3356,17 +2335,10 @@
                                 to wishlist</span></a>
                           </div>
                         </div>
-
-
                         <div class="sharing-ctl">
                           <a href="javascript:void(0);">
                             <i class="zmdi zmdi-share"></i>
                           </a>
-
-
-
-
-
                           <div class="social-icons"
                             data-permalink="https://rt-material.myshopify.com/products/cupiditate-provident">
                             <ul class="list-inline">
@@ -3378,9 +2350,6 @@
                                   <span class="social-icon"><i class="fa fa-facebook"></i></span>
                                 </a>
                               </li>
-
-
-
                               <li>
                                 <a target="_blank"
                                   href="https://twitter.com/share?url=https://rt-material.myshopify.com/products/cupiditate-provident&amp;text=Cupiditate&#32;provident"
@@ -3420,32 +2389,15 @@
                                 Cupiditate provident
                               </a>
                             </div>
-
-
                             <div class="isreview">
                               <span class="shopify-product-reviews-badge" data-id="870277955"></span>
                             </div>
-
-
-                            <div class="price-val product-price">
-
-
-                              <span class="price"><span class='money'>$400.00</span></span>
-
-
-                              <del class="price_compare"> <span class='money'>$450.00</span></del>
-
-
-
+                            <div class="price-val product-price"> <span class="price"><span
+                                  class='money'>$400.00</span></span> <del class="price_compare"> <span
+                                  class='money'>$450.00</span></del>
                             </div>
                             <div class="swatch color clearfix" data-option-index="0">
                               <div>
-
-
-
-
-
-
 
                                 <div data-value=" Yellow
           " class="swatch-element colorsilver available ">
@@ -3460,11 +2412,6 @@
                                     </i>
                                   </label>
                                 </div>
-
-
-
-
-
                                 <div data-value=" Red
           " class="swatch-element colorsilver available ">
                                   <div class="tooltip"> Red
@@ -3478,11 +2425,6 @@
                                     </i>
                                   </label>
                                 </div>
-
-
-
-
-
                                 <div data-value=" Gray
           " class="swatch-element colorsilver available ">
                                   <div class="tooltip"> Gray
@@ -3497,17 +2439,8 @@
                                   </label>
                                 </div>
 
-
-
-
-
-
-
                               </div>
                             </div>
-
-
-
                             <div class="product-desc">
                               At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
                               voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
@@ -3515,17 +2448,9 @@
                               est laborum et dolorum fuga. Sample Unordered List Comodous in tempor ullamcorper...
                             </div>
                           </div>
-                          <div class="product-action">
-
-
-                            <span class="line"></span>
-
-
-                            <a href="collections/bags/products/cupiditate-provident.html"
+                          <div class="product-action"> <span class="line"></span> <a
+                              href="collections/bags/products/cupiditate-provident.html"
                               class="choose-options btn-cart"><i class="zmdi zmdi-format-list-bulleted"></i> Options</a>
-
-
-
                             <a href="javascript:;" class="quick-shop"><i class="zmdi zmdi-eye"></i> Quick look</a>
 
                           </div>
@@ -3539,27 +2464,27 @@
     <div class="row">
       <div class="product-gallery col-sm-6">
         <div class="thumbnails">
-          
+
           <a class="thumbnail" href="cdn/shop/products/3.1.jpg@v=1434185703" data-src="//rt-material.myshopify.com/cdn/shop/products/3.1_grande.jpg?v=1434185703">
             <img src="cdn/shop/products/3.1_small.jpg@v=1434185703" title="" />
           </a>
-          
+
           <a class="thumbnail" href="cdn/shop/products/3.2.jpg@v=1434185704" data-src="//rt-material.myshopify.com/cdn/shop/products/3.2_grande.jpg?v=1434185704">
             <img src="cdn/shop/products/3.2_small.jpg@v=1434185704" title="" />
           </a>
-          
+
           <a class="thumbnail" href="cdn/shop/products/3.3.jpg@v=1434185705" data-src="//rt-material.myshopify.com/cdn/shop/products/3.3_grande.jpg?v=1434185705">
             <img src="cdn/shop/products/3.3_small.jpg@v=1434185705" title="" />
           </a>
-          
+
           <a class="thumbnail" href="cdn/shop/products/red.png@v=1519555833" data-src="//rt-material.myshopify.com/cdn/shop/products/red_grande.png?v=1519555833">
             <img src="cdn/shop/products/red_small.png@v=1519555833" title="" />
           </a>
-          
+
           <a class="thumbnail" href="cdn/shop/products/gray.png@v=1519556019" data-src="//rt-material.myshopify.com/cdn/shop/products/gray_grande.png?v=1519556019">
             <img src="cdn/shop/products/gray_small.png@v=1519556019" title="" />
           </a>
-          
+
         </div>
         <div class="main">
           <div class="main-img-link" href="//rt-material.myshopify.com/cdn/shop/products/3.1.jpg?v=1434185703" title="Cupiditate provident">
@@ -3575,43 +2500,34 @@
 
           <div class="product-title">
             <a href="collections/bags/products/cupiditate-provident.html">Cupiditate provident</a>
-            
+
             <div id="sku">SKU: <span>464109</span></div>
-            
+
           </div>
 
           <div id="price" class="product-price">
-            
+
             <del class="price_compare"> <span class='money'>$450.00</span></del>
             <span class="price_percentage">11%</span>
-            
+
             <div class="price"><span class='money'>$400.00</span></div>
           </div>
 
           <div class="sharing-btn">
-            <span>Shares:</span>
-            
-
-
-
-
-<div class="social-icons" data-permalink="https://rt-material.myshopify.com/products/cupiditate-provident">
+            <span>Shares:</span><div class="social-icons" data-permalink="https://rt-material.myshopify.com/products/cupiditate-provident">
   <ul class="list-inline">
-    
+
     <li>
       <a target="_blank" href="https://www.facebook.com/sharer.php?u=https://rt-material.myshopify.com/products/cupiditate-provident" class="social-wrapper">
         <span class="social-icon"><i class="fa fa-facebook"></i></span>
       </a>
     </li>
-    
-
-    
     <li>
       <a target="_blank" href="https://twitter.com/share?url=https://rt-material.myshopify.com/products/cupiditate-provident&amp;text=Cupiditate&#32;provident" class="social-wrapper">
         <span class="social-icon"><i class="fa fa-twitter"></i></span>
       </a>
     </li>
-        
+
   </ul>
 </div>
 
@@ -3619,42 +2535,27 @@
         </div>
 
         <div class="section border-bottom">
-        
+
         <form class="product-form" id="product-form" action="https://rt-material.myshopify.com/cart/add" method="post" enctype="multipart/form-data" data-product-id="870277955">
           <div id="product-variants">
-            <select id="product-select" name="id" style="display: none;">
-              
-              
-              <option  selected="selected"  value="2415074627">Yellow / M / 500 - <span class='money'>$400.00 USD</span></option>
-              
-              
-              
+            <select id="product-select" name="id" style="display: none;">              <option  selected="selected"  value="2415074627">Yellow / M / 500 - <span class='money'>$400.00 USD</span></option>
               <option  value="2415074691">Red / M / 500 - <span class='money'>$400.00 USD</span></option>
-              
-              
-              
-              <option  value="54673343125">Gray / M / 500 - <span class='money'>$400.00 USD</span></option>
-              
-              
-            </select>
+              <option  value="54673343125">Gray / M / 500 - <span class='money'>$400.00 USD</span></option>            </select>
           </div>
 
           <div class="quantity">
-            <div class="group-input">      
+            <div class="group-input">
               <input type="number" title="Quantity" step="1" min="1" size="4" id="quantity" name="quantity" value="1" />
               <span class="bar"></span>
             </div>
             <button type="submit" class="btn btn-1 ripple add-to-cart" name="add" id="add" data-addtocart="Buy now" data-unavailable="Product unavailable" data-soldout="Out of stock">Buy now</button>
           </div>
         </form>
-        
-        <div class="product-wishlist wishlist-870277955"></div>
-        
 
-        <div id="backorder" class="hidden">
+        <div class="product-wishlist wishlist-870277955"></div>        <div id="backorder" class="hidden">
           <span id="selected-variant"></span> is backordered. We will ship it separately in 10 to 15 days.
         </div>
-        
+
         </div>
 
         <div class="description">
@@ -3669,9 +2570,6 @@
                 </div>
 
                 <div class="product_item animated">
-
-
-
                   <div class="product style2">
                     <div class="product-container">
                       <div class="product-buttons">
@@ -3684,17 +2582,10 @@
                                 to wishlist</span></a>
                           </div>
                         </div>
-
-
                         <div class="sharing-ctl">
                           <a href="javascript:void(0);">
                             <i class="zmdi zmdi-share"></i>
                           </a>
-
-
-
-
-
                           <div class="social-icons"
                             data-permalink="https://rt-material.myshopify.com/products/nobis-est-eligendi">
                             <ul class="list-inline">
@@ -3706,9 +2597,6 @@
                                   <span class="social-icon"><i class="fa fa-facebook"></i></span>
                                 </a>
                               </li>
-
-
-
                               <li>
                                 <a target="_blank"
                                   href="https://twitter.com/share?url=https://rt-material.myshopify.com/products/nobis-est-eligendi&amp;text=Nobis&#32;est&#32;eligendi"
@@ -3741,31 +2629,16 @@
                                 Nobis est eligendi
                               </a>
                             </div>
-
-
                             <div class="isreview">
                               <span class="shopify-product-reviews-badge" data-id="870277379"></span>
                             </div>
-
-
-                            <div class="price-val product-price">
-
-
-                              <span class="price"><span class='money'>$350.00</span></span>
-
-
-
+                            <div class="price-val product-price"> <span class="price"><span
+                                  class='money'>$350.00</span></span>
 
                             </div>
                             <div class="swatch color clearfix" data-option-index="0">
-                              <div>
-
-
-                              </div>
+                              <div> </div>
                             </div>
-
-
-
                             <div class="product-desc">
                               At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
                               voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
@@ -3773,12 +2646,7 @@
                               est laborum et dolorum fuga. Sample Unordered List Comodous in tempor ullamcorper...
                             </div>
                           </div>
-                          <div class="product-action">
-
-
-                            <span class="line"></span>
-
-
+                          <div class="product-action"> <span class="line"></span>
                             <form action="https://rt-material.myshopify.com/cart/add" method="post"
                               enctype="multipart/form-data">
                               <input type="hidden" name="quantity" value="1" />
@@ -3790,9 +2658,6 @@
 
                               </select>
                             </form>
-
-
-
                             <a href="javascript:;" class="quick-shop"><i class="zmdi zmdi-eye"></i> Quick look</a>
 
                           </div>
@@ -3806,19 +2671,19 @@
     <div class="row">
       <div class="product-gallery col-sm-6">
         <div class="thumbnails">
-          
+
           <a class="thumbnail" href="cdn/shop/products/13.1.jpg@v=1434217867" data-src="//rt-material.myshopify.com/cdn/shop/products/13.1_grande.jpg?v=1434217867">
             <img src="cdn/shop/products/13.1_small.jpg@v=1434217867" title="" />
           </a>
-          
+
           <a class="thumbnail" href="cdn/shop/products/13.2.jpg@v=1434217869" data-src="//rt-material.myshopify.com/cdn/shop/products/13.2_grande.jpg?v=1434217869">
             <img src="cdn/shop/products/13.2_small.jpg@v=1434217869" title="" />
           </a>
-          
+
           <a class="thumbnail" href="cdn/shop/products/13.3.jpg@v=1434217870" data-src="//rt-material.myshopify.com/cdn/shop/products/13.3_grande.jpg?v=1434217870">
             <img src="cdn/shop/products/13.3_small.jpg@v=1434217870" title="" />
           </a>
-          
+
         </div>
         <div class="main">
           <div class="main-img-link" href="//rt-material.myshopify.com/cdn/shop/products/13.1.jpg?v=1434217867" title="Nobis est eligendi">
@@ -3834,40 +2699,31 @@
 
           <div class="product-title">
             <a href="collections/bags/products/nobis-est-eligendi.html">Nobis est eligendi</a>
-            
+
             <div id="sku">SKU: <span>464201</span></div>
-            
+
           </div>
 
           <div id="price" class="product-price">
-            
+
             <div class="price"><span class='money'>$350.00</span></div>
           </div>
 
           <div class="sharing-btn">
-            <span>Shares:</span>
-            
-
-
-
-
-<div class="social-icons" data-permalink="https://rt-material.myshopify.com/products/nobis-est-eligendi">
+            <span>Shares:</span><div class="social-icons" data-permalink="https://rt-material.myshopify.com/products/nobis-est-eligendi">
   <ul class="list-inline">
-    
+
     <li>
       <a target="_blank" href="https://www.facebook.com/sharer.php?u=https://rt-material.myshopify.com/products/nobis-est-eligendi" class="social-wrapper">
         <span class="social-icon"><i class="fa fa-facebook"></i></span>
       </a>
     </li>
-    
-
-    
     <li>
       <a target="_blank" href="https://twitter.com/share?url=https://rt-material.myshopify.com/products/nobis-est-eligendi&amp;text=Nobis&#32;est&#32;eligendi" class="social-wrapper">
         <span class="social-icon"><i class="fa fa-twitter"></i></span>
       </a>
     </li>
-    
+
   </ul>
 </div>
 
@@ -3875,34 +2731,25 @@
         </div>
 
         <div class="section border-bottom">
-        
+
         <form class="product-form" id="product-form" action="https://rt-material.myshopify.com/cart/add" method="post" enctype="multipart/form-data" data-product-id="870277379">
           <div id="product-variants">
-            <select id="product-select" name="id" style="display: none;">
-              
-              
-              <option  selected="selected"  value="2415073795">Default Title - <span class='money'>$350.00 USD</span></option>
-              
-              
-            </select>
+            <select id="product-select" name="id" style="display: none;">              <option  selected="selected"  value="2415073795">Default Title - <span class='money'>$350.00 USD</span></option>            </select>
           </div>
 
           <div class="quantity">
-            <div class="group-input">      
+            <div class="group-input">
               <input type="number" title="Quantity" step="1" min="1" size="4" id="quantity" name="quantity" value="1" />
               <span class="bar"></span>
             </div>
             <button type="submit" class="btn btn-1 ripple add-to-cart" name="add" id="add" data-addtocart="Buy now" data-unavailable="Product unavailable" data-soldout="Out of stock">Buy now</button>
           </div>
         </form>
-        
-        <div class="product-wishlist wishlist-870277379"></div>
-        
 
-        <div id="backorder" class="hidden">
+        <div class="product-wishlist wishlist-870277379"></div>        <div id="backorder" class="hidden">
           <span id="selected-variant"></span> is backordered. We will ship it separately in 10 to 15 days.
         </div>
-        
+
         </div>
 
         <div class="description">
@@ -3917,9 +2764,6 @@
                 </div>
 
                 <div class="product_item animated">
-
-
-
                   <div class="product style2">
                     <div class="product-container">
                       <div class="product-buttons">
@@ -3932,17 +2776,10 @@
                                 to wishlist</span></a>
                           </div>
                         </div>
-
-
                         <div class="sharing-ctl">
                           <a href="javascript:void(0);">
                             <i class="zmdi zmdi-share"></i>
                           </a>
-
-
-
-
-
                           <div class="social-icons"
                             data-permalink="https://rt-material.myshopify.com/products/ducimus-qui-blanditiis">
                             <ul class="list-inline">
@@ -3954,9 +2791,6 @@
                                   <span class="social-icon"><i class="fa fa-facebook"></i></span>
                                 </a>
                               </li>
-
-
-
                               <li>
                                 <a target="_blank"
                                   href="https://twitter.com/share?url=https://rt-material.myshopify.com/products/ducimus-qui-blanditiis&amp;text=Ducimus&#32;qui&#32;blanditiis"
@@ -3990,31 +2824,16 @@
                                 Ducimus qui blanditiis
                               </a>
                             </div>
-
-
                             <div class="isreview">
                               <span class="shopify-product-reviews-badge" data-id="870278915"></span>
                             </div>
-
-
-                            <div class="price-val product-price">
-
-
-                              <span class="price"><span class='money'>$350.00</span></span>
-
-
-
+                            <div class="price-val product-price"> <span class="price"><span
+                                  class='money'>$350.00</span></span>
 
                             </div>
                             <div class="swatch color clearfix" data-option-index="0">
-                              <div>
-
-
-                              </div>
+                              <div> </div>
                             </div>
-
-
-
                             <div class="product-desc">
                               At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
                               voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
@@ -4022,12 +2841,7 @@
                               est laborum et dolorum fuga. Sample Unordered List Comodous in tempor ullamcorper...
                             </div>
                           </div>
-                          <div class="product-action">
-
-
-                            <span class="line"></span>
-
-
+                          <div class="product-action"> <span class="line"></span>
                             <form action="https://rt-material.myshopify.com/cart/add" method="post"
                               enctype="multipart/form-data">
                               <input type="hidden" name="quantity" value="1" />
@@ -4040,9 +2854,6 @@
 
                               </select>
                             </form>
-
-
-
                             <a href="javascript:;" class="quick-shop"><i class="zmdi zmdi-eye"></i> Quick look</a>
 
                           </div>
@@ -4056,19 +2867,19 @@
     <div class="row">
       <div class="product-gallery col-sm-6">
         <div class="thumbnails">
-          
+
           <a class="thumbnail" href="cdn/shop/products/20.1.jpg@v=1436068154" data-src="//rt-material.myshopify.com/cdn/shop/products/20.1_grande.jpg?v=1436068154">
             <img src="cdn/shop/products/20.1_small.jpg@v=1436068154" title="" />
           </a>
-          
+
           <a class="thumbnail" href="cdn/shop/products/20.2.jpg@v=1434217712" data-src="//rt-material.myshopify.com/cdn/shop/products/20.2_grande.jpg?v=1434217712">
             <img src="cdn/shop/products/20.2_small.jpg@v=1434217712" title="" />
           </a>
-          
+
           <a class="thumbnail" href="cdn/shop/products/20.3.jpg@v=1434217713" data-src="//rt-material.myshopify.com/cdn/shop/products/20.3_grande.jpg?v=1434217713">
             <img src="cdn/shop/products/20.3_small.jpg@v=1434217713" title="" />
           </a>
-          
+
         </div>
         <div class="main">
           <div class="main-img-link" href="//rt-material.myshopify.com/cdn/shop/products/20.1.jpg?v=1436068154" title="Ducimus qui blanditiis">
@@ -4084,39 +2895,30 @@
 
           <div class="product-title">
             <a href="collections/bags/products/ducimus-qui-blanditiis.html">Ducimus qui blanditiis</a>
-            
+
             <div id="sku">SKU: <span>464106</span></div>
-            
+
           </div>
 
           <div id="price" class="product-price">
-            
+
             <div class="price"><span class='money'>$350.00</span></div>
           </div>
 
           <div class="sharing-btn">
-            <span>Shares:</span>
-            
-
-
-
-
-<div class="social-icons" data-permalink="https://rt-material.myshopify.com/products/ducimus-qui-blanditiis">
+            <span>Shares:</span><div class="social-icons" data-permalink="https://rt-material.myshopify.com/products/ducimus-qui-blanditiis">
   <ul class="list-inline">
-    
+
     <li>
       <a target="_blank" href="https://www.facebook.com/sharer.php?u=https://rt-material.myshopify.com/products/ducimus-qui-blanditiis" class="social-wrapper">
         <span class="social-icon"><i class="fa fa-facebook"></i></span>
       </a>
     </li>
-    
-
-    
     <li>
       <a target="_blank" href="https://twitter.com/share?url=https://rt-material.myshopify.com/products/ducimus-qui-blanditiis&amp;text=Ducimus&#32;qui&#32;blanditiis" class="social-wrapper">
         <span class="social-icon"><i class="fa fa-twitter"></i></span>
       </a>
-    </li>    
+    </li>
   </ul>
 </div>
 
@@ -4124,34 +2926,25 @@
         </div>
 
         <div class="section border-bottom">
-        
+
         <form class="product-form" id="product-form" action="https://rt-material.myshopify.com/cart/add" method="post" enctype="multipart/form-data" data-product-id="870278915">
           <div id="product-variants">
-            <select id="product-select" name="id" style="display: none;">
-              
-              
-              <option  selected="selected"  value="2737381703701">Default Title - <span class='money'>$350.00 USD</span></option>
-              
-              
-            </select>
+            <select id="product-select" name="id" style="display: none;">              <option  selected="selected"  value="2737381703701">Default Title - <span class='money'>$350.00 USD</span></option>            </select>
           </div>
 
           <div class="quantity">
-            <div class="group-input">      
+            <div class="group-input">
               <input type="number" title="Quantity" step="1" min="1" size="4" id="quantity" name="quantity" value="1" />
               <span class="bar"></span>
             </div>
             <button type="submit" class="btn btn-1 ripple add-to-cart" name="add" id="add" data-addtocart="Buy now" data-unavailable="Product unavailable" data-soldout="Out of stock">Buy now</button>
           </div>
         </form>
-        
-        <div class="product-wishlist wishlist-870278915"></div>
-        
 
-        <div id="backorder" class="hidden">
+        <div class="product-wishlist wishlist-870278915"></div>        <div id="backorder" class="hidden">
           <span id="selected-variant"></span> is backordered. We will ship it separately in 10 to 15 days.
         </div>
-        
+
         </div>
 
         <div class="description">
@@ -4166,9 +2959,6 @@
                 </div>
 
                 <div class="product_item animated">
-
-
-
                   <div class="product style2">
                     <div class="product-container">
                       <div class="product-buttons">
@@ -4181,17 +2971,10 @@
                                 to wishlist</span></a>
                           </div>
                         </div>
-
-
                         <div class="sharing-ctl">
                           <a href="javascript:void(0);">
                             <i class="zmdi zmdi-share"></i>
                           </a>
-
-
-
-
-
                           <div class="social-icons"
                             data-permalink="https://rt-material.myshopify.com/products/cumque-nihil">
                             <ul class="list-inline">
@@ -4203,9 +2986,6 @@
                                   <span class="social-icon"><i class="fa fa-facebook"></i></span>
                                 </a>
                               </li>
-
-
-
                               <li>
                                 <a target="_blank"
                                   href="https://twitter.com/share?url=https://rt-material.myshopify.com/products/cumque-nihil&amp;text=Cumque&#32;nihil"
@@ -4238,31 +3018,16 @@
                                 Cumque nihil
                               </a>
                             </div>
-
-
                             <div class="isreview">
                               <span class="shopify-product-reviews-badge" data-id="870278083"></span>
                             </div>
-
-
-                            <div class="price-val product-price">
-
-
-                              <span class="price"><span class='money'>$350.00</span></span>
-
-
-
+                            <div class="price-val product-price"> <span class="price"><span
+                                  class='money'>$350.00</span></span>
 
                             </div>
                             <div class="swatch color clearfix" data-option-index="0">
-                              <div>
-
-
-                              </div>
+                              <div> </div>
                             </div>
-
-
-
                             <div class="product-desc">
                               At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
                               voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
@@ -4270,12 +3035,7 @@
                               est laborum et dolorum fuga. Sample Unordered List Comodous in tempor ullamcorper...
                             </div>
                           </div>
-                          <div class="product-action">
-
-
-                            <span class="line"></span>
-
-
+                          <div class="product-action"> <span class="line"></span>
                             <form action="https://rt-material.myshopify.com/cart/add" method="post"
                               enctype="multipart/form-data">
                               <input type="hidden" name="quantity" value="1" />
@@ -4287,9 +3047,6 @@
 
                               </select>
                             </form>
-
-
-
                             <a href="javascript:;" class="quick-shop"><i class="zmdi zmdi-eye"></i> Quick look</a>
 
                           </div>
@@ -4303,19 +3060,19 @@
     <div class="row">
       <div class="product-gallery col-sm-6">
         <div class="thumbnails">
-          
+
           <a class="thumbnail" href="cdn/shop/products/2.1.jpg@v=1434185685" data-src="//rt-material.myshopify.com/cdn/shop/products/2.1_grande.jpg?v=1434185685">
             <img src="cdn/shop/products/2.1_small.jpg@v=1434185685" title="" />
           </a>
-          
+
           <a class="thumbnail" href="cdn/shop/products/2.2.jpg@v=1434185686" data-src="//rt-material.myshopify.com/cdn/shop/products/2.2_grande.jpg?v=1434185686">
             <img src="cdn/shop/products/2.2_small.jpg@v=1434185686" title="" />
           </a>
-          
+
           <a class="thumbnail" href="cdn/shop/products/2.3.jpg@v=1434185686" data-src="//rt-material.myshopify.com/cdn/shop/products/2.3_grande.jpg?v=1434185686">
             <img src="cdn/shop/products/2.3_small.jpg@v=1434185686" title="" />
           </a>
-          
+
         </div>
         <div class="main">
           <div class="main-img-link" href="//rt-material.myshopify.com/cdn/shop/products/2.1.jpg?v=1434185685" title="Cumque nihil">
@@ -4331,34 +3088,25 @@
 
           <div class="product-title">
             <a href="collections/bags/products/cumque-nihil.html">Cumque nihil</a>
-            
+
             <div id="sku">SKU: <span>464108</span></div>
-            
+
           </div>
 
           <div id="price" class="product-price">
-            
+
             <div class="price"><span class='money'>$350.00</span></div>
           </div>
 
           <div class="sharing-btn">
-            <span>Shares:</span>
-            
-
-
-
-
-<div class="social-icons" data-permalink="https://rt-material.myshopify.com/products/cumque-nihil">
+            <span>Shares:</span><div class="social-icons" data-permalink="https://rt-material.myshopify.com/products/cumque-nihil">
   <ul class="list-inline">
-    
+
     <li>
       <a target="_blank" href="https://www.facebook.com/sharer.php?u=https://rt-material.myshopify.com/products/cumque-nihil" class="social-wrapper">
         <span class="social-icon"><i class="fa fa-facebook"></i></span>
       </a>
     </li>
-    
-
-    
     <li>
       <a target="_blank" href="https://twitter.com/share?url=https://rt-material.myshopify.com/products/cumque-nihil&amp;text=Cumque&#32;nihil" class="social-wrapper">
         <span class="social-icon"><i class="fa fa-twitter"></i></span>
@@ -4371,34 +3119,25 @@
         </div>
 
         <div class="section border-bottom">
-        
+
         <form class="product-form" id="product-form" action="https://rt-material.myshopify.com/cart/add" method="post" enctype="multipart/form-data" data-product-id="870278083">
           <div id="product-variants">
-            <select id="product-select" name="id" style="display: none;">
-              
-              
-              <option  selected="selected"  value="2415075011">Default Title - <span class='money'>$350.00 USD</span></option>
-              
-              
-            </select>
+            <select id="product-select" name="id" style="display: none;">              <option  selected="selected"  value="2415075011">Default Title - <span class='money'>$350.00 USD</span></option>            </select>
           </div>
 
           <div class="quantity">
-            <div class="group-input">      
+            <div class="group-input">
               <input type="number" title="Quantity" step="1" min="1" size="4" id="quantity" name="quantity" value="1" />
               <span class="bar"></span>
             </div>
             <button type="submit" class="btn btn-1 ripple add-to-cart" name="add" id="add" data-addtocart="Buy now" data-unavailable="Product unavailable" data-soldout="Out of stock">Buy now</button>
           </div>
         </form>
-        
-        <div class="product-wishlist wishlist-870278083"></div>
-        
 
-        <div id="backorder" class="hidden">
+        <div class="product-wishlist wishlist-870278083"></div>        <div id="backorder" class="hidden">
           <span id="selected-variant"></span> is backordered. We will ship it separately in 10 to 15 days.
         </div>
-        
+
         </div>
 
         <div class="description">
@@ -4416,9 +3155,6 @@
             </div>
           </div>
 
-
-
-
           <div class="container featured-collections clearfix">
 
             <h2 class="title title_center">
@@ -4428,22 +3164,12 @@
             <div class="owl-row">
               <div id="featured-collections" class="all-collections clearfix">
 
-
-
-
-
-
-
                 <div class="collection-item animated">
-
-
                   <div class="collection-wrap">
                     <div class="collection-image">
                       <a href="collections/bags.html">
 
                         <img src="cdn/shop/collections/4_large.jpg@v=1434947880" alt="Bags" />
-
-
                         <div class="caption">
                           <h2>TOPWEAR</h2>
                           <p class="count">14 Products</p>
@@ -4453,26 +3179,13 @@
                   </div>
 
                 </div>
-
-
-
-
-
-
-
-
-
                 <div class="collection-item animated">
-
-
                   <div class="collection-wrap">
                     <div class="collection-image">
                       <a href="collections/jeans.html">
 
                         <img src="cdn/shop/collections/6_e2cd4040-0d3c-4dc3-a63c-d2480a18e59d_large.jpg@v=1434947850"
                           alt="Jeans" />
-
-
                         <div class="caption">
                           <h2>Bottomwear</h2>
                           <p class="count">14 Products</p>
@@ -4482,25 +3195,12 @@
                   </div>
 
                 </div>
-
-
-
-
-
-
-
-
-
                 <div class="collection-item animated">
-
-
                   <div class="collection-wrap">
                     <div class="collection-image">
                       <a href="collections/men.html">
 
                         <img src="cdn/shop/collections/men_large.jpg@v=1436159854" alt="Men" />
-
-
                         <div class="caption">
                           <h2>Winterwear</h2>
                           <p class="count">14 Products</p>
@@ -4510,25 +3210,12 @@
                   </div>
 
                 </div>
-
-
-
-
-
-
-
-
-
                 <div class="collection-item animated">
-
-
                   <div class="collection-wrap">
                     <div class="collection-image">
                       <a href="collections/shoes.html">
 
                         <img src="cdn/shop/collections/shoes_large.jpg@v=1436161465" alt="Shoes" />
-
-
                         <div class="caption">
                           <h2>Western Wear</h2>
                           <p class="count">14 Products</p>
@@ -4538,25 +3225,12 @@
                   </div>
 
                 </div>
-
-
-
-
-
-
-
-
-
                 <div class="collection-item animated">
-
-
                   <div class="collection-wrap">
                     <div class="collection-image">
                       <a href="collections/women.html">
 
                         <img src="cdn/shop/collections/3_large.jpg@v=1434947906" alt="Women" />
-
-
                         <div class="caption">
                           <h2>Ethnic Wear</h2>
                           <p class="count">14 Products</p>
@@ -4566,18 +3240,7 @@
                   </div>
 
                 </div>
-
-
-
-
-
-
-
-
-
                 <div class="collection-item animated">
-
-
                   <div class="collection-wrap">
                     <div class="collection-image">
                       <a href="collections/sale/%255C%2522%2522+.html">
@@ -4596,64 +3259,27 @@
           </div>
           <div class="widget-lookbook">
             <div class="lookbook-carousel">
-
-
-
               <div class="lookbook">
                 <img src="cdn/shop/t/8/assets/lookbook_img_1.png@v=104732468911825559881447137481" alt="" />
               </div>
-
-
-
 
               <div class="lookbook">
                 <img src="cdn/shop/t/8/assets/lookbook_img_2.png@v=129652860134966195801447137481" alt="" />
               </div>
 
-
-
-
               <div class="lookbook">
                 <img src="cdn/shop/t/8/assets/lookbook_img_3.png@v=60755626103781545931447137481" alt="" />
               </div>
 
-
-
-
               <div class="lookbook">
                 <img src="cdn/shop/t/8/assets/lookbook_img_4.png@v=31326993769815900521447137482" alt="" />
               </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             </div>
 
             <div class="lookbook-content right">
-
-
               <h2 class="block-title animated moveUp" data-size="60">
                 Fall/Spring<br />Collection<br />14/15
               </h2>
-
-
-
               <div class="lookbook-btn animated moveUp">
                 <a href="collections.html" title="Shop the lookbook" class="btn ripple">Shop the lookbook</a>
               </div>
@@ -4662,111 +3288,24 @@
 
           </div>
 
-
-
-
           <div class="container the-collection">
             <h2 class="title title_center">
 
               <span>The Collection</span>
-<!-- 
+              <!--
               <div class="filter">
                 <div>
                   <select id="category_filter">
                     <option data-handle="sale" value="/collections/sale">Sale</option>
                     <option data-handle="bags" value="/collections/bags">Bags</option>
 
-
-
-
-
-
-
-
-
-
-
-
-
                     <option data-handle="jeans" value="/collections/jeans">Jeans</option>
-
-
-
-
-
-
-
-
-
-
-
-
 
                     <option data-handle="men" value="/collections/men">Men</option>
 
-
-
-
-
-
-
-
-
-
-
-
-
                     <option data-handle="shoes" value="/collections/shoes">Shoes</option>
 
-
-
-
-
-
-
-
-
-
-
-
-
                     <option data-handle="women" value="/collections/women">Women</option>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                   </select>
                 </div>
@@ -4800,9 +3339,6 @@
                 </div>
 
                 <div class="product_item animated">
-
-
-
                   <div class="product style2">
                     <div class="product-container">
                       <div class="product-buttons">
@@ -4815,17 +3351,10 @@
                                 to wishlist</span></a>
                           </div>
                         </div>
-
-
                         <div class="sharing-ctl">
                           <a href="javascript:void(0);">
                             <i class="zmdi zmdi-share"></i>
                           </a>
-
-
-
-
-
                           <div class="social-icons"
                             data-permalink="https://rt-material.myshopify.com/products/sed-et-quam-lacus">
                             <ul class="list-inline">
@@ -4837,9 +3366,6 @@
                                   <span class="social-icon"><i class="fa fa-facebook"></i></span>
                                 </a>
                               </li>
-
-
-
                               <li>
                                 <a target="_blank"
                                   href="https://twitter.com/share?url=https://rt-material.myshopify.com/products/sed-et-quam-lacus&amp;text=Sed&#32;et&#32;quam&#32;lacus"
@@ -4872,31 +3398,16 @@
                                 Sed et quam lacus
                               </a>
                             </div>
-
-
                             <div class="isreview">
                               <span class="shopify-product-reviews-badge" data-id="982583747"></span>
                             </div>
-
-
-                            <div class="price-val product-price">
-
-
-                              <span class="price"><span class='money'>$100.00</span></span>
-
-
-
+                            <div class="price-val product-price"> <span class="price"><span
+                                  class='money'>$100.00</span></span>
 
                             </div>
                             <div class="swatch color clearfix" data-option-index="0">
-                              <div>
-
-
-                              </div>
+                              <div> </div>
                             </div>
-
-
-
                             <div class="product-desc">
                               At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
                               voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
@@ -4904,12 +3415,7 @@
                               est laborum et dolorum fuga. Sample Unordered List Comodous in tempor ullamcorper...
                             </div>
                           </div>
-                          <div class="product-action">
-
-
-                            <span class="line"></span>
-
-
+                          <div class="product-action"> <span class="line"></span>
                             <form action="https://rt-material.myshopify.com/cart/add" method="post"
                               enctype="multipart/form-data">
                               <input type="hidden" name="quantity" value="1" />
@@ -4921,9 +3427,6 @@
 
                               </select>
                             </form>
-
-
-
                             <a href="javascript:;" class="quick-shop"><i class="zmdi zmdi-eye"></i> Quick look</a>
 
                           </div>
@@ -4937,19 +3440,19 @@
     <div class="row">
       <div class="product-gallery col-sm-6">
         <div class="thumbnails">
-          
+
           <a class="thumbnail" href="cdn/shop/products/7.1.jpg@v=1434218651" data-src="//rt-material.myshopify.com/cdn/shop/products/7.1_grande.jpg?v=1434218651">
             <img src="cdn/shop/products/7.1_small.jpg@v=1434218651" title="" />
           </a>
-          
+
           <a class="thumbnail" href="cdn/shop/products/7.2.jpg@v=1434218651" data-src="//rt-material.myshopify.com/cdn/shop/products/7.2_grande.jpg?v=1434218651">
             <img src="cdn/shop/products/7.2_small.jpg@v=1434218651" title="" />
           </a>
-          
+
           <a class="thumbnail" href="cdn/shop/products/7.3.jpg@v=1434218652" data-src="//rt-material.myshopify.com/cdn/shop/products/7.3_grande.jpg?v=1434218652">
             <img src="cdn/shop/products/7.3_small.jpg@v=1434218652" title="" />
           </a>
-          
+
         </div>
         <div class="main">
           <div class="main-img-link" href="//rt-material.myshopify.com/cdn/shop/products/7.1.jpg?v=1434218651" title="Sed et quam lacus">
@@ -4965,40 +3468,31 @@
 
           <div class="product-title">
             <a href="collections/sale/products/sed-et-quam-lacus.html">Sed et quam lacus</a>
-            
+
             <div id="sku">SKU: <span></span></div>
-            
+
           </div>
 
           <div id="price" class="product-price">
-            
+
             <div class="price"><span class='money'>$100.00</span></div>
           </div>
 
           <div class="sharing-btn">
-            <span>Shares:</span>
-            
-
-
-
-
-<div class="social-icons" data-permalink="https://rt-material.myshopify.com/products/sed-et-quam-lacus">
+            <span>Shares:</span><div class="social-icons" data-permalink="https://rt-material.myshopify.com/products/sed-et-quam-lacus">
   <ul class="list-inline">
-    
+
     <li>
       <a target="_blank" href="https://www.facebook.com/sharer.php?u=https://rt-material.myshopify.com/products/sed-et-quam-lacus" class="social-wrapper">
         <span class="social-icon"><i class="fa fa-facebook"></i></span>
       </a>
     </li>
-    
-
-    
     <li>
       <a target="_blank" href="https://twitter.com/share?url=https://rt-material.myshopify.com/products/sed-et-quam-lacus&amp;text=Sed&#32;et&#32;quam&#32;lacus" class="social-wrapper">
         <span class="social-icon"><i class="fa fa-twitter"></i></span>
       </a>
     </li>
-    
+
   </ul>
 </div>
 
@@ -5006,34 +3500,25 @@
         </div>
 
         <div class="section border-bottom">
-        
+
         <form class="product-form" id="product-form" action="https://rt-material.myshopify.com/cart/add" method="post" enctype="multipart/form-data" data-product-id="982583747">
           <div id="product-variants">
-            <select id="product-select" name="id" style="display: none;">
-              
-              
-              <option  selected="selected"  value="2787718147">Default Title - <span class='money'>$100.00 USD</span></option>
-              
-              
-            </select>
+            <select id="product-select" name="id" style="display: none;">              <option  selected="selected"  value="2787718147">Default Title - <span class='money'>$100.00 USD</span></option>            </select>
           </div>
 
           <div class="quantity">
-            <div class="group-input">      
+            <div class="group-input">
               <input type="number" title="Quantity" step="1" min="1" size="4" id="quantity" name="quantity" value="1" />
               <span class="bar"></span>
             </div>
             <button type="submit" class="btn btn-1 ripple add-to-cart" name="add" id="add" data-addtocart="Buy now" data-unavailable="Product unavailable" data-soldout="Out of stock">Buy now</button>
           </div>
         </form>
-        
-        <div class="product-wishlist wishlist-982583747"></div>
-        
 
-        <div id="backorder" class="hidden">
+        <div class="product-wishlist wishlist-982583747"></div>        <div id="backorder" class="hidden">
           <span id="selected-variant"></span> is backordered. We will ship it separately in 10 to 15 days.
         </div>
-        
+
         </div>
 
         <div class="description">
@@ -5048,9 +3533,6 @@
                 </div>
 
                 <div class="product_item animated">
-
-
-
                   <div class="product style2">
                     <div class="product-container">
                       <div class="product-buttons">
@@ -5063,17 +3545,10 @@
                                 to wishlist</span></a>
                           </div>
                         </div>
-
-
                         <div class="sharing-ctl">
                           <a href="javascript:void(0);">
                             <i class="zmdi zmdi-share"></i>
                           </a>
-
-
-
-
-
                           <div class="social-icons"
                             data-permalink="https://rt-material.myshopify.com/products/vesquam-ante-aliquet">
                             <ul class="list-inline">
@@ -5085,9 +3560,6 @@
                                   <span class="social-icon"><i class="fa fa-facebook"></i></span>
                                 </a>
                               </li>
-
-
-
                               <li>
                                 <a target="_blank"
                                   href="https://twitter.com/share?url=https://rt-material.myshopify.com/products/vesquam-ante-aliquet&amp;text=Vesquam&#32;ante&#32;aliquet"
@@ -5121,31 +3593,16 @@
                                 Vesquam ante aliquet
                               </a>
                             </div>
-
-
                             <div class="isreview">
                               <span class="shopify-product-reviews-badge" data-id="982567427"></span>
                             </div>
-
-
-                            <div class="price-val product-price">
-
-
-                              <span class="price"><span class='money'>$100.00</span></span>
-
-
-
+                            <div class="price-val product-price"> <span class="price"><span
+                                  class='money'>$100.00</span></span>
 
                             </div>
                             <div class="swatch color clearfix" data-option-index="0">
-                              <div>
-
-
-                              </div>
+                              <div> </div>
                             </div>
-
-
-
                             <div class="product-desc">
                               At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
                               voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
@@ -5153,12 +3610,7 @@
                               est laborum et dolorum fuga. Sample Unordered List Comodous in tempor ullamcorper...
                             </div>
                           </div>
-                          <div class="product-action">
-
-
-                            <span class="line"></span>
-
-
+                          <div class="product-action"> <span class="line"></span>
                             <form action="https://rt-material.myshopify.com/cart/add" method="post"
                               enctype="multipart/form-data">
                               <input type="hidden" name="quantity" value="1" />
@@ -5170,9 +3622,6 @@
 
                               </select>
                             </form>
-
-
-
                             <a href="javascript:;" class="quick-shop"><i class="zmdi zmdi-eye"></i> Quick look</a>
 
                           </div>
@@ -5186,19 +3635,19 @@
     <div class="row">
       <div class="product-gallery col-sm-6">
         <div class="thumbnails">
-          
+
           <a class="thumbnail" href="cdn/shop/products/8.1.jpg@v=1434218559" data-src="//rt-material.myshopify.com/cdn/shop/products/8.1_grande.jpg?v=1434218559">
             <img src="cdn/shop/products/8.1_small.jpg@v=1434218559" title="" />
           </a>
-          
+
           <a class="thumbnail" href="cdn/shop/products/8.2.jpg@v=1434218560" data-src="//rt-material.myshopify.com/cdn/shop/products/8.2_grande.jpg?v=1434218560">
             <img src="cdn/shop/products/8.2_small.jpg@v=1434218560" title="" />
           </a>
-          
+
           <a class="thumbnail" href="cdn/shop/products/8.3.jpg@v=1434218561" data-src="//rt-material.myshopify.com/cdn/shop/products/8.3_grande.jpg?v=1434218561">
             <img src="cdn/shop/products/8.3_small.jpg@v=1434218561" title="" />
           </a>
-          
+
         </div>
         <div class="main">
           <div class="main-img-link" href="//rt-material.myshopify.com/cdn/shop/products/8.1.jpg?v=1434218559" title="Vesquam ante aliquet">
@@ -5214,40 +3663,31 @@
 
           <div class="product-title">
             <a href="collections/sale/products/vesquam-ante-aliquet.html">Vesquam ante aliquet</a>
-            
+
             <div id="sku">SKU: <span></span></div>
-            
+
           </div>
 
           <div id="price" class="product-price">
-            
+
             <div class="price"><span class='money'>$100.00</span></div>
           </div>
 
           <div class="sharing-btn">
-            <span>Shares:</span>
-            
-
-
-
-
-<div class="social-icons" data-permalink="https://rt-material.myshopify.com/products/vesquam-ante-aliquet">
+            <span>Shares:</span><div class="social-icons" data-permalink="https://rt-material.myshopify.com/products/vesquam-ante-aliquet">
   <ul class="list-inline">
-    
+
     <li>
       <a target="_blank" href="https://www.facebook.com/sharer.php?u=https://rt-material.myshopify.com/products/vesquam-ante-aliquet" class="social-wrapper">
         <span class="social-icon"><i class="fa fa-facebook"></i></span>
       </a>
     </li>
-    
-
-    
     <li>
       <a target="_blank" href="https://twitter.com/share?url=https://rt-material.myshopify.com/products/vesquam-ante-aliquet&amp;text=Vesquam&#32;ante&#32;aliquet" class="social-wrapper">
         <span class="social-icon"><i class="fa fa-twitter"></i></span>
       </a>
     </li>
-    
+
   </ul>
 </div>
 
@@ -5255,34 +3695,25 @@
         </div>
 
         <div class="section border-bottom">
-        
+
         <form class="product-form" id="product-form" action="https://rt-material.myshopify.com/cart/add" method="post" enctype="multipart/form-data" data-product-id="982567427">
           <div id="product-variants">
-            <select id="product-select" name="id" style="display: none;">
-              
-              
-              <option  selected="selected"  value="2787667331">Default Title - <span class='money'>$100.00 USD</span></option>
-              
-              
-            </select>
+            <select id="product-select" name="id" style="display: none;">              <option  selected="selected"  value="2787667331">Default Title - <span class='money'>$100.00 USD</span></option>            </select>
           </div>
 
           <div class="quantity">
-            <div class="group-input">      
+            <div class="group-input">
               <input type="number" title="Quantity" step="1" min="1" size="4" id="quantity" name="quantity" value="1" />
               <span class="bar"></span>
             </div>
             <button type="submit" class="btn btn-1 ripple add-to-cart" name="add" id="add" data-addtocart="Buy now" data-unavailable="Product unavailable" data-soldout="Out of stock">Buy now</button>
           </div>
         </form>
-        
-        <div class="product-wishlist wishlist-982567427"></div>
-        
 
-        <div id="backorder" class="hidden">
+        <div class="product-wishlist wishlist-982567427"></div>        <div id="backorder" class="hidden">
           <span id="selected-variant"></span> is backordered. We will ship it separately in 10 to 15 days.
         </div>
-        
+
         </div>
 
         <div class="description">
@@ -5297,9 +3728,6 @@
                 </div>
 
                 <div class="product_item animated">
-
-
-
                   <div class="product style2">
                     <div class="product-container">
                       <div class="product-buttons">
@@ -5312,17 +3740,10 @@
                                 to wishlist</span></a>
                           </div>
                         </div>
-
-
                         <div class="sharing-ctl">
                           <a href="javascript:void(0);">
                             <i class="zmdi zmdi-share"></i>
                           </a>
-
-
-
-
-
                           <div class="social-icons"
                             data-permalink="https://rt-material.myshopify.com/products/vestibulum-sit-amet">
                             <ul class="list-inline">
@@ -5334,9 +3755,6 @@
                                   <span class="social-icon"><i class="fa fa-facebook"></i></span>
                                 </a>
                               </li>
-
-
-
                               <li>
                                 <a target="_blank"
                                   href="https://twitter.com/share?url=https://rt-material.myshopify.com/products/vestibulum-sit-amet&amp;text=Vestibulum&#32;sit&#32;amet"
@@ -5369,31 +3787,16 @@
                                 Vestibulum sit amet
                               </a>
                             </div>
-
-
                             <div class="isreview">
                               <span class="shopify-product-reviews-badge" data-id="982595651"></span>
                             </div>
-
-
-                            <div class="price-val product-price">
-
-
-                              <span class="price"><span class='money'>$100.00</span></span>
-
-
-
+                            <div class="price-val product-price"> <span class="price"><span
+                                  class='money'>$100.00</span></span>
 
                             </div>
                             <div class="swatch color clearfix" data-option-index="0">
-                              <div>
-
-
-                              </div>
+                              <div> </div>
                             </div>
-
-
-
                             <div class="product-desc">
                               At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
                               voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
@@ -5401,12 +3804,7 @@
                               est laborum et dolorum fuga. Sample Unordered List Comodous in tempor ullamcorper...
                             </div>
                           </div>
-                          <div class="product-action">
-
-
-                            <span class="line"></span>
-
-
+                          <div class="product-action"> <span class="line"></span>
                             <form action="https://rt-material.myshopify.com/cart/add" method="post"
                               enctype="multipart/form-data">
                               <input type="hidden" name="quantity" value="1" />
@@ -5418,9 +3816,6 @@
 
                               </select>
                             </form>
-
-
-
                             <a href="javascript:;" class="quick-shop"><i class="zmdi zmdi-eye"></i> Quick look</a>
 
                           </div>
@@ -5434,19 +3829,19 @@
     <div class="row">
       <div class="product-gallery col-sm-6">
         <div class="thumbnails">
-          
+
           <a class="thumbnail" href="cdn/shop/products/9.1.jpg@v=1434218712" data-src="//rt-material.myshopify.com/cdn/shop/products/9.1_grande.jpg?v=1434218712">
             <img src="cdn/shop/products/9.1_small.jpg@v=1434218712" title="" />
           </a>
-          
+
           <a class="thumbnail" href="cdn/shop/products/9.2.jpg@v=1434218712" data-src="//rt-material.myshopify.com/cdn/shop/products/9.2_grande.jpg?v=1434218712">
             <img src="cdn/shop/products/9.2_small.jpg@v=1434218712" title="" />
           </a>
-          
+
           <a class="thumbnail" href="cdn/shop/products/9.3.jpg@v=1434218713" data-src="//rt-material.myshopify.com/cdn/shop/products/9.3_grande.jpg?v=1434218713">
             <img src="cdn/shop/products/9.3_small.jpg@v=1434218713" title="" />
           </a>
-          
+
         </div>
         <div class="main">
           <div class="main-img-link" href="//rt-material.myshopify.com/cdn/shop/products/9.1.jpg?v=1434218712" title="Vestibulum sit amet">
@@ -5462,40 +3857,31 @@
 
           <div class="product-title">
             <a href="collections/sale/products/vestibulum-sit-amet.html">Vestibulum sit amet</a>
-            
+
             <div id="sku">SKU: <span></span></div>
-            
+
           </div>
 
           <div id="price" class="product-price">
-            
+
             <div class="price"><span class='money'>$100.00</span></div>
           </div>
 
           <div class="sharing-btn">
-            <span>Shares:</span>
-            
-
-
-
-
-<div class="social-icons" data-permalink="https://rt-material.myshopify.com/products/vestibulum-sit-amet">
+            <span>Shares:</span><div class="social-icons" data-permalink="https://rt-material.myshopify.com/products/vestibulum-sit-amet">
   <ul class="list-inline">
-    
+
     <li>
       <a target="_blank" href="https://www.facebook.com/sharer.php?u=https://rt-material.myshopify.com/products/vestibulum-sit-amet" class="social-wrapper">
         <span class="social-icon"><i class="fa fa-facebook"></i></span>
       </a>
     </li>
-    
-
-    
     <li>
       <a target="_blank" href="https://twitter.com/share?url=https://rt-material.myshopify.com/products/vestibulum-sit-amet&amp;text=Vestibulum&#32;sit&#32;amet" class="social-wrapper">
         <span class="social-icon"><i class="fa fa-twitter"></i></span>
       </a>
     </li>
-    
+
   </ul>
 </div>
 
@@ -5503,34 +3889,25 @@
         </div>
 
         <div class="section border-bottom">
-        
+
         <form class="product-form" id="product-form" action="https://rt-material.myshopify.com/cart/add" method="post" enctype="multipart/form-data" data-product-id="982595651">
           <div id="product-variants">
-            <select id="product-select" name="id" style="display: none;">
-              
-              
-              <option  selected="selected"  value="2787760515">Default Title - <span class='money'>$100.00 USD</span></option>
-              
-              
-            </select>
+            <select id="product-select" name="id" style="display: none;">              <option  selected="selected"  value="2787760515">Default Title - <span class='money'>$100.00 USD</span></option>            </select>
           </div>
 
           <div class="quantity">
-            <div class="group-input">      
+            <div class="group-input">
               <input type="number" title="Quantity" step="1" min="1" size="4" id="quantity" name="quantity" value="1" />
               <span class="bar"></span>
             </div>
             <button type="submit" class="btn btn-1 ripple add-to-cart" name="add" id="add" data-addtocart="Buy now" data-unavailable="Product unavailable" data-soldout="Out of stock">Buy now</button>
           </div>
         </form>
-        
-        <div class="product-wishlist wishlist-982595651"></div>
-        
 
-        <div id="backorder" class="hidden">
+        <div class="product-wishlist wishlist-982595651"></div>        <div id="backorder" class="hidden">
           <span id="selected-variant"></span> is backordered. We will ship it separately in 10 to 15 days.
         </div>
-        
+
         </div>
 
         <div class="description">
@@ -5545,9 +3922,6 @@
                 </div>
 
                 <div class="product_item animated">
-
-
-
                   <div class="product style2">
                     <div class="product-container">
                       <div class="product-buttons">
@@ -5560,17 +3934,10 @@
                                 to wishlist</span></a>
                           </div>
                         </div>
-
-
                         <div class="sharing-ctl">
                           <a href="javascript:void(0);">
                             <i class="zmdi zmdi-share"></i>
                           </a>
-
-
-
-
-
                           <div class="social-icons"
                             data-permalink="https://rt-material.myshopify.com/products/accusamus-et-iusto">
                             <ul class="list-inline">
@@ -5582,9 +3949,6 @@
                                   <span class="social-icon"><i class="fa fa-facebook"></i></span>
                                 </a>
                               </li>
-
-
-
                               <li>
                                 <a target="_blank"
                                   href="https://twitter.com/share?url=https://rt-material.myshopify.com/products/accusamus-et-iusto&amp;text=Accusamus&#32;et&#32;iusto"
@@ -5617,30 +3981,15 @@
                                 Accusamus et iusto
                               </a>
                             </div>
-
-
                             <div class="isreview">
                               <span class="shopify-product-reviews-badge" data-id="870277507"></span>
                             </div>
-
-
-                            <div class="price-val product-price">
-
-
-                              <span class="price"><span class='money'>$150.00</span></span>
-
-
-
+                            <div class="price-val product-price"> <span class="price"><span
+                                  class='money'>$150.00</span></span>
 
                             </div>
                             <div class="swatch color clearfix" data-option-index="0">
                               <div>
-
-
-
-
-
-
 
                                 <div data-value=" Red
           " class="swatch-element colorsilver available ">
@@ -5655,11 +4004,6 @@
                                     </i>
                                   </label>
                                 </div>
-
-
-
-
-
                                 <div data-value=" Teal
           " class="swatch-element colorsilver available ">
                                   <div class="tooltip"> Teal
@@ -5673,17 +4017,8 @@
                                     </i>
                                   </label>
                                 </div>
-
-
-
-
-
-
                               </div>
                             </div>
-
-
-
                             <div class="product-desc">
                               At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
                               voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
@@ -5691,17 +4026,9 @@
                               est laborum et dolorum fuga. Sample Unordered List Comodous in tempor ullamcorper...
                             </div>
                           </div>
-                          <div class="product-action">
-
-
-                            <span class="line"></span>
-
-
-                            <a href="collections/sale/products/accusamus-et-iusto.html"
+                          <div class="product-action"> <span class="line"></span> <a
+                              href="collections/sale/products/accusamus-et-iusto.html"
                               class="choose-options btn-cart"><i class="zmdi zmdi-format-list-bulleted"></i> Options</a>
-
-
-
                             <a href="javascript:;" class="quick-shop"><i class="zmdi zmdi-eye"></i> Quick look</a>
 
                           </div>
@@ -5715,23 +4042,23 @@
     <div class="row">
       <div class="product-gallery col-sm-6">
         <div class="thumbnails">
-          
+
           <a class="thumbnail" href="cdn/shop/products/1.1.jpg@v=1519555416" data-src="//rt-material.myshopify.com/cdn/shop/products/1.1_grande.jpg?v=1519555416">
             <img src="cdn/shop/products/1.1_small.jpg@v=1519555416" title="" />
           </a>
-          
+
           <a class="thumbnail" href="cdn/shop/products/1.2.jpg@v=1519555416" data-src="//rt-material.myshopify.com/cdn/shop/products/1.2_grande.jpg?v=1519555416">
             <img src="cdn/shop/products/1.2_small.jpg@v=1519555416" title="" />
           </a>
-          
+
           <a class="thumbnail" href="cdn/shop/products/1.3.jpg@v=1519555416" data-src="//rt-material.myshopify.com/cdn/shop/products/1.3_grande.jpg?v=1519555416">
             <img src="cdn/shop/products/1.3_small.jpg@v=1519555416" title="" />
           </a>
-          
+
           <a class="thumbnail" href="cdn/shop/products/teal.png@v=1519555416" data-src="//rt-material.myshopify.com/cdn/shop/products/teal_grande.png?v=1519555416">
             <img src="cdn/shop/products/teal_small.png@v=1519555416" title="" />
           </a>
-          
+
         </div>
         <div class="main">
           <div class="main-img-link" href="//rt-material.myshopify.com/cdn/shop/products/1.1.jpg?v=1519555416" title="Accusamus et iusto">
@@ -5747,40 +4074,31 @@
 
           <div class="product-title">
             <a href="collections/sale/products/accusamus-et-iusto.html">Accusamus et iusto</a>
-            
+
             <div id="sku">SKU: <span>464200</span></div>
-            
+
           </div>
 
           <div id="price" class="product-price">
-            
+
             <div class="price"><span class='money'>$150.00</span></div>
           </div>
 
           <div class="sharing-btn">
-            <span>Shares:</span>
-            
-
-
-
-
-<div class="social-icons" data-permalink="https://rt-material.myshopify.com/products/accusamus-et-iusto">
+            <span>Shares:</span><div class="social-icons" data-permalink="https://rt-material.myshopify.com/products/accusamus-et-iusto">
   <ul class="list-inline">
-    
+
     <li>
       <a target="_blank" href="https://www.facebook.com/sharer.php?u=https://rt-material.myshopify.com/products/accusamus-et-iusto" class="social-wrapper">
         <span class="social-icon"><i class="fa fa-facebook"></i></span>
       </a>
     </li>
-    
-
-    
     <li>
       <a target="_blank" href="https://twitter.com/share?url=https://rt-material.myshopify.com/products/accusamus-et-iusto&amp;text=Accusamus&#32;et&#32;iusto" class="social-wrapper">
         <span class="social-icon"><i class="fa fa-twitter"></i></span>
       </a>
     </li>
-    
+
   </ul>
 </div>
 
@@ -5788,38 +4106,26 @@
         </div>
 
         <div class="section border-bottom">
-        
+
         <form class="product-form" id="product-form" action="https://rt-material.myshopify.com/cart/add" method="post" enctype="multipart/form-data" data-product-id="870277507">
           <div id="product-variants">
-            <select id="product-select" name="id" style="display: none;">
-              
-              
-              <option  selected="selected"  value="2415074115">Red / M - <span class='money'>$150.00 USD</span></option>
-              
-              
-              
-              <option  value="2415074243">Teal / L - <span class='money'>$200.00 USD</span></option>
-              
-              
-            </select>
+            <select id="product-select" name="id" style="display: none;">              <option  selected="selected"  value="2415074115">Red / M - <span class='money'>$150.00 USD</span></option>
+              <option  value="2415074243">Teal / L - <span class='money'>$200.00 USD</span></option>            </select>
           </div>
 
           <div class="quantity">
-            <div class="group-input">      
+            <div class="group-input">
               <input type="number" title="Quantity" step="1" min="1" size="4" id="quantity" name="quantity" value="1" />
               <span class="bar"></span>
             </div>
             <button type="submit" class="btn btn-1 ripple add-to-cart" name="add" id="add" data-addtocart="Buy now" data-unavailable="Product unavailable" data-soldout="Out of stock">Buy now</button>
           </div>
         </form>
-        
-        <div class="product-wishlist wishlist-870277507"></div>
-        
 
-        <div id="backorder" class="hidden">
+        <div class="product-wishlist wishlist-870277507"></div>        <div id="backorder" class="hidden">
           <span id="selected-variant"></span> is backordered. We will ship it separately in 10 to 15 days.
         </div>
-        
+
         </div>
 
         <div class="description">
@@ -5834,9 +4140,6 @@
                 </div>
 
                 <div class="product_item animated">
-
-
-
                   <div class="product style2">
                     <div class="product-container">
                       <div class="product-buttons">
@@ -5849,17 +4152,10 @@
                                 to wishlist</span></a>
                           </div>
                         </div>
-
-
                         <div class="sharing-ctl">
                           <a href="javascript:void(0);">
                             <i class="zmdi zmdi-share"></i>
                           </a>
-
-
-
-
-
                           <div class="social-icons"
                             data-permalink="https://rt-material.myshopify.com/products/et-harum-quidem">
                             <ul class="list-inline">
@@ -5871,9 +4167,6 @@
                                   <span class="social-icon"><i class="fa fa-facebook"></i></span>
                                 </a>
                               </li>
-
-
-
                               <li>
                                 <a target="_blank"
                                   href="https://twitter.com/share?url=https://rt-material.myshopify.com/products/et-harum-quidem&amp;text=Et&#32;harum&#32;quidem"
@@ -5906,30 +4199,15 @@
                                 Et harum quidem
                               </a>
                             </div>
-
-
                             <div class="isreview">
                               <span class="shopify-product-reviews-badge" data-id="870278403"></span>
                             </div>
-
-
-                            <div class="price-val product-price">
-
-
-                              <span class="price"><span class='money'>$150.00</span></span>
-
-
-
+                            <div class="price-val product-price"> <span class="price"><span
+                                  class='money'>$150.00</span></span>
 
                             </div>
                             <div class="swatch color clearfix" data-option-index="0">
                               <div>
-
-
-
-
-
-
 
                                 <div data-value=" Black
           " class="swatch-element colorsilver available ">
@@ -5944,16 +4222,8 @@
                                     </i>
                                   </label>
                                 </div>
-
-
-
-
-
                               </div>
                             </div>
-
-
-
                             <div class="product-desc">
                               At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
                               voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
@@ -5961,12 +4231,7 @@
                               est laborum et dolorum fuga. Sample Unordered List Comodous in tempor ullamcorper...
                             </div>
                           </div>
-                          <div class="product-action">
-
-
-                            <span class="line"></span>
-
-
+                          <div class="product-action"> <span class="line"></span>
                             <form action="https://rt-material.myshopify.com/cart/add" method="post"
                               enctype="multipart/form-data">
                               <input type="hidden" name="quantity" value="1" />
@@ -5978,9 +4243,6 @@
 
                               </select>
                             </form>
-
-
-
                             <a href="javascript:;" class="quick-shop"><i class="zmdi zmdi-eye"></i> Quick look</a>
 
                           </div>
@@ -5994,19 +4256,19 @@
     <div class="row">
       <div class="product-gallery col-sm-6">
         <div class="thumbnails">
-          
+
           <a class="thumbnail" href="cdn/shop/products/19.1.jpg@v=1434217735" data-src="//rt-material.myshopify.com/cdn/shop/products/19.1_grande.jpg?v=1434217735">
             <img src="cdn/shop/products/19.1_small.jpg@v=1434217735" title="" />
           </a>
-          
+
           <a class="thumbnail" href="cdn/shop/products/19.2.jpg@v=1434217735" data-src="//rt-material.myshopify.com/cdn/shop/products/19.2_grande.jpg?v=1434217735">
             <img src="cdn/shop/products/19.2_small.jpg@v=1434217735" title="" />
           </a>
-          
+
           <a class="thumbnail" href="cdn/shop/products/19.3.jpg@v=1434217736" data-src="//rt-material.myshopify.com/cdn/shop/products/19.3_grande.jpg?v=1434217736">
             <img src="cdn/shop/products/19.3_small.jpg@v=1434217736" title="" />
           </a>
-          
+
         </div>
         <div class="main">
           <div class="main-img-link" href="//rt-material.myshopify.com/cdn/shop/products/19.1.jpg?v=1434217735" title="Et harum quidem">
@@ -6022,34 +4284,25 @@
 
           <div class="product-title">
             <a href="collections/sale/products/et-harum-quidem.html">Et harum quidem</a>
-            
+
             <div id="sku">SKU: <span>464107</span></div>
-            
+
           </div>
 
           <div id="price" class="product-price">
-            
+
             <div class="price"><span class='money'>$150.00</span></div>
           </div>
 
           <div class="sharing-btn">
-            <span>Shares:</span>
-            
-
-
-
-
-<div class="social-icons" data-permalink="https://rt-material.myshopify.com/products/et-harum-quidem">
+            <span>Shares:</span><div class="social-icons" data-permalink="https://rt-material.myshopify.com/products/et-harum-quidem">
   <ul class="list-inline">
-    
+
     <li>
       <a target="_blank" href="https://www.facebook.com/sharer.php?u=https://rt-material.myshopify.com/products/et-harum-quidem" class="social-wrapper">
         <span class="social-icon"><i class="fa fa-facebook"></i></span>
       </a>
     </li>
-    
-
-    
     <li>
       <a target="_blank" href="https://twitter.com/share?url=https://rt-material.myshopify.com/products/et-harum-quidem&amp;text=Et&#32;harum&#32;quidem" class="social-wrapper">
         <span class="social-icon"><i class="fa fa-twitter"></i></span>
@@ -6062,34 +4315,25 @@
         </div>
 
         <div class="section border-bottom">
-        
+
         <form class="product-form" id="product-form" action="https://rt-material.myshopify.com/cart/add" method="post" enctype="multipart/form-data" data-product-id="870278403">
           <div id="product-variants">
-            <select id="product-select" name="id" style="display: none;">
-              
-              
-              <option  selected="selected"  value="2415075587">Black - <span class='money'>$150.00 USD</span></option>
-              
-              
-            </select>
+            <select id="product-select" name="id" style="display: none;">              <option  selected="selected"  value="2415075587">Black - <span class='money'>$150.00 USD</span></option>            </select>
           </div>
 
           <div class="quantity">
-            <div class="group-input">      
+            <div class="group-input">
               <input type="number" title="Quantity" step="1" min="1" size="4" id="quantity" name="quantity" value="1" />
               <span class="bar"></span>
             </div>
             <button type="submit" class="btn btn-1 ripple add-to-cart" name="add" id="add" data-addtocart="Buy now" data-unavailable="Product unavailable" data-soldout="Out of stock">Buy now</button>
           </div>
         </form>
-        
-        <div class="product-wishlist wishlist-870278403"></div>
-        
 
-        <div id="backorder" class="hidden">
+        <div class="product-wishlist wishlist-870278403"></div>        <div id="backorder" class="hidden">
           <span id="selected-variant"></span> is backordered. We will ship it separately in 10 to 15 days.
         </div>
-        
+
         </div>
 
         <div class="description">
@@ -6104,9 +4348,6 @@
                 </div>
 
                 <div class="product_item animated">
-
-
-
                   <div class="product style2">
                     <div class="product-container">
                       <div class="product-buttons">
@@ -6119,17 +4360,10 @@
                                 to wishlist</span></a>
                           </div>
                         </div>
-
-
                         <div class="sharing-ctl">
                           <a href="javascript:void(0);">
                             <i class="zmdi zmdi-share"></i>
                           </a>
-
-
-
-
-
                           <div class="social-icons"
                             data-permalink="https://rt-material.myshopify.com/products/product-for-version-1-5">
                             <ul class="list-inline">
@@ -6141,9 +4375,6 @@
                                   <span class="social-icon"><i class="fa fa-facebook"></i></span>
                                 </a>
                               </li>
-
-
-
                               <li>
                                 <a target="_blank"
                                   href="https://twitter.com/share?url=https://rt-material.myshopify.com/products/product-for-version-1-5&amp;text=Testing&#32;Product&#32;For&#32;version&#32;1.5"
@@ -6178,30 +4409,15 @@
                                 Testing Product For version 1.5
                               </a>
                             </div>
-
-
                             <div class="isreview">
                               <span class="shopify-product-reviews-badge" data-id="10635150805"></span>
                             </div>
-
-
-                            <div class="price-val product-price">
-
-
-                              <span class="price"><span class='money'>$150.00</span></span>
-
-
-
+                            <div class="price-val product-price"> <span class="price"><span
+                                  class='money'>$150.00</span></span>
 
                             </div>
                             <div class="swatch color clearfix" data-option-index="0">
                               <div>
-
-
-
-
-
-
 
                                 <div data-value=" Red
           " class="swatch-element colorsilver available ">
@@ -6216,11 +4432,6 @@
                                     </i>
                                   </label>
                                 </div>
-
-
-
-
-
                                 <div data-value=" Black
           " class="swatch-element colorsilver available ">
                                   <div class="tooltip"> Black
@@ -6234,17 +4445,8 @@
                                     </i>
                                   </label>
                                 </div>
-
-
-
-
-
-
                               </div>
                             </div>
-
-
-
                             <div class="product-desc">
                               At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
                               voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
@@ -6252,17 +4454,9 @@
                               est laborum et dolorum fuga. Sample Unordered List Comodous in tempor ullamcorper...
                             </div>
                           </div>
-                          <div class="product-action">
-
-
-                            <span class="line"></span>
-
-
-                            <a href="collections/sale/products/product-for-version-1-5.html"
+                          <div class="product-action"> <span class="line"></span> <a
+                              href="collections/sale/products/product-for-version-1-5.html"
                               class="choose-options btn-cart"><i class="zmdi zmdi-format-list-bulleted"></i> Options</a>
-
-
-
                             <a href="javascript:;" class="quick-shop"><i class="zmdi zmdi-eye"></i> Quick look</a>
 
                           </div>
@@ -6276,51 +4470,51 @@
     <div class="row">
       <div class="product-gallery col-sm-6">
         <div class="thumbnails">
-          
+
           <a class="thumbnail" href="cdn/shop/products/1.1_ce4cce69-8e02-4c9e-ad7e-66126adc52aa.jpg@v=1496124575" data-src="//rt-material.myshopify.com/cdn/shop/products/1.1_ce4cce69-8e02-4c9e-ad7e-66126adc52aa_grande.jpg?v=1496124575">
             <img src="cdn/shop/products/1.1_ce4cce69-8e02-4c9e-ad7e-66126adc52aa_small.jpg@v=1496124575" title="" />
           </a>
-          
+
           <a class="thumbnail" href="cdn/shop/products/1.2_c2c2e298-575f-4629-b8ed-a7723b7100c2.jpg@v=1496124575" data-src="//rt-material.myshopify.com/cdn/shop/products/1.2_c2c2e298-575f-4629-b8ed-a7723b7100c2_grande.jpg?v=1496124575">
             <img src="cdn/shop/products/1.2_c2c2e298-575f-4629-b8ed-a7723b7100c2_small.jpg@v=1496124575" title="" />
           </a>
-          
+
           <a class="thumbnail" href="cdn/shop/products/1.3_508d4b91-39ed-4223-99c1-e8b397d68c94.jpg@v=1496124575" data-src="//rt-material.myshopify.com/cdn/shop/products/1.3_508d4b91-39ed-4223-99c1-e8b397d68c94_grande.jpg?v=1496124575">
             <img src="cdn/shop/products/1.3_508d4b91-39ed-4223-99c1-e8b397d68c94_small.jpg@v=1496124575" title="" />
           </a>
-          
+
           <a class="thumbnail" href="cdn/shop/products/7.1_1024x1024_df6872e6-b356-49f3-880c-6348f54c6fec.jpg@v=1496124591" data-src="//rt-material.myshopify.com/cdn/shop/products/7.1_1024x1024_df6872e6-b356-49f3-880c-6348f54c6fec_grande.jpg?v=1496124591">
             <img src="cdn/shop/products/7.1_1024x1024_df6872e6-b356-49f3-880c-6348f54c6fec_small.jpg@v=1496124591" title="" />
           </a>
-          
+
           <a class="thumbnail" href="cdn/shop/products/7.2_1024x1024_86ace3af-d3d8-4059-9b1d-5caa0f2072e5.jpg@v=1496124594" data-src="//rt-material.myshopify.com/cdn/shop/products/7.2_1024x1024_86ace3af-d3d8-4059-9b1d-5caa0f2072e5_grande.jpg?v=1496124594">
             <img src="cdn/shop/products/7.2_1024x1024_86ace3af-d3d8-4059-9b1d-5caa0f2072e5_small.jpg@v=1496124594" title="" />
           </a>
-          
+
           <a class="thumbnail" href="cdn/shop/products/7.3_1024x1024_032ae867-92e9-4f50-87d6-1f3b2cdba927.jpg@v=1496124597" data-src="//rt-material.myshopify.com/cdn/shop/products/7.3_1024x1024_032ae867-92e9-4f50-87d6-1f3b2cdba927_grande.jpg?v=1496124597">
             <img src="cdn/shop/products/7.3_1024x1024_032ae867-92e9-4f50-87d6-1f3b2cdba927_small.jpg@v=1496124597" title="" />
           </a>
-          
+
           <a class="thumbnail" href="cdn/shop/products/8.1_1024x1024_-_Copy.jpg@v=1496124601" data-src="//rt-material.myshopify.com/cdn/shop/products/8.1_1024x1024_-_Copy_grande.jpg?v=1496124601">
             <img src="cdn/shop/products/8.1_1024x1024_-_Copy_small.jpg@v=1496124601" title="" />
           </a>
-          
+
           <a class="thumbnail" href="cdn/shop/products/8.1_1024x1024_8eb76048-8b7a-4ac4-8a3d-f170318cd9c3.jpg@v=1496124606" data-src="//rt-material.myshopify.com/cdn/shop/products/8.1_1024x1024_8eb76048-8b7a-4ac4-8a3d-f170318cd9c3_grande.jpg?v=1496124606">
             <img src="cdn/shop/products/8.1_1024x1024_8eb76048-8b7a-4ac4-8a3d-f170318cd9c3_small.jpg@v=1496124606" title="" />
           </a>
-          
+
           <a class="thumbnail" href="cdn/shop/products/8.2_1024x1024_-_Copy.jpg@v=1496124612" data-src="//rt-material.myshopify.com/cdn/shop/products/8.2_1024x1024_-_Copy_grande.jpg?v=1496124612">
             <img src="cdn/shop/products/8.2_1024x1024_-_Copy_small.jpg@v=1496124612" title="" />
           </a>
-          
+
           <a class="thumbnail" href="cdn/shop/products/8.2_1024x1024_e62b3ffd-f02f-4d58-935b-2745805a37e6.jpg@v=1496124651" data-src="//rt-material.myshopify.com/cdn/shop/products/8.2_1024x1024_e62b3ffd-f02f-4d58-935b-2745805a37e6_grande.jpg?v=1496124651">
             <img src="cdn/shop/products/8.2_1024x1024_e62b3ffd-f02f-4d58-935b-2745805a37e6_small.jpg@v=1496124651" title="" />
           </a>
-          
+
           <a class="thumbnail" href="cdn/shop/products/8.3_1024x1024_53af7246-472c-4a88-b07c-5a9901ee70a0.jpg@v=1496124661" data-src="//rt-material.myshopify.com/cdn/shop/products/8.3_1024x1024_53af7246-472c-4a88-b07c-5a9901ee70a0_grande.jpg?v=1496124661">
             <img src="cdn/shop/products/8.3_1024x1024_53af7246-472c-4a88-b07c-5a9901ee70a0_small.jpg@v=1496124661" title="" />
           </a>
-          
+
         </div>
         <div class="main">
           <div class="main-img-link" href="//rt-material.myshopify.com/cdn/shop/products/1.1_ce4cce69-8e02-4c9e-ad7e-66126adc52aa.jpg?v=1496124575" title="Testing Product For version 1.5">
@@ -6336,40 +4530,31 @@
 
           <div class="product-title">
             <a href="collections/sale/products/product-for-version-1-5.html">Testing Product For version 1.5</a>
-            
+
             <div id="sku">SKU: <span>464200</span></div>
-            
+
           </div>
 
           <div id="price" class="product-price">
-            
+
             <div class="price"><span class='money'>$150.00</span></div>
           </div>
 
           <div class="sharing-btn">
-            <span>Shares:</span>
-            
-
-
-
-
-<div class="social-icons" data-permalink="https://rt-material.myshopify.com/products/product-for-version-1-5">
+            <span>Shares:</span><div class="social-icons" data-permalink="https://rt-material.myshopify.com/products/product-for-version-1-5">
   <ul class="list-inline">
-    
+
     <li>
       <a target="_blank" href="https://www.facebook.com/sharer.php?u=https://rt-material.myshopify.com/products/product-for-version-1-5" class="social-wrapper">
         <span class="social-icon"><i class="fa fa-facebook"></i></span>
       </a>
     </li>
-    
-
-    
     <li>
       <a target="_blank" href="https://twitter.com/share?url=https://rt-material.myshopify.com/products/product-for-version-1-5&amp;text=Testing&#32;Product&#32;For&#32;version&#32;1.5" class="social-wrapper">
         <span class="social-icon"><i class="fa fa-twitter"></i></span>
       </a>
     </li>
-        
+
   </ul>
 </div>
 
@@ -6377,38 +4562,26 @@
         </div>
 
         <div class="section border-bottom">
-        
+
         <form class="product-form" id="product-form" action="https://rt-material.myshopify.com/cart/add" method="post" enctype="multipart/form-data" data-product-id="10635150805">
           <div id="product-variants">
-            <select id="product-select" name="id" style="display: none;">
-              
-              
-              <option  selected="selected"  value="43614497621">Red / M - <span class='money'>$150.00 USD</span></option>
-              
-              
-              
-              <option  value="43614497685">Black / L - <span class='money'>$200.00 USD</span></option>
-              
-              
-            </select>
+            <select id="product-select" name="id" style="display: none;">              <option  selected="selected"  value="43614497621">Red / M - <span class='money'>$150.00 USD</span></option>
+              <option  value="43614497685">Black / L - <span class='money'>$200.00 USD</span></option>            </select>
           </div>
 
           <div class="quantity">
-            <div class="group-input">      
+            <div class="group-input">
               <input type="number" title="Quantity" step="1" min="1" size="4" id="quantity" name="quantity" value="1" />
               <span class="bar"></span>
             </div>
             <button type="submit" class="btn btn-1 ripple add-to-cart" name="add" id="add" data-addtocart="Buy now" data-unavailable="Product unavailable" data-soldout="Out of stock">Buy now</button>
           </div>
         </form>
-        
-        <div class="product-wishlist wishlist-10635150805"></div>
-        
 
-        <div id="backorder" class="hidden">
+        <div class="product-wishlist wishlist-10635150805"></div>        <div id="backorder" class="hidden">
           <span id="selected-variant"></span> is backordered. We will ship it separately in 10 to 15 days.
         </div>
-        
+
         </div>
 
         <div class="description">
@@ -6423,9 +4596,6 @@
                 </div>
 
                 <div class="product_item animated">
-
-
-
                   <div class="product style2">
                     <div class="product-container">
                       <div class="product-buttons">
@@ -6438,17 +4608,10 @@
                                 to wishlist</span></a>
                           </div>
                         </div>
-
-
                         <div class="sharing-ctl">
                           <a href="javascript:void(0);">
                             <i class="zmdi zmdi-share"></i>
                           </a>
-
-
-
-
-
                           <div class="social-icons"
                             data-permalink="https://rt-material.myshopify.com/products/expedita-distinctio">
                             <ul class="list-inline">
@@ -6460,9 +4623,6 @@
                                   <span class="social-icon"><i class="fa fa-facebook"></i></span>
                                 </a>
                               </li>
-
-
-
                               <li>
                                 <a target="_blank"
                                   href="https://twitter.com/share?url=https://rt-material.myshopify.com/products/expedita-distinctio&amp;text=Expedita&#32;distinctio"
@@ -6501,33 +4661,16 @@
                                 Expedita distinctio
                               </a>
                             </div>
-
-
                             <div class="isreview">
                               <span class="shopify-product-reviews-badge" data-id="870279683"></span>
                             </div>
-
-
-                            <div class="price-val product-price">
-
-
-                              <span class="price"><span class='money'>$300.00</span></span>
-
-
-                              <del class="price_compare"> <span class='money'>$350.00</span></del>
-
-
-
+                            <div class="price-val product-price"> <span class="price"><span
+                                  class='money'>$300.00</span></span> <del class="price_compare"> <span
+                                  class='money'>$350.00</span></del>
                             </div>
                             <div class="swatch color clearfix" data-option-index="0">
-                              <div>
-
-
-                              </div>
+                              <div> </div>
                             </div>
-
-
-
                             <div class="product-desc">
                               At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
                               voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
@@ -6535,17 +4678,9 @@
                               est laborum et dolorum fuga. Sample Unordered List Comodous in tempor ullamcorper...
                             </div>
                           </div>
-                          <div class="product-action">
-
-
-                            <span class="line"></span>
-
-
-                            <a href="collections/sale/products/expedita-distinctio.html"
+                          <div class="product-action"> <span class="line"></span> <a
+                              href="collections/sale/products/expedita-distinctio.html"
                               class="choose-options btn-cart"><i class="zmdi zmdi-format-list-bulleted"></i> Options</a>
-
-
-
                             <a href="javascript:;" class="quick-shop"><i class="zmdi zmdi-eye"></i> Quick look</a>
 
                           </div>
@@ -6559,19 +4694,19 @@
     <div class="row">
       <div class="product-gallery col-sm-6">
         <div class="thumbnails">
-          
+
           <a class="thumbnail" href="cdn/shop/products/16.1.jpg@v=1434217785" data-src="//rt-material.myshopify.com/cdn/shop/products/16.1_grande.jpg?v=1434217785">
             <img src="cdn/shop/products/16.1_small.jpg@v=1434217785" title="" />
           </a>
-          
+
           <a class="thumbnail" href="cdn/shop/products/16.2.jpg@v=1434217785" data-src="//rt-material.myshopify.com/cdn/shop/products/16.2_grande.jpg?v=1434217785">
             <img src="cdn/shop/products/16.2_small.jpg@v=1434217785" title="" />
           </a>
-          
+
           <a class="thumbnail" href="cdn/shop/products/16.3.jpg@v=1434217786" data-src="//rt-material.myshopify.com/cdn/shop/products/16.3_grande.jpg?v=1434217786">
             <img src="cdn/shop/products/16.3_small.jpg@v=1434217786" title="" />
           </a>
-          
+
         </div>
         <div class="main">
           <div class="main-img-link" href="//rt-material.myshopify.com/cdn/shop/products/16.1.jpg?v=1434217785" title="Expedita distinctio">
@@ -6587,43 +4722,34 @@
 
           <div class="product-title">
             <a href="collections/sale/products/expedita-distinctio.html">Expedita distinctio</a>
-            
+
             <div id="sku">SKU: <span>464101</span></div>
-            
+
           </div>
 
           <div id="price" class="product-price">
-            
+
             <del class="price_compare"> <span class='money'>$350.00</span></del>
             <span class="price_percentage">14%</span>
-            
+
             <div class="price"><span class='money'>$300.00</span></div>
           </div>
 
           <div class="sharing-btn">
-            <span>Shares:</span>
-            
-
-
-
-
-<div class="social-icons" data-permalink="https://rt-material.myshopify.com/products/expedita-distinctio">
+            <span>Shares:</span><div class="social-icons" data-permalink="https://rt-material.myshopify.com/products/expedita-distinctio">
   <ul class="list-inline">
-    
+
     <li>
       <a target="_blank" href="https://www.facebook.com/sharer.php?u=https://rt-material.myshopify.com/products/expedita-distinctio" class="social-wrapper">
         <span class="social-icon"><i class="fa fa-facebook"></i></span>
       </a>
     </li>
-    
-
-    
     <li>
       <a target="_blank" href="https://twitter.com/share?url=https://rt-material.myshopify.com/products/expedita-distinctio&amp;text=Expedita&#32;distinctio" class="social-wrapper">
         <span class="social-icon"><i class="fa fa-twitter"></i></span>
       </a>
     </li>
-            
+
   </ul>
 </div>
 
@@ -6631,38 +4757,26 @@
         </div>
 
         <div class="section border-bottom">
-        
+
         <form class="product-form" id="product-form" action="https://rt-material.myshopify.com/cart/add" method="post" enctype="multipart/form-data" data-product-id="870279683">
           <div id="product-variants">
-            <select id="product-select" name="id" style="display: none;">
-              
-              
-              <option  selected="selected"  value="2415079939">L - <span class='money'>$300.00 USD</span></option>
-              
-              
-              
-              <option  value="2415080003">M - <span class='money'>$300.00 USD</span></option>
-              
-              
-            </select>
+            <select id="product-select" name="id" style="display: none;">              <option  selected="selected"  value="2415079939">L - <span class='money'>$300.00 USD</span></option>
+              <option  value="2415080003">M - <span class='money'>$300.00 USD</span></option>            </select>
           </div>
 
           <div class="quantity">
-            <div class="group-input">      
+            <div class="group-input">
               <input type="number" title="Quantity" step="1" min="1" size="4" id="quantity" name="quantity" value="1" />
               <span class="bar"></span>
             </div>
             <button type="submit" class="btn btn-1 ripple add-to-cart" name="add" id="add" data-addtocart="Buy now" data-unavailable="Product unavailable" data-soldout="Out of stock">Buy now</button>
           </div>
         </form>
-        
-        <div class="product-wishlist wishlist-870279683"></div>
-        
 
-        <div id="backorder" class="hidden">
+        <div class="product-wishlist wishlist-870279683"></div>        <div id="backorder" class="hidden">
           <span id="selected-variant"></span> is backordered. We will ship it separately in 10 to 15 days.
         </div>
-        
+
         </div>
 
         <div class="description">
@@ -6677,9 +4791,6 @@
                 </div>
 
                 <div class="product_item animated">
-
-
-
                   <div class="product style2">
                     <div class="product-container">
                       <div class="product-buttons">
@@ -6692,17 +4803,10 @@
                                 to wishlist</span></a>
                           </div>
                         </div>
-
-
                         <div class="sharing-ctl">
                           <a href="javascript:void(0);">
                             <i class="zmdi zmdi-share"></i>
                           </a>
-
-
-
-
-
                           <div class="social-icons"
                             data-permalink="https://rt-material.myshopify.com/products/similique-sunt-in-culpa">
                             <ul class="list-inline">
@@ -6714,9 +4818,6 @@
                                   <span class="social-icon"><i class="fa fa-facebook"></i></span>
                                 </a>
                               </li>
-
-
-
                               <li>
                                 <a target="_blank"
                                   href="https://twitter.com/share?url=https://rt-material.myshopify.com/products/similique-sunt-in-culpa&amp;text=Similique&#32;in&#32;culpa"
@@ -6750,31 +4851,16 @@
                                 Similique in culpa
                               </a>
                             </div>
-
-
                             <div class="isreview">
                               <span class="shopify-product-reviews-badge" data-id="870276995"></span>
                             </div>
-
-
-                            <div class="price-val product-price">
-
-
-                              <span class="price"><span class='money'>$300.00</span></span>
-
-
-
+                            <div class="price-val product-price"> <span class="price"><span
+                                  class='money'>$300.00</span></span>
 
                             </div>
                             <div class="swatch color clearfix" data-option-index="0">
-                              <div>
-
-
-                              </div>
+                              <div> </div>
                             </div>
-
-
-
                             <div class="product-desc">
                               At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
                               voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
@@ -6782,17 +4868,9 @@
                               est laborum et dolorum fuga. Sample Unordered List Comodous in tempor ullamcorper...
                             </div>
                           </div>
-                          <div class="product-action">
-
-
-                            <span class="line"></span>
-
-
-                            <a href="collections/sale/products/similique-sunt-in-culpa.html"
+                          <div class="product-action"> <span class="line"></span> <a
+                              href="collections/sale/products/similique-sunt-in-culpa.html"
                               class="choose-options btn-cart"><i class="zmdi zmdi-format-list-bulleted"></i> Options</a>
-
-
-
                             <a href="javascript:;" class="quick-shop"><i class="zmdi zmdi-eye"></i> Quick look</a>
 
                           </div>
@@ -6806,19 +4884,19 @@
     <div class="row">
       <div class="product-gallery col-sm-6">
         <div class="thumbnails">
-          
+
           <a class="thumbnail" href="cdn/shop/products/12.1.jpg@v=1434217875" data-src="//rt-material.myshopify.com/cdn/shop/products/12.1_grande.jpg?v=1434217875">
             <img src="cdn/shop/products/12.1_small.jpg@v=1434217875" title="" />
           </a>
-          
+
           <a class="thumbnail" href="cdn/shop/products/12.2.jpg@v=1434217876" data-src="//rt-material.myshopify.com/cdn/shop/products/12.2_grande.jpg?v=1434217876">
             <img src="cdn/shop/products/12.2_small.jpg@v=1434217876" title="" />
           </a>
-          
+
           <a class="thumbnail" href="cdn/shop/products/12.3.jpg@v=1434217878" data-src="//rt-material.myshopify.com/cdn/shop/products/12.3_grande.jpg?v=1434217878">
             <img src="cdn/shop/products/12.3_small.jpg@v=1434217878" title="" />
           </a>
-          
+
         </div>
         <div class="main">
           <div class="main-img-link" href="//rt-material.myshopify.com/cdn/shop/products/12.1.jpg?v=1434217875" title="Similique in culpa">
@@ -6834,40 +4912,31 @@
 
           <div class="product-title">
             <a href="collections/sale/products/similique-sunt-in-culpa.html">Similique in culpa</a>
-            
+
             <div id="sku">SKU: <span>464203</span></div>
-            
+
           </div>
 
           <div id="price" class="product-price">
-            
+
             <div class="price"><span class='money'>$300.00</span></div>
           </div>
 
           <div class="sharing-btn">
-            <span>Shares:</span>
-            
-
-
-
-
-<div class="social-icons" data-permalink="https://rt-material.myshopify.com/products/similique-sunt-in-culpa">
+            <span>Shares:</span><div class="social-icons" data-permalink="https://rt-material.myshopify.com/products/similique-sunt-in-culpa">
   <ul class="list-inline">
-    
+
     <li>
       <a target="_blank" href="https://www.facebook.com/sharer.php?u=https://rt-material.myshopify.com/products/similique-sunt-in-culpa" class="social-wrapper">
         <span class="social-icon"><i class="fa fa-facebook"></i></span>
       </a>
     </li>
-    
-
-    
     <li>
       <a target="_blank" href="https://twitter.com/share?url=https://rt-material.myshopify.com/products/similique-sunt-in-culpa&amp;text=Similique&#32;in&#32;culpa" class="social-wrapper">
         <span class="social-icon"><i class="fa fa-twitter"></i></span>
       </a>
     </li>
-    
+
   </ul>
 </div>
 
@@ -6875,38 +4944,26 @@
         </div>
 
         <div class="section border-bottom">
-        
+
         <form class="product-form" id="product-form" action="https://rt-material.myshopify.com/cart/add" method="post" enctype="multipart/form-data" data-product-id="870276995">
           <div id="product-variants">
-            <select id="product-select" name="id" style="display: none;">
-              
-              
-              <option  selected="selected"  value="2415073091">L - <span class='money'>$400.00 USD</span></option>
-              
-              
-              
-              <option  value="2415073155">S - <span class='money'>$300.00 USD</span></option>
-              
-              
-            </select>
+            <select id="product-select" name="id" style="display: none;">              <option  selected="selected"  value="2415073091">L - <span class='money'>$400.00 USD</span></option>
+              <option  value="2415073155">S - <span class='money'>$300.00 USD</span></option>            </select>
           </div>
 
           <div class="quantity">
-            <div class="group-input">      
+            <div class="group-input">
               <input type="number" title="Quantity" step="1" min="1" size="4" id="quantity" name="quantity" value="1" />
               <span class="bar"></span>
             </div>
             <button type="submit" class="btn btn-1 ripple add-to-cart" name="add" id="add" data-addtocart="Buy now" data-unavailable="Product unavailable" data-soldout="Out of stock">Buy now</button>
           </div>
         </form>
-        
-        <div class="product-wishlist wishlist-870276995"></div>
-        
 
-        <div id="backorder" class="hidden">
+        <div class="product-wishlist wishlist-870276995"></div>        <div id="backorder" class="hidden">
           <span id="selected-variant"></span> is backordered. We will ship it separately in 10 to 15 days.
         </div>
-        
+
         </div>
 
         <div class="description">
@@ -6923,10 +4980,7 @@
               </div>
 
               <div class="advanced-pagination">
-                <div class="infinite_scoll">
-
-
-                  <a class="icon_spinner2" href="collections/sale/index.html@page=2.html">
+                <div class="infinite_scoll"> <a class="icon_spinner2" href="collections/sale/index.html@page=2.html">
                     <span class="stick"></span>
                     <span class="stick"></span>
                     <span class="stick"></span>
@@ -6935,8 +4989,6 @@
 
                 </div>
               </div>
-
-
             </div>
           </div>
           <div class="container our-partner clearfix">
@@ -6968,12 +5020,6 @@
                   </a>
                 </div>
 
-
-
-
-
-
-
                 <div class="partner animated">
                   <a href="index.html#">
                     <img src="cdn/shop/t/8/assets/partner_image_5.png@v=33249086879113327791447137484" alt="" />
@@ -6981,42 +5027,15 @@
                   </a>
                 </div>
 
-
-
-
-
-
-
                 <div class="partner animated">
                   <a href="index.html#">
                     <img src="cdn/shop/t/8/assets/partner_image_6.png@v=6166645278010273351447137484" alt="" />
                     <span class="hover_border"></span>
                   </a>
                 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
               </div>
             </div>
           </div>
-
-
-
 
           <div id="widget-photos">
 
@@ -7027,12 +5046,10 @@
 
 
                 <div class="caption">Premium streetwear brand redefining urban fashion. Wear the cool, be the vibe
-                  <strong>@snowdrip.in</strong> on Instagram</div>
+                  <strong>@snowdrip.in</strong> on Instagram
+                </div>
 
               </div>
-
-
-
               <script src="cdn/shop/t/8/assets/instafeed.min.js@v=86823433750626323061447137479"
                 type="text/javascript"></script>
               <div id="instagram_list_bottom" class="photo_list list-inline"></div>
@@ -7055,17 +5072,11 @@
                   feed.run();
                 });
               </script>
-
-
             </div>
           </div>
 
         </div>
-
-
       </section>
-
-
       <footer id="footer">
         <div id="footer-bottom" class="container">
 
@@ -7080,25 +5091,20 @@
 
                   <p class="message"><strong>SnowDrip design</strong> (codenamed quantum paper) is a
                     <strong>design</strong> language developed by Google and announced at the Google I/O conference on
-                    June 25, 2014.</p>
+                    June 25, 2014.
+                  </p>
 
                   <ul class="list-unstyled">
 
                     <li>
                       <i class="zmdi zmdi-home"></i>Your Street nr XXX, YYY, ZZZ
                     </li>
-
-
                     <li>
                       <i class="zmdi zmdi-email"></i><a href="mailto:sales@yourwebsite.com">sales@yourwebsite.com</a>
                     </li>
-
-
                     <li>
                       <i class="zmdi zmdi-phone"></i>+XX-YYY-ZZZZZZ
                     </li>
-
-
                     <li>
                       <i class="zmdi zmdi-local-printshop"></i>+AA-BBB-CCCCCC
                     </li>
@@ -7107,8 +5113,6 @@
                 </div>
               </div>
             </div>
-
-
             <div class="col-sm-6 col-md-3">
               <div class="widget-wrapper animated">
 
@@ -7142,8 +5146,6 @@
                 </div>
               </div>
             </div>
-
-
             <div class="col-sm-6 col-md-3">
               <div class="widget-wrapper animated">
 
@@ -7162,27 +5164,22 @@
                       <button type="submit"><i class="zmdi"></i></button>
                     </div>
                   </form>
-
-
                   <div class="caption">Sign up to our newsletter and get 15% off!<br />Don't worry, we
-                    <strong>HATE</strong> spam!</div>
+                    <strong>HATE</strong> spam!
+                  </div>
 
                 </div>
-
-
-
                 <div id="widget-social" class="social-icons">
                   <ul class="list-inline">
 
                     <li>
-                      <a target="_blank" href="https://www.facebook.com/profile.php?id=61584057271438" class="social-wrapper facebook">
+                      <a target="_blank" href="https://www.facebook.com/profile.php?id=61584057271438"
+                        class="social-wrapper facebook">
                         <span class="social-icon">
                           <i class="fa fa-facebook"></i>
                         </span>
                       </a>
                     </li>
-
-
                     <li>
                       <a target="_blank" href="#" class="social-wrapper twitter">
                         <span class="social-icon">
@@ -7225,25 +5222,14 @@
     </div>
 
     <div id="scroll-top" class="btooltip hidden-sm hidden-sm btn" title="Top"><i class="fa fa-angle-up"></i></div>
-
-
   </div>
-
-
-
 
   <script src="cdn/shop/t/8/assets/jquery.flexslider-min.js@v=174518627994667060011447137480"
     type="text/javascript"></script>
 
-
-
-
   <script src="cdn/shop/t/8/assets/jquery.cookie.js@v=156680520705410332541447137480" type="text/javascript"></script>
   <script src="cdn/shop/t/8/assets/jquery.plugins.min.js@v=70420172469440925341502433984"
     type="text/javascript"></script>
-
-
-
   <script src="cdn/shop/t/8/assets/rt.global.js@v=100907795212424218751493444382" type="text/javascript"></script>
   <script src="cdn/shopifycloud/storefront/assets/themes_support/api.jquery-7ab1a3a4.js"
     type="text/javascript"></script>
@@ -7342,8 +5328,6 @@
     };
 
   </script>
-
-
   <script src="services/javascripts/currencies.js" type="text/javascript"></script>
   <script src="cdn/shop/t/8/assets/jquery.currencies.min.js@v=27692293438447134301447137480"
     type="text/javascript"></script>
@@ -7356,10 +5340,7 @@
 
     function currenciesCallback() {
 
-      Currency.format = 'money_format';
-
-
-      shopCurrency = 'USD';
+      Currency.format = 'money_format'; shopCurrency = 'USD';
 
       /* Sometimes merchants change their shop currency, let's tell our JavaScript file */
       Currency.money_with_currency_format[shopCurrency] = "${{amount}} USD";
@@ -7421,9 +5402,6 @@
       Currency.convertAll(shopCurrency, Currency.cookie.read(), id, 'money_format');
     }
   </script>
-
-
-
   <script src="cdn/shop/t/8/assets/jquery.ajaxchimp.js@v=129782394908697265921481090943"
     type="text/javascript"></script>
 
@@ -7436,14 +5414,9 @@
           <div class="content">
 
             <h3 class="mc-title">Join Our Mailing List</h3>
-
-
             <div class="newsletter-inner">
 
               <p class="hide-for-small">Sign up to our newsletter and get 30% off!</p>
-
-
-
               <form id="mc-form"
                 action="https://roartheme.us3.list-manage.com/subscribe/post?u=b0a129d3ef58da6fad5da1f62&amp;id=5903baced9"
                 method="post" name="mc-embedded-subscribe-form" target="_blank">
@@ -7453,21 +5426,17 @@
 
                 <label for="mc-email"></label>
               </form>
-
-
-
               <div class="social-icons">
                 <ul class="list-inline">
 
                   <li>
-                    <a target="_blank" href="https://www.facebook.com/profile.php?id=61584057271438" class="social-wrapper facebook">
+                    <a target="_blank" href="https://www.facebook.com/profile.php?id=61584057271438"
+                      class="social-wrapper facebook">
                       <span class="social-icon">
                         <i class="fa fa-facebook"></i>
                       </span>
                     </a>
                   </li>
-
-
                   <li>
                     <a target="_blank" href="#" class="social-wrapper twitter">
                       <span class="social-icon">
@@ -7483,14 +5452,8 @@
                       </span>
                     </a>
                   </li>
-
-
-
                 </ul>
               </div>
-
-
-
               <div id="mc-footer">
                 <input type="checkbox" id="mc-popup-hide" checked="checked" value="1" /> <label
                   for="mc-popup-hide">Don&#39;t show again!</label>
@@ -7505,8 +5468,6 @@
 
   <script>
     jQuery(document).ready(function () {
-
-
       var $_popup_cookie = jQuery.cookie('popup_cookie');
       if ($_popup_cookie == undefined) {
         jQuery('#lightbox').show();
@@ -7536,14 +5497,9 @@
       });
     });
   </script>
-
-
   <div class="pace">
     <div class="pace-activity"></div>
   </div>
-
-
-
   <script src="cdn/shop/t/8/assets/option_selection.js@v=136418995223691588331447137484"
     type="text/javascript"></script>
 </body>
