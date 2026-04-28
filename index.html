@@ -72,7 +72,7 @@
     window.notify_ie8_page = '';
     window.loader_gif = '//rt-material.myshopify.com/cdn/shop/t/8/assets/loader.gif?v=147071982126738704471447137481';
     window.blank_gif = '//rt-material.myshopify.com/cdn/shop/t/8/assets/blank.gif?v=164826798765693215961447137477';
-    window.money_format = "<span class='money'>${{amount}}</span>";
+    window.money_format = "<span class='money'>{{amount}}</span>";
     window.show_multiple_currencies = true;
     window.asset_url = '//rt-material.myshopify.com/cdn/shop/t/8/assets/?v=2362';
     window.swatch_color = true;
@@ -116,7 +116,7 @@
     id="__st">var __st = { "a": 8859170, "offset": -18000, "reqid": "35763cdd-5500-45fe-9c06-81524f319225-1770734961", "pageurl": "rt-material.myshopify.com\/", "u": "f206ff9946ab", "p": "home" };</script>
   <script>window.ShopifyPaypalV4VisibilityTracking = true;</script>
   <script
-    id="captcha-bootstrap">!function () { 'use strict'; const t = 'contact', e = 'account', n = 'new_comment', o = [[t, t], ['blogs', n], ['comments', n], [t, 'customer']], c = [[e, 'customer_login'], [e, 'guest_login'], [e, 'recover_customer_password'], [e, 'create_customer']], r = t => t.map((([t, e]) => `form[action*='/${t}']:not([data-nocaptcha='true']) input[name='form_type'][value='${e}']`)).join(','), a = t => () => t ? [...document.querySelectorAll(t)].map((t => t.form)) : []; function s() { const t = [...o], e = r(t); return a(e) } const i = 'password', u = 'form_key', d = ['recaptcha-v3-token', 'g-recaptcha-response', 'h-captcha-response', i], f = () => { try { return window.sessionStorage } catch { return } }, m = '__shopify_v', _ = t => t.elements[u]; function p(t, e, n = !1) { try { const o = window.sessionStorage, c = JSON.parse(o.getItem(e)), { data: r } = function (t) { const { data: e, action: n } = t; return t[m] || n ? { data: e, action: n } : { data: t, action: n } }(c); for (const [e, n] of Object.entries(r)) t.elements[e] && (t.elements[e].value = n); n && o.removeItem(e) } catch (o) { console.error('form repopulation failed', { error: o }) } } const l = 'form_type', E = 'cptcha'; function T(t) { t.dataset[E] = !0 } const w = window, h = w.document, L = 'Shopify', v = 'ce_forms', y = 'captcha'; let A = !1; ((t, e) => { const n = (g = 'f06e6c50-85a8-45c8-87d0-21a2b65856fe', I = 'https://cdn.shopify.com/shopifycloud/storefront-forms-hcaptcha/ce_storefront_forms_captcha_hcaptcha.v1.5.2.iife.js', D = { infoText: 'Protected by hCaptcha', privacyText: 'Privacy', termsText: 'Terms' }, (t, e, n) => { const o = w[L][v], c = o.bindForm; if (c) return c(t, g, e, D).then(n); var r; o.q.push([[t, g, e, D], n]), r = I, A || (h.body.append(Object.assign(h.createElement('script'), { id: 'captcha-provider', async: !0, src: r })), A = !0) }); var g, I, D; w[L] = w[L] || {}, w[L][v] = w[L][v] || {}, w[L][v].q = [], w[L][y] = w[L][y] || {}, w[L][y].protect = function (t, e) { n(t, void 0, e), T(t) }, Object.freeze(w[L][y]), function (t, e, n, w, h, L) { const [v, y, A, g] = function (t, e, n) { const i = e ? o : [], u = t ? c : [], d = [...i, ...u], f = r(d), m = r(i), _ = r(d.filter((([t, e]) => n.includes(e)))); return [a(f), a(m), a(_), s()] }(w, h, L), I = t => { const e = t.target; return e instanceof HTMLFormElement ? e : e && e.form }, D = t => v().includes(t); t.addEventListener('submit', (t => { const e = I(t); if (!e) return; const n = D(e) && !e.dataset.hcaptchaBound && !e.dataset.recaptchaBound, o = _(e), c = g().includes(e) && (!o || !o.value); (n || c) && t.preventDefault(), c && !n && (function (t) { try { if (!f()) return; !function (t) { const e = f(); if (!e) return; const n = _(t); if (!n) return; const o = n.value; o && e.removeItem(o) }(t); const e = Array.from(Array(32), (() => Math.random().toString(36)[2])).join(''); !function (t, e) { _(t) || t.append(Object.assign(document.createElement('input'), { type: 'hidden', name: u })), t.elements[u].value = e }(t, e), function (t, e) { const n = f(); if (!n) return; const o = [...t.querySelectorAll(`input[type='${i}']`)].map((({ name: t }) => t)), c = [...d, ...o], r = {}; for (const [a, s] of new FormData(t).entries()) c.includes(a) || (r[a] = s); n.setItem(e, JSON.stringify({ [m]: 1, action: t.action, data: r })) }(t, e) } catch (e) { console.error('failed to persist form', e) } }(e), e.submit()) })); const S = (t, e) => { t && !t.dataset[E] && (n(t, e.some((e => e === t))), T(t)) }; for (const o of ['focusin', 'change']) t.addEventListener(o, (t => { const e = I(t); D(e) && S(e, y()) })); const B = e.get('form_key'), M = e.get(l), P = B && M; t.addEventListener('DOMContentLoaded', (() => { const t = y(); if (P) for (const e of t) e.elements[l].value === M && p(e, B);[...new Set([...A(), ...v().filter((t => 'true' === t.dataset.shopifyCaptcha))])].forEach((e => S(e, t))) })) }(h, new URLSearchParams(w.location.search), n, t, e, ['guest_login']) })(!0, !0) }();</script>
+    id="captcha-bootstrap">!function () { 'use strict'; const t = 'contact', e = 'account', n = 'new_comment', o = [[t, t], ['blogs', n], ['comments', n], [t, 'customer']], c = [[e, 'customer_login'], [e, 'guest_login'], [e, 'recover_customer_password'], [e, 'create_customer']], r = t => t.map((([t, e]) => `form[action*='/{t}']:not([data-nocaptcha='true']) input[name='form_type'][value='{e}']`)).join(','), a = t => () => t ? [...document.querySelectorAll(t)].map((t => t.form)) : []; function s() { const t = [...o], e = r(t); return a(e) } const i = 'password', u = 'form_key', d = ['recaptcha-v3-token', 'g-recaptcha-response', 'h-captcha-response', i], f = () => { try { return window.sessionStorage } catch { return } }, m = '__shopify_v', _ = t => t.elements[u]; function p(t, e, n = !1) { try { const o = window.sessionStorage, c = JSON.parse(o.getItem(e)), { data: r } = function (t) { const { data: e, action: n } = t; return t[m] || n ? { data: e, action: n } : { data: t, action: n } }(c); for (const [e, n] of Object.entries(r)) t.elements[e] && (t.elements[e].value = n); n && o.removeItem(e) } catch (o) { console.error('form repopulation failed', { error: o }) } } const l = 'form_type', E = 'cptcha'; function T(t) { t.dataset[E] = !0 } const w = window, h = w.document, L = 'Shopify', v = 'ce_forms', y = 'captcha'; let A = !1; ((t, e) => { const n = (g = 'f06e6c50-85a8-45c8-87d0-21a2b65856fe', I = 'https://cdn.shopify.com/shopifycloud/storefront-forms-hcaptcha/ce_storefront_forms_captcha_hcaptcha.v1.5.2.iife.js', D = { infoText: 'Protected by hCaptcha', privacyText: 'Privacy', termsText: 'Terms' }, (t, e, n) => { const o = w[L][v], c = o.bindForm; if (c) return c(t, g, e, D).then(n); var r; o.q.push([[t, g, e, D], n]), r = I, A || (h.body.append(Object.assign(h.createElement('script'), { id: 'captcha-provider', async: !0, src: r })), A = !0) }); var g, I, D; w[L] = w[L] || {}, w[L][v] = w[L][v] || {}, w[L][v].q = [], w[L][y] = w[L][y] || {}, w[L][y].protect = function (t, e) { n(t, void 0, e), T(t) }, Object.freeze(w[L][y]), function (t, e, n, w, h, L) { const [v, y, A, g] = function (t, e, n) { const i = e ? o : [], u = t ? c : [], d = [...i, ...u], f = r(d), m = r(i), _ = r(d.filter((([t, e]) => n.includes(e)))); return [a(f), a(m), a(_), s()] }(w, h, L), I = t => { const e = t.target; return e instanceof HTMLFormElement ? e : e && e.form }, D = t => v().includes(t); t.addEventListener('submit', (t => { const e = I(t); if (!e) return; const n = D(e) && !e.dataset.hcaptchaBound && !e.dataset.recaptchaBound, o = _(e), c = g().includes(e) && (!o || !o.value); (n || c) && t.preventDefault(), c && !n && (function (t) { try { if (!f()) return; !function (t) { const e = f(); if (!e) return; const n = _(t); if (!n) return; const o = n.value; o && e.removeItem(o) }(t); const e = Array.from(Array(32), (() => Math.random().toString(36)[2])).join(''); !function (t, e) { _(t) || t.append(Object.assign(document.createElement('input'), { type: 'hidden', name: u })), t.elements[u].value = e }(t, e), function (t, e) { const n = f(); if (!n) return; const o = [...t.querySelectorAll(`input[type='{i}']`)].map((({ name: t }) => t)), c = [...d, ...o], r = {}; for (const [a, s] of new FormData(t).entries()) c.includes(a) || (r[a] = s); n.setItem(e, JSON.stringify({ [m]: 1, action: t.action, data: r })) }(t, e) } catch (e) { console.error('failed to persist form', e) } }(e), e.submit()) })); const S = (t, e) => { t && !t.dataset[E] && (n(t, e.some((e => e === t))), T(t)) }; for (const o of ['focusin', 'change']) t.addEventListener(o, (t => { const e = I(t); D(e) && S(e, y()) })); const B = e.get('form_key'), M = e.get(l), P = B && M; t.addEventListener('DOMContentLoaded', (() => { const t = y(); if (P) for (const e of t) e.elements[l].value === M && p(e, B);[...new Set([...A(), ...v().filter((t => 'true' === t.dataset.shopifyCaptcha))])].forEach((e => S(e, t))) })) }(h, new URLSearchParams(w.location.search), n, t, e, ['guest_login']) })(!0, !0) }();</script>
   <script integrity="sha256-4kQ18oKyAcykRKYeNunJcIwy7WH5gtpwJnB7kiuLZ1E=" data-source-attribution="shopify.loadfeatures"
     defer="defer" src="cdn/shopifycloud/storefront/assets/storefront/load_feature-a0a9edcb.js"
     crossorigin="anonymous"></script>
@@ -916,7 +916,7 @@
                                     <div class="img-visual">
                                       <div class="img-wrap"> <a href="#">
                                           <img
-                                            src="cdn/shop/t/8/assets/mega_menu1_img_5.jpg@v=158240322849509765681447137482"
+                                            src="https://res.cloudinary.com/dsptbf6vz/image/upload/v1776183514/snowdrip/Menu%20dropdown%20images/Menu_dropdown_1_388X520.jpg"
                                             alt="Men" />
 
                                           <div class="img-bg">
@@ -1011,12 +1011,12 @@
                 <li>
                   <div class="slide-body">
                     <div class="slide-banner"
-                      style="background-image:url(cdn/shop/t/8/assets/slide_image_1.jpg@v=73195584238125819591447137487);">
+                      style="background-image:url(https://res.cloudinary.com/dsptbf6vz/image/upload/v1776183567/snowdrip/Hero%20banner/Hero_banner_1_1920X800.jpg);">
                       <span class=" slider-mask ">
                       </span>
-                      <img class="slide-img" src="cdn/shop/t/8/assets/slide_image_1.jpg@v=73195584238125819591447137487"
+                      <img class="slide-img" src="https://res.cloudinary.com/dsptbf6vz/image/upload/v1776183567/snowdrip/Hero%20banner/Hero_banner_1_1920X800.jpg"
                         alt="The Awesome New Theme" />
-                      <div class="slide-caption caption header">
+                      <!-- <div class="slide-caption caption header">
                         <div class="caption sub" style="max-width:600px;">
                           <div class="caption-content" data-min="13" data-max="30"
                             style="color:#ffffff;font-size:30px;">
@@ -1029,20 +1029,20 @@
                             <a class="ripple btn btn-1" href="#">Shop Now</a>
                           </div>
                         </div>
-                      </div>
+                      </div> -->
                     </div>
                   </div>
                 </li>
-                <!-- <li>
+                <li>
                   <div class="slide-body">
                     <div class="slide-banner"
-                      style="background-image:url(cdn/shop/t/8/assets/slide_image_2.jpg@v=8722459611686121011447137487);">
+                      style="background-image:url(https://res.cloudinary.com/dsptbf6vz/image/upload/v1776183567/snowdrip/Hero%20banner/Hero_banner_2_1920X800.jpg);">
 
                       <span class=" slider-mask ">
                       </span>
-                      <img class="slide-img" src="cdn/shop/t/8/assets/slide_image_2.jpg@v=8722459611686121011447137487"
+                      <img class="slide-img" src="https://res.cloudinary.com/dsptbf6vz/image/upload/v1776183567/snowdrip/Hero%20banner/Hero_banner_2_1920X800.jpg"
                         alt="DESIGN YOUR OWN CLOTHES!" />
-                      <div class="slide-caption caption header" data-position="1" data-top="150" data-left="150"
+                      <!-- <div class="slide-caption caption header" data-position="1" data-top="150" data-left="150"
                         data-width="600" data-align="left">
                         <div class="caption sub">
                           <div class="caption-content" data-min="13" data-max="30"
@@ -1056,24 +1056,24 @@
                             <a class="ripple btn btn-1" href="#">Shop Now</a>
                           </div>
                         </div>
-                      </div>
+                      </div> -->
                     </div>
                   </div>
                 </li>
 
-                <li>
+                <!-- <li>
                   <div class="slide-body">
                     <div class="slide-banner"
-                      style="background-image:url(cdn/shop/t/8/assets/slide_image_3.jpg@v=8722459611686121011447137487);">
+                      style="background-image:url(https://res.cloudinary.com/dsptbf6vz/image/upload/v1776183571/snowdrip/Hero%20banner/Hero_banner_3_1920X800.jpg);">
 
                       <span class=" slider-mask">
                       </span>
 
-                      <img class="slide-img" src="cdn/shop/t/8/assets/slide_image_3.jpg@v=8722459611686121011447137487"
+                      <img class="slide-img" src="https://res.cloudinary.com/dsptbf6vz/image/upload/v1776183571/snowdrip/Hero%20banner/Hero_banner_3_1920X800.jpg"
                         alt="GEAR TO GET YOU MOVING" />
 
                       <video class="slide-video"
-                        poster="cdn/shop/t/8/assets/slide_image_3.jpg@v=8722459611686121011447137487" preload="auto"
+                        poster="https://res.cloudinary.com/dsptbf6vz/image/upload/v1776183571/snowdrip/Hero%20banner/Hero_banner_3_1920X800.jpg" preload="auto"
                         autoplay="" loop="loop" muted="muted">
                         <source
                           src="https://cdn.shopify.com/s/files/1/0761/2743/files/55503382.mp4.mp4?8239542706748724754"
@@ -1097,6 +1097,58 @@
                     </div>
                   </div>
                 </li> -->
+
+                <li>
+                  <div class="slide-body">
+                    <div class="slide-banner"
+                      style="background-image:url(https://res.cloudinary.com/dsptbf6vz/image/upload/v1776183571/snowdrip/Hero%20banner/Hero_banner_4_1920X800.jpg);">
+                      <span class=" slider-mask ">
+                      </span>
+                      <img class="slide-img" src="https://res.cloudinary.com/dsptbf6vz/image/upload/v1776183571/snowdrip/Hero%20banner/Hero_banner_4_1920X800.jpg"
+                        alt="Hero Banner 4" />
+                      <!-- <div class="slide-caption caption header">
+                        <div class="caption sub" style="max-width:600px;">
+                          <div class="caption-content" data-min="13" data-max="30"
+                            style="color:#ffffff;font-size:30px;">
+                            Discover More
+                          </div>
+                          <h2 class="caption-content" data-min="13" data-max="60" style="color:#ffffff;font-size:60px;">
+                            New Collection
+                          </h2>
+                          <div class="caption-link">
+                            <a class="ripple btn btn-1" href="#">Shop Now</a>
+                          </div>
+                        </div>
+                      </div> -->
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="slide-body">
+                    <div class="slide-banner"
+                      style="background-image:url(https://res.cloudinary.com/dsptbf6vz/image/upload/v1776183572/snowdrip/Hero%20banner/Hero_banner_5_1920X800.jpg);">
+                      <span class=" slider-mask ">
+                      </span>
+                      <img class="slide-img" src="https://res.cloudinary.com/dsptbf6vz/image/upload/v1776183572/snowdrip/Hero%20banner/Hero_banner_5_1920X800.jpg"
+                        alt="Hero Banner 5" />
+                      <!-- <div class="slide-caption caption header">
+                        <div class="caption sub" style="max-width:600px;">
+                          <div class="caption-content" data-min="13" data-max="30"
+                            style="color:#ffffff;font-size:30px;">
+                            Exclusive Offers
+                          </div>
+                          <h2 class="caption-content" data-min="13" data-max="60" style="color:#ffffff;font-size:60px;">
+                            Limited Time
+                          </h2>
+                          <div class="caption-link">
+                            <a class="ripple btn btn-1" href="#">Shop Now</a>
+                          </div>
+                        </div>
+                      </div> -->
+                    </div>
+                  </div>
+                </li>
               </ul>
             </div>
           </div>
@@ -1110,10 +1162,10 @@
                   <div class="offer-img">
                     <a href="#">
 
-                      <img src="cdn/shop/t/8/assets/offer_image_1.jpg@v=119411158014927917361447137483"
+                      <img src="https://res.cloudinary.com/dsptbf6vz/image/upload/v1776183486/snowdrip/Offer%20banners/Offer_banners_1_600X400.jpg"
                         alt="THE SHORT SHORTS SHOP" />
                       <div class="img"
-                        style="background-image:url(cdn/shop/t/8/assets/offer_image_1.jpg@v=119411158014927917361447137483);">
+                        style="background-image:url(https://res.cloudinary.com/dsptbf6vz/image/upload/v1776183486/snowdrip/Offer%20banners/Offer_banners_1_600X400.jpg);">
                       </div>
                       <div class="offer-bg">
                         <span class="offer-cpt animated">THE SHORT SHORTS SHOP</span>
@@ -1127,10 +1179,10 @@
                   <div class="offer-img">
                     <a href="#">
 
-                      <img src="cdn/shop/t/8/assets/offer_image_2.jpg@v=6100877780838895351447137484"
+                      <img src="https://res.cloudinary.com/dsptbf6vz/image/upload/v1776183486/snowdrip/Offer%20banners/Offer_banners_2_600X400.jpg"
                         alt="GO ROUND THIS SUMMER" />
                       <div class="img"
-                        style="background-image:url(cdn/shop/t/8/assets/offer_image_2.jpg@v=6100877780838895351447137484);">
+                        style="background-image:url(https://res.cloudinary.com/dsptbf6vz/image/upload/v1776183486/snowdrip/Offer%20banners/Offer_banners_2_600X400.jpg);">
                       </div>
                       <div class="offer-bg">
                         <span class="offer-cpt animated">GO ROUND THIS SUMMER</span>
@@ -1144,10 +1196,10 @@
                   <div class="offer-img">
                     <a href="#">
 
-                      <img src="cdn/shop/t/8/assets/offer_image_3.jpg@v=108792339992752960221447137484"
+                      <img src="https://res.cloudinary.com/dsptbf6vz/image/upload/v1776183487/snowdrip/Offer%20banners/Offer_banners_3_600X400.jpg"
                         alt="THE GRAPHIC TEE SHOP" />
                       <div class="img"
-                        style="background-image:url(cdn/shop/t/8/assets/offer_image_3.jpg@v=108792339992752960221447137484);">
+                        style="background-image:url(https://res.cloudinary.com/dsptbf6vz/image/upload/v1776183487/snowdrip/Offer%20banners/Offer_banners_3_600X400.jpg);">
                       </div>
                       <div class="offer-bg">
                         <span class="offer-cpt animated">THE GRAPHIC TEE SHOP</span>
@@ -1164,7 +1216,7 @@
                 <div class="slide"
                   data-image="//rt-material.myshopify.com/cdn/shop/t/8/assets/home_slider_1_image_1000x.png?v=142281299545633052601502436289">
                   <div class="floating-half">
-                    <h2>New Collection 2017</h2>
+                    <h2>New Collection 2025</h2>
 
                     <p>Get Your Heels On</p>
                     <div class="button-wrapper">
@@ -1357,7 +1409,7 @@
 
                           <div class="wrap">
                             <a href="#">
-                              <img src="cdn/shop/products/4.1_large.jpg@v=1434185697" class="main-image img-responsive"
+                              <img src="https://res.cloudinary.com/dsptbf6vz/image/upload/v1776183423/snowdrip/Product%20images/Product_image_1_800X800.jpg" class="main-image img-responsive"
                                 alt="Deleniti atque corrupti" />
                             </a>
                           </div>
@@ -1440,10 +1492,10 @@
 
           <div id="price" class="product-price">
 
-            <del class="price_compare"> <span class='money'>$550.00</span></del>
+            <del class="price_compare"> <span class='money'>550.00</span></del>
             <span class="price_percentage">9%</span>
 
-            <div class="price"><span class='money'>$500.00</span></div>
+            <div class="price"><span class='money'>500.00</span></div>
           </div>
 
           <div class="sharing-btn">
@@ -1538,7 +1590,7 @@
 
                           <div class="wrap">
                             <a href="#">
-                              <img src="cdn/shop/products/11.1_large.jpg@v=1434217925" class="main-image img-responsive"
+                              <img src="https://res.cloudinary.com/dsptbf6vz/image/upload/v1776183423/snowdrip/Product%20images/Product_image_2_800X800.jpg" class="main-image img-responsive"
                                 alt="Laborum et dolorum" />
                             </a>
                           </div>
@@ -1555,8 +1607,8 @@
                               <span class="shopify-product-reviews-badge" data-id="870279555"></span>
                             </div>
                             <div class="price-val product-price"> <span class="price"><span
-                                  class='money'>$400.00</span></span> <del class="price_compare"> <span
-                                  class='money'>$450.00</span></del>
+                                  class='money'>400.00</span></span> <del class="price_compare"> <span
+                                  class='money'>450.00</span></del>
                             </div>
                             <div class="swatch color clearfix" data-option-index="0">
                               <div> </div>
@@ -1576,7 +1628,7 @@
                                 Buy now</button>
                               <select class="hide" name="id">
 
-                                <option value="2415079811">Default Title - <span class='money'>$400.00</span></option>
+                                <option value="2415079811">Default Title - <span class='money'>400.00</span></option>
 
                               </select>
                             </form>
@@ -1628,10 +1680,10 @@
 
           <div id="price" class="product-price">
 
-            <del class="price_compare"> <span class='money'>$450.00</span></del>
+            <del class="price_compare"> <span class='money'>450.00</span></del>
             <span class="price_percentage">11%</span>
 
-            <div class="price"><span class='money'>$400.00</span></div>
+            <div class="price"><span class='money'>400.00</span></div>
           </div>
 
           <div class="sharing-btn">
@@ -1659,7 +1711,7 @@
 
         <form class="product-form" id="product-form" action="https://rt-material.myshopify.com/cart/add" method="post" enctype="multipart/form-data" data-product-id="870279555">
           <div id="product-variants">
-            <select id="product-select" name="id" style="display: none;">              <option  selected="selected"  value="2415079811">Default Title - <span class='money'>$400.00 USD</span></option>            </select>
+            <select id="product-select" name="id" style="display: none;">              <option  selected="selected"  value="2415079811">Default Title - <span class='money'>400.00 USD</span></option>            </select>
           </div>
 
           <div class="quantity">
@@ -1741,7 +1793,7 @@
 
                           <div class="wrap">
                             <a href="#">
-                              <img src="cdn/shop/products/3.1_large.jpg@v=1434185703" class="main-image img-responsive"
+                              <img src="https://res.cloudinary.com/dsptbf6vz/image/upload/v1776183423/snowdrip/Product%20images/Product_image_3_800X800.jpg" class="main-image img-responsive"
                                 alt="Cupiditate provident" />
                             </a>
                           </div>
@@ -1758,8 +1810,8 @@
                               <span class="shopify-product-reviews-badge" data-id="870277955"></span>
                             </div>
                             <div class="price-val product-price"> <span class="price"><span
-                                  class='money'>$400.00</span></span> <del class="price_compare"> <span
-                                  class='money'>$450.00</span></del>
+                                  class='money'>400.00</span></span> <del class="price_compare"> <span
+                                  class='money'>450.00</span></del>
                             </div>
                             <div class="swatch color clearfix" data-option-index="0">
                               <div>
@@ -1871,10 +1923,10 @@
 
           <div id="price" class="product-price">
 
-            <del class="price_compare"> <span class='money'>$450.00</span></del>
+            <del class="price_compare"> <span class='money'>450.00</span></del>
             <span class="price_percentage">11%</span>
 
-            <div class="price"><span class='money'>$400.00</span></div>
+            <div class="price"><span class='money'>400.00</span></div>
           </div>
 
           <div class="sharing-btn">
@@ -1902,9 +1954,9 @@
 
         <form class="product-form" id="product-form" action="https://rt-material.myshopify.com/cart/add" method="post" enctype="multipart/form-data" data-product-id="870277955">
           <div id="product-variants">
-            <select id="product-select" name="id" style="display: none;">              <option  selected="selected"  value="2415074627">Yellow / M / 500 - <span class='money'>$400.00 USD</span></option>
-              <option  value="2415074691">Red / M / 500 - <span class='money'>$400.00 USD</span></option>
-              <option  value="54673343125">Gray / M / 500 - <span class='money'>$400.00 USD</span></option>            </select>
+            <select id="product-select" name="id" style="display: none;">              <option  selected="selected"  value="2415074627">Yellow / M / 500 - <span class='money'>400.00 USD</span></option>
+              <option  value="2415074691">Red / M / 500 - <span class='money'>400.00 USD</span></option>
+              <option  value="54673343125">Gray / M / 500 - <span class='money'>400.00 USD</span></option>            </select>
           </div>
 
           <div class="quantity">
@@ -1980,7 +2032,7 @@
 
                           <div class="wrap">
                             <a href="#">
-                              <img src="cdn/shop/products/13.1_large.jpg@v=1434217867" class="main-image img-responsive"
+                              <img src="https://res.cloudinary.com/dsptbf6vz/image/upload/v1776183423/snowdrip/Product%20images/Product_image_4_800X800.jpg" class="main-image img-responsive"
                                 alt="Nobis est eligendi" />
                             </a>
                           </div>
@@ -1997,7 +2049,7 @@
                               <span class="shopify-product-reviews-badge" data-id="870277379"></span>
                             </div>
                             <div class="price-val product-price"> <span class="price"><span
-                                  class='money'>$350.00</span></span>
+                                  class='money'>350.00</span></span>
 
                             </div>
                             <div class="swatch color clearfix" data-option-index="0">
@@ -2018,7 +2070,7 @@
                                 Buy now</button>
                               <select class="hide" name="id">
 
-                                <option value="2415073795">Default Title - <span class='money'>$350.00</span></option>
+                                <option value="2415073795">Default Title - <span class='money'>350.00</span></option>
 
                               </select>
                             </form>
@@ -2070,7 +2122,7 @@
 
           <div id="price" class="product-price">
 
-            <div class="price"><span class='money'>$350.00</span></div>
+            <div class="price"><span class='money'>350.00</span></div>
           </div>
 
           <div class="sharing-btn">
@@ -2098,7 +2150,7 @@
 
         <form class="product-form" id="product-form" action="https://rt-material.myshopify.com/cart/add" method="post" enctype="multipart/form-data" data-product-id="870277379">
           <div id="product-variants">
-            <select id="product-select" name="id" style="display: none;">              <option  selected="selected"  value="2415073795">Default Title - <span class='money'>$350.00 USD</span></option>            </select>
+            <select id="product-select" name="id" style="display: none;">              <option  selected="selected"  value="2415073795">Default Title - <span class='money'>350.00 USD</span></option>            </select>
           </div>
 
           <div class="quantity">
@@ -2174,7 +2226,7 @@
 
                           <div class="wrap">
                             <a href="#">
-                              <img src="cdn/shop/products/20.1_large.jpg@v=1436068154" class="main-image img-responsive"
+                              <img src="https://res.cloudinary.com/dsptbf6vz/image/upload/v1776183423/snowdrip/Product%20images/Product_image_5_800X800.jpg" class="main-image img-responsive"
                                 alt="Ducimus qui blanditiis" />
                             </a>
                           </div>
@@ -2191,7 +2243,7 @@
                               <span class="shopify-product-reviews-badge" data-id="870278915"></span>
                             </div>
                             <div class="price-val product-price"> <span class="price"><span
-                                  class='money'>$350.00</span></span>
+                                  class='money'>350.00</span></span>
 
                             </div>
                             <div class="swatch color clearfix" data-option-index="0">
@@ -2212,7 +2264,7 @@
                                 Buy now</button>
                               <select class="hide" name="id">
 
-                                <option value="2737381703701">Default Title - <span class='money'>$350.00</span>
+                                <option value="2737381703701">Default Title - <span class='money'>350.00</span>
                                 </option>
 
                               </select>
@@ -2265,7 +2317,7 @@
 
           <div id="price" class="product-price">
 
-            <div class="price"><span class='money'>$350.00</span></div>
+            <div class="price"><span class='money'>350.00</span></div>
           </div>
 
           <div class="sharing-btn">
@@ -2292,7 +2344,7 @@
 
         <form class="product-form" id="product-form" action="https://rt-material.myshopify.com/cart/add" method="post" enctype="multipart/form-data" data-product-id="870278915">
           <div id="product-variants">
-            <select id="product-select" name="id" style="display: none;">              <option  selected="selected"  value="2737381703701">Default Title - <span class='money'>$350.00 USD</span></option>            </select>
+            <select id="product-select" name="id" style="display: none;">              <option  selected="selected"  value="2737381703701">Default Title - <span class='money'>350.00 USD</span></option>            </select>
           </div>
 
           <div class="quantity">
@@ -2368,7 +2420,7 @@
 
                           <div class="wrap">
                             <a href="#">
-                              <img src="cdn/shop/products/2.1_large.jpg@v=1434185685" class="main-image img-responsive"
+                              <img src="https://res.cloudinary.com/dsptbf6vz/image/upload/v1776183424/snowdrip/Product%20images/Product_image_6_800X800.jpg" class="main-image img-responsive"
                                 alt="Cumque nihil" />
                             </a>
                           </div>
@@ -2385,7 +2437,7 @@
                               <span class="shopify-product-reviews-badge" data-id="870278083"></span>
                             </div>
                             <div class="price-val product-price"> <span class="price"><span
-                                  class='money'>$350.00</span></span>
+                                  class='money'>350.00</span></span>
 
                             </div>
                             <div class="swatch color clearfix" data-option-index="0">
@@ -2406,7 +2458,7 @@
                                 Buy now</button>
                               <select class="hide" name="id">
 
-                                <option value="2415075011">Default Title - <span class='money'>$350.00</span></option>
+                                <option value="2415075011">Default Title - <span class='money'>350.00</span></option>
 
                               </select>
                             </form>
@@ -2458,7 +2510,7 @@
 
           <div id="price" class="product-price">
 
-            <div class="price"><span class='money'>$350.00</span></div>
+            <div class="price"><span class='money'>350.00</span></div>
           </div>
 
           <div class="sharing-btn">
@@ -2485,7 +2537,7 @@
 
         <form class="product-form" id="product-form" action="https://rt-material.myshopify.com/cart/add" method="post" enctype="multipart/form-data" data-product-id="870278083">
           <div id="product-variants">
-            <select id="product-select" name="id" style="display: none;">              <option  selected="selected"  value="2415075011">Default Title - <span class='money'>$350.00 USD</span></option>            </select>
+            <select id="product-select" name="id" style="display: none;">              <option  selected="selected"  value="2415075011">Default Title - <span class='money'>350.00 USD</span></option>            </select>
           </div>
 
           <div class="quantity">
@@ -2583,6 +2635,57 @@
                     <div class="collection-image">
                       <a href="#">
 
+                        <img
+                          src="https://upload.meeshosupplyassets.com/cataloging/1768828682642/03C.png?height=270&width=220"
+                          alt="TOPWEAR" />
+                        <div class="caption">
+                          <h2>TOPWEAR</h2>
+                          <p class="count">13 Products</p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="collection-item animated">
+                  <div class="collection-wrap">
+                    <div class="collection-image">
+                      <a href="#">
+
+                        <img
+                          src="https://upload.meeshosupplyassets.com/cataloging/1768723664148/BOTTLEGREEN3.png?height=270&width=220"
+                          alt="Bottomwear" />
+                        <div class="caption">
+                          <h2>Bottomwear</h2>
+                          <p class="count">6 Products</p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="collection-item animated">
+                  <div class="collection-wrap">
+                    <div class="collection-image">
+                      <a href="#">
+
+                        <img
+                          src="https://upload.meeshosupplyassets.com/cataloging/1768798520987/NAVY2.png?height=270&width=220"
+                          alt="Winterwear" />
+                        <div class="caption">
+                          <h2>Winterwear</h2>
+                          <p class="count">5 Products</p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+
+                </div>
+                <!-- <div class="collection-item animated">
+                  <div class="collection-wrap">
+                    <div class="collection-image">
+                      <a href="#">
+
                         <img src="cdn/shop/collections/shoes_large.jpg@v=1436161465" alt="Shoes" />
                         <div class="caption">
                           <h2>Western Wear</h2>
@@ -2621,26 +2724,26 @@
                       </a>
                     </div>
                   </div>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
           <div class="widget-lookbook">
             <div class="lookbook-carousel">
               <div class="lookbook">
-                <img src="cdn/shop/t/8/assets/lookbook_img_1.png@v=104732468911825559881447137481" alt="" />
+                <img src="https://res.cloudinary.com/dsptbf6vz/image/upload/v1776183546/snowdrip/Lookbook/Lookbook_1_400X500.jpg" alt="" />
               </div>
 
               <div class="lookbook">
-                <img src="cdn/shop/t/8/assets/lookbook_img_2.png@v=129652860134966195801447137481" alt="" />
+                <img src="https://res.cloudinary.com/dsptbf6vz/image/upload/v1776183547/snowdrip/Lookbook/Lookbook_2_400X500.jpg" alt="" />
               </div>
 
               <div class="lookbook">
-                <img src="cdn/shop/t/8/assets/lookbook_img_3.png@v=60755626103781545931447137481" alt="" />
+                <img src="https://res.cloudinary.com/dsptbf6vz/image/upload/v1776183551/snowdrip/Lookbook/Lookbook_3_400X500.jpg" alt="" />
               </div>
 
               <div class="lookbook">
-                <img src="cdn/shop/t/8/assets/lookbook_img_4.png@v=31326993769815900521447137482" alt="" />
+                <img src="https://res.cloudinary.com/dsptbf6vz/image/upload/v1776183552/snowdrip/Lookbook/Lookbook_4_400X500.jpg" alt="" />
               </div>
             </div>
 
@@ -2682,23 +2785,23 @@
             <div id="the-collection">
               <div class="cat-templates hidden">
                 <script id="collection-template-sale"
-                  type="text/template"><div class="product_item large animated"><a href="#"><img src="cdn/shop/t/8/assets/the_collection_home_1.jpg@v=180158999441984069521447137488" alt="Sale" /><div class="caption"><h2>Let's go</h2></div></a></div></script>
+                  type="text/template"><div class="product_item large animated"><a href="#"><img src="https://res.cloudinary.com/dsptbf6vz/image/upload/v1776183591/snowdrip/Feature%20collection%20banner/Feature_collection_banner_1_600X700.jpg" alt="Sale" /><div class="caption"><h2>Let's go</h2></div></a></div></script>
                 <script id="collection-template-bags"
-                  type="text/template"><div class="product_item large animated"><a href="#"><img src="cdn/shop/t/8/assets/the_collection_home_2.jpg@v=124381091284477335211447137488" alt="Bags" /><div class="caption"><h2>Let's go</h2></div></a></div></script>
+                  type="text/template"><div class="product_item large animated"><a href="#"><img src="https://res.cloudinary.com/dsptbf6vz/image/upload/v1776183607/snowdrip/Collection%20thumbnails/Collection_thumbnail_1_440X540.jpg" alt="Bags" /><div class="caption"><h2>Let's go</h2></div></a></div></script>
                 <script id="collection-template-jeans"
-                  type="text/template"><div class="product_item large animated"><a href="#"><img src="cdn/shop/t/8/assets/the_collection_home_3.jpg@v=97551147452698553131447137488" alt="Jeans" /><div class="caption"><h2>Let's go</h2></div></a></div></script>
+                  type="text/template"><div class="product_item large animated"><a href="#"><img src="https://res.cloudinary.com/dsptbf6vz/image/upload/v1776183608/snowdrip/Collection%20thumbnails/Collection_thumbnail_2_440X540.jpg" alt="Jeans" /><div class="caption"><h2>Let's go</h2></div></a></div></script>
                 <script id="collection-template-men"
-                  type="text/template"><div class="product_item large animated"><a href="#"><img src="cdn/shop/t/8/assets/the_collection_home_4.jpg@v=58051544870189275511447137488" alt="Men" /><div class="caption"><h2>Let's go</h2></div></a></div></script>
+                  type="text/template"><div class="product_item large animated"><a href="#"><img src="https://res.cloudinary.com/dsptbf6vz/image/upload/v1776183610/snowdrip/Collection%20thumbnails/Collection_thumbnail_3_440X540.jpg" alt="Men" /><div class="caption"><h2>Let's go</h2></div></a></div></script>
                 <script id="collection-template-shoes"
-                  type="text/template"><div class="product_item large animated"><a href="#"><img src="cdn/shop/t/8/assets/the_collection_home_5.jpg@v=122034938401035855241447137488" alt="Shoes" /><div class="caption"><h2>Let's go</h2></div></a></div></script>
+                  type="text/template"><div class="product_item large animated"><a href="#"><img src="https://res.cloudinary.com/dsptbf6vz/image/upload/v1776183612/snowdrip/Collection%20thumbnails/Collection_thumbnail_4_440X540.jpg" alt="Shoes" /><div class="caption"><h2>Let's go</h2></div></a></div></script>
                 <script id="collection-template-women"
-                  type="text/template"><div class="product_item large animated"><a href="#"><img src="cdn/shop/t/8/assets/the_collection_home_6.jpg@v=60260644187663266861447137488" alt="Women" /><div class="caption"><h2>Let's go</h2></div></a></div></script>
+                  type="text/template"><div class="product_item large animated"><a href="#"><img src="https://res.cloudinary.com/dsptbf6vz/image/upload/v1776183614/snowdrip/Collection%20thumbnails/Collection_thumbnail_5_440X540.jpg" alt="Women" /><div class="caption"><h2>Let's go</h2></div></a></div></script>
               </div>
 
               <div class="cat-grid">
                 <div class="product_item large animated">
                   <a href="#">
-                    <img src="cdn/shop/t/8/assets/the_collection_home_1.jpg@v=180158999441984069521447137488"
+                    <img src="https://res.cloudinary.com/dsptbf6vz/image/upload/v1776183591/snowdrip/Feature%20collection%20banner/Feature_collection_banner_1_600X700.jpg"
                       alt="Sale" />
                     <div class="caption">
                       <h2>Let's go</h2>
@@ -2753,7 +2856,7 @@
 
                           <div class="wrap">
                             <a href="#">
-                              <img src="cdn/shop/products/7.1_large.jpg@v=1434218651" class="main-image img-responsive"
+                              <img src="https://res.cloudinary.com/dsptbf6vz/image/upload/v1776183424/snowdrip/Product%20images/Product_image_7_800X800.jpg" class="main-image img-responsive"
                                 alt="Sed et quam lacus" />
                             </a>
                           </div>
@@ -2770,7 +2873,7 @@
                               <span class="shopify-product-reviews-badge" data-id="982583747"></span>
                             </div>
                             <div class="price-val product-price"> <span class="price"><span
-                                  class='money'>$100.00</span></span>
+                                  class='money'>100.00</span></span>
 
                             </div>
                             <div class="swatch color clearfix" data-option-index="0">
@@ -2791,7 +2894,7 @@
                                 Buy now</button>
                               <select class="hide" name="id">
 
-                                <option value="2787718147">Default Title - <span class='money'>$100.00</span></option>
+                                <option value="2787718147">Default Title - <span class='money'>100.00</span></option>
 
                               </select>
                             </form>
@@ -2843,7 +2946,7 @@
 
           <div id="price" class="product-price">
 
-            <div class="price"><span class='money'>$100.00</span></div>
+            <div class="price"><span class='money'>100.00</span></div>
           </div>
 
           <div class="sharing-btn">
@@ -2871,7 +2974,7 @@
 
         <form class="product-form" id="product-form" action="https://rt-material.myshopify.com/cart/add" method="post" enctype="multipart/form-data" data-product-id="982583747">
           <div id="product-variants">
-            <select id="product-select" name="id" style="display: none;">              <option  selected="selected"  value="2787718147">Default Title - <span class='money'>$100.00 USD</span></option>            </select>
+            <select id="product-select" name="id" style="display: none;">              <option  selected="selected"  value="2787718147">Default Title - <span class='money'>100.00 USD</span></option>            </select>
           </div>
 
           <div class="quantity">
@@ -2947,7 +3050,7 @@
 
                           <div class="wrap">
                             <a href="#">
-                              <img src="cdn/shop/products/8.1_large.jpg@v=1434218559" class="main-image img-responsive"
+                              <img src="https://res.cloudinary.com/dsptbf6vz/image/upload/v1776183424/snowdrip/Product%20images/Product_image_8_800X800.jpg" class="main-image img-responsive"
                                 alt="Vesquam ante aliquet" />
                             </a>
                           </div>
@@ -2964,7 +3067,7 @@
                               <span class="shopify-product-reviews-badge" data-id="982567427"></span>
                             </div>
                             <div class="price-val product-price"> <span class="price"><span
-                                  class='money'>$100.00</span></span>
+                                  class='money'>100.00</span></span>
 
                             </div>
                             <div class="swatch color clearfix" data-option-index="0">
@@ -2985,7 +3088,7 @@
                                 Buy now</button>
                               <select class="hide" name="id">
 
-                                <option value="2787667331">Default Title - <span class='money'>$100.00</span></option>
+                                <option value="2787667331">Default Title - <span class='money'>100.00</span></option>
 
                               </select>
                             </form>
@@ -3037,7 +3140,7 @@
 
           <div id="price" class="product-price">
 
-            <div class="price"><span class='money'>$100.00</span></div>
+            <div class="price"><span class='money'>100.00</span></div>
           </div>
 
           <div class="sharing-btn">
@@ -3065,7 +3168,7 @@
 
         <form class="product-form" id="product-form" action="https://rt-material.myshopify.com/cart/add" method="post" enctype="multipart/form-data" data-product-id="982567427">
           <div id="product-variants">
-            <select id="product-select" name="id" style="display: none;">              <option  selected="selected"  value="2787667331">Default Title - <span class='money'>$100.00 USD</span></option>            </select>
+            <select id="product-select" name="id" style="display: none;">              <option  selected="selected"  value="2787667331">Default Title - <span class='money'>100.00 USD</span></option>            </select>
           </div>
 
           <div class="quantity">
@@ -3141,7 +3244,7 @@
 
                           <div class="wrap">
                             <a href="#">
-                              <img src="cdn/shop/products/9.1_large.jpg@v=1434218712" class="main-image img-responsive"
+                              <img src="https://res.cloudinary.com/dsptbf6vz/image/upload/v1776183423/snowdrip/Product%20images/Product_image_1_800X800.jpg" class="main-image img-responsive"
                                 alt="Vestibulum sit amet" />
                             </a>
                           </div>
@@ -3158,7 +3261,7 @@
                               <span class="shopify-product-reviews-badge" data-id="982595651"></span>
                             </div>
                             <div class="price-val product-price"> <span class="price"><span
-                                  class='money'>$100.00</span></span>
+                                  class='money'>100.00</span></span>
 
                             </div>
                             <div class="swatch color clearfix" data-option-index="0">
@@ -3179,7 +3282,7 @@
                                 Buy now</button>
                               <select class="hide" name="id">
 
-                                <option value="2787760515">Default Title - <span class='money'>$100.00</span></option>
+                                <option value="2787760515">Default Title - <span class='money'>100.00</span></option>
 
                               </select>
                             </form>
@@ -3231,7 +3334,7 @@
 
           <div id="price" class="product-price">
 
-            <div class="price"><span class='money'>$100.00</span></div>
+            <div class="price"><span class='money'>100.00</span></div>
           </div>
 
           <div class="sharing-btn">
@@ -3259,7 +3362,7 @@
 
         <form class="product-form" id="product-form" action="https://rt-material.myshopify.com/cart/add" method="post" enctype="multipart/form-data" data-product-id="982595651">
           <div id="product-variants">
-            <select id="product-select" name="id" style="display: none;">              <option  selected="selected"  value="2787760515">Default Title - <span class='money'>$100.00 USD</span></option>            </select>
+            <select id="product-select" name="id" style="display: none;">              <option  selected="selected"  value="2787760515">Default Title - <span class='money'>100.00 USD</span></option>            </select>
           </div>
 
           <div class="quantity">
@@ -3352,7 +3455,7 @@
                               <span class="shopify-product-reviews-badge" data-id="870277507"></span>
                             </div>
                             <div class="price-val product-price"> <span class="price"><span
-                                  class='money'>$150.00</span></span>
+                                  class='money'>150.00</span></span>
 
                             </div>
                             <div class="swatch color clearfix" data-option-index="0">
@@ -3447,7 +3550,7 @@
 
           <div id="price" class="product-price">
 
-            <div class="price"><span class='money'>$150.00</span></div>
+            <div class="price"><span class='money'>150.00</span></div>
           </div>
 
           <div class="sharing-btn">
@@ -3475,8 +3578,8 @@
 
         <form class="product-form" id="product-form" action="https://rt-material.myshopify.com/cart/add" method="post" enctype="multipart/form-data" data-product-id="870277507">
           <div id="product-variants">
-            <select id="product-select" name="id" style="display: none;">              <option  selected="selected"  value="2415074115">Red / M - <span class='money'>$150.00 USD</span></option>
-              <option  value="2415074243">Teal / L - <span class='money'>$200.00 USD</span></option>            </select>
+            <select id="product-select" name="id" style="display: none;">              <option  selected="selected"  value="2415074115">Red / M - <span class='money'>150.00 USD</span></option>
+              <option  value="2415074243">Teal / L - <span class='money'>200.00 USD</span></option>            </select>
           </div>
 
           <div class="quantity">
@@ -3569,7 +3672,7 @@
                               <span class="shopify-product-reviews-badge" data-id="870278403"></span>
                             </div>
                             <div class="price-val product-price"> <span class="price"><span
-                                  class='money'>$150.00</span></span>
+                                  class='money'>150.00</span></span>
 
                             </div>
                             <div class="swatch color clearfix" data-option-index="0">
@@ -3605,7 +3708,7 @@
                                 Buy now</button>
                               <select class="hide" name="id">
 
-                                <option value="2415075587">Black - <span class='money'>$150.00</span></option>
+                                <option value="2415075587">Black - <span class='money'>150.00</span></option>
 
                               </select>
                             </form>
@@ -3657,7 +3760,7 @@
 
           <div id="price" class="product-price">
 
-            <div class="price"><span class='money'>$150.00</span></div>
+            <div class="price"><span class='money'>150.00</span></div>
           </div>
 
           <div class="sharing-btn">
@@ -3684,7 +3787,7 @@
 
         <form class="product-form" id="product-form" action="https://rt-material.myshopify.com/cart/add" method="post" enctype="multipart/form-data" data-product-id="870278403">
           <div id="product-variants">
-            <select id="product-select" name="id" style="display: none;">              <option  selected="selected"  value="2415075587">Black - <span class='money'>$150.00 USD</span></option>            </select>
+            <select id="product-select" name="id" style="display: none;">              <option  selected="selected"  value="2415075587">Black - <span class='money'>150.00 USD</span></option>            </select>
           </div>
 
           <div class="quantity">
@@ -3778,7 +3881,7 @@
                               <span class="shopify-product-reviews-badge" data-id="10635150805"></span>
                             </div>
                             <div class="price-val product-price"> <span class="price"><span
-                                  class='money'>$150.00</span></span>
+                                  class='money'>150.00</span></span>
 
                             </div>
                             <div class="swatch color clearfix" data-option-index="0">
@@ -3901,7 +4004,7 @@
 
           <div id="price" class="product-price">
 
-            <div class="price"><span class='money'>$150.00</span></div>
+            <div class="price"><span class='money'>150.00</span></div>
           </div>
 
           <div class="sharing-btn">
@@ -3929,8 +4032,8 @@
 
         <form class="product-form" id="product-form" action="https://rt-material.myshopify.com/cart/add" method="post" enctype="multipart/form-data" data-product-id="10635150805">
           <div id="product-variants">
-            <select id="product-select" name="id" style="display: none;">              <option  selected="selected"  value="43614497621">Red / M - <span class='money'>$150.00 USD</span></option>
-              <option  value="43614497685">Black / L - <span class='money'>$200.00 USD</span></option>            </select>
+            <select id="product-select" name="id" style="display: none;">              <option  selected="selected"  value="43614497621">Red / M - <span class='money'>150.00 USD</span></option>
+              <option  value="43614497685">Black / L - <span class='money'>200.00 USD</span></option>            </select>
           </div>
 
           <div class="quantity">
@@ -4029,8 +4132,8 @@
                               <span class="shopify-product-reviews-badge" data-id="870279683"></span>
                             </div>
                             <div class="price-val product-price"> <span class="price"><span
-                                  class='money'>$300.00</span></span> <del class="price_compare"> <span
-                                  class='money'>$350.00</span></del>
+                                  class='money'>300.00</span></span> <del class="price_compare"> <span
+                                  class='money'>350.00</span></del>
                             </div>
                             <div class="swatch color clearfix" data-option-index="0">
                               <div> </div>
@@ -4092,10 +4195,10 @@
 
           <div id="price" class="product-price">
 
-            <del class="price_compare"> <span class='money'>$350.00</span></del>
+            <del class="price_compare"> <span class='money'>350.00</span></del>
             <span class="price_percentage">14%</span>
 
-            <div class="price"><span class='money'>$300.00</span></div>
+            <div class="price"><span class='money'>300.00</span></div>
           </div>
 
           <div class="sharing-btn">
@@ -4123,8 +4226,8 @@
 
         <form class="product-form" id="product-form" action="https://rt-material.myshopify.com/cart/add" method="post" enctype="multipart/form-data" data-product-id="870279683">
           <div id="product-variants">
-            <select id="product-select" name="id" style="display: none;">              <option  selected="selected"  value="2415079939">L - <span class='money'>$300.00 USD</span></option>
-              <option  value="2415080003">M - <span class='money'>$300.00 USD</span></option>            </select>
+            <select id="product-select" name="id" style="display: none;">              <option  selected="selected"  value="2415079939">L - <span class='money'>300.00 USD</span></option>
+              <option  value="2415080003">M - <span class='money'>300.00 USD</span></option>            </select>
           </div>
 
           <div class="quantity">
@@ -4217,7 +4320,7 @@
                               <span class="shopify-product-reviews-badge" data-id="870276995"></span>
                             </div>
                             <div class="price-val product-price"> <span class="price"><span
-                                  class='money'>$300.00</span></span>
+                                  class='money'>300.00</span></span>
 
                             </div>
                             <div class="swatch color clearfix" data-option-index="0">
@@ -4280,7 +4383,7 @@
 
           <div id="price" class="product-price">
 
-            <div class="price"><span class='money'>$300.00</span></div>
+            <div class="price"><span class='money'>300.00</span></div>
           </div>
 
           <div class="sharing-btn">
@@ -4308,8 +4411,8 @@
 
         <form class="product-form" id="product-form" action="https://rt-material.myshopify.com/cart/add" method="post" enctype="multipart/form-data" data-product-id="870276995">
           <div id="product-variants">
-            <select id="product-select" name="id" style="display: none;">              <option  selected="selected"  value="2415073091">L - <span class='money'>$400.00 USD</span></option>
-              <option  value="2415073155">S - <span class='money'>$300.00 USD</span></option>            </select>
+            <select id="product-select" name="id" style="display: none;">              <option  selected="selected"  value="2415073091">L - <span class='money'>400.00 USD</span></option>
+              <option  value="2415073155">S - <span class='money'>300.00 USD</span></option>            </select>
           </div>
 
           <div class="quantity">
